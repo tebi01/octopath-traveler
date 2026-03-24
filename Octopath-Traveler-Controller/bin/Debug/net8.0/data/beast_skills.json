@@ -1,0 +1,275 @@
+[
+  {
+    "Name": "Attack",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque físico al viajero con mayor HP",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Befuddling claw",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor Elem Atk",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Stampede",
+    "Modifier": 1.7,
+    "Description": "Realiza un ataque físico a todo el equipo",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Ice blast",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental a todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Stab",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con menor Phys Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Rampage",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque físico a todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Meteor Storm",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con mayor Speed",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Freeze",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con mayor Speed",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Luminescence",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con mayor Speed",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Enshadow",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con mayor Speed",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Wind slash",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con mayor Speed",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Incinerate",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque elemental a todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Boar Rush",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque físico al viajero con menor Phys Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Windshot",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Firesand",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Thundershot",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Lightshot",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Iceshot",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Shadowshot",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque elemental al viajero con menor Elem Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Vortal Claw",
+    "Modifier": 0,
+    "Description": "Realiza un ataque que reduce a la mitad el HP de todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Black Gale",
+    "Modifier": 1.6,
+    "Description": "Realiza un ataque elemental a todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Vorpal Fang",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque físico al viajero con menor Phys Def",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Galestorm",
+    "Modifier": 1.7,
+    "Description": "Realiza un ataque elemental a todos los viajeros",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Double Bite",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque físico al viajero con menor Phys Def dos veces",
+    "Target": "Single",
+    "Hits": 2
+  },
+  {
+    "Name": "Shadow Magic",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque elemental a todos los viajeros dos veces",
+    "Target": "Enemies",
+    "Hits": 2
+  },
+  {
+    "Name": "Triple Slash",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque físico al viajero con mayor HP tres veces",
+    "Target": "Single",
+    "Hits": 3
+  },
+  {
+    "Name": "Consume Armor",
+    "Modifier": 0,
+    "Description": "Aplica Decreased Physical Defense al viajero con mayor Phys Def durante 2 rondas.",
+    "Target": "Single",
+    "Hits": 0
+  },
+  {
+    "Name": "Flap",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor HP. El usuario obtiene Increased Speed durante 2 rondas.",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Acid Spray",
+    "Modifier": 0,
+    "Description": "Aplica Decreased Physical Defense y Decreased Elemental Defense al viajero con mayor HP durante 2 rondas.",
+    "Target": "Single",
+    "Hits": 0
+  },
+  {
+    "Name": "Gather Strength",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con menor Phys Def. El usuario obtiene Increased Physical Attack durante 2 rondas.",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Augmented Magic",
+    "Modifier": 0,
+    "Description": "Otorga Increased Elemental Attack y Increased Elemental Defense a todas las bestias durante 2 rondas",
+    "Target": "Party",
+    "Hits": 0
+  },
+  {
+    "Name": "Volcano",
+    "Modifier": 1.5,
+    "Description": "Realiza un ataque elemental a todos los viajeros. Luego aplica Decreased Elemental Defense a todos los viajeros durante 2 rondas.",
+    "Target": "Enemies",
+    "Hits": 1
+  },
+  {
+    "Name": "Soporific Sting",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor Phys Atk, inflinge Sleep por 1 ronda",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Soporific Strike",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor Phys Atk, inflinge Sleep por 2 rondas",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Constrictor",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor Phys Atk, inflinge Unconsciousness por 2 rondas",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Savage Fang",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con mayor Phys Atk, inflinge Terror por 2 rondas",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Poison Strike",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque físico al viajero con mayor HP. Adicionalmente aplica 2 Posion al objetivo.",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Soporific Fang",
+    "Modifier": 1.4,
+    "Description": "Realiza un ataque físico al viajero con menor Speed, inflinge Sleep por 2 rondas",
+    "Target": "Single",
+    "Hits": 1
+  },
+  {
+    "Name": "Web Storm",
+    "Modifier": 1.3,
+    "Description": "Realiza un ataque físico al viajero con mayor HP. Adicionalmente aplica 2 Silence al objetivo.",
+    "Target": "Single",
+    "Hits": 1
+  }
+]

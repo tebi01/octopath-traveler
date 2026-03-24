@@ -1,0 +1,6200 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 30
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5336/5336 SP:383/383 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Light Guardian - HP:1129/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:1129/1129 Shields:3
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Light Guardian recibe 79 de daño de tipo Stave
+Light Guardian termina con HP:1050
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5336/5336 SP:383/383 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Light Guardian - HP:1050/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:5245
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5245/5336 SP:383/383 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Light Guardian - HP:1050/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:1050/1129 Shields:3
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Light Guardian recibe 247 de daño de tipo Axe
+Light Guardian termina con HP:803
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5245/5336 SP:383/383 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:5097
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5097/5336 SP:383/383 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:5097
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5097/5336 SP:383/383 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:803/1129 Shields:3
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5097/5336 SP:383/383 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:5006
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5006/5336 SP:383/383 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2857/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:803/1129 Shields:3
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2767
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5006/5336 SP:383/383 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4858
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4858/5336 SP:383/383 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:4858
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4858/5336 SP:383/383 BP:3
+B-Ophilia - HP:4002/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Light Guardian - HP:803/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:803/1129 Shields:3
+2: Horse Fly - HP:2767/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Light Guardian recibe 79 de daño de tipo Stave
+Light Guardian termina con HP:724
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4858/5336 SP:383/383 BP:3
+B-Ophilia - HP:4002/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Light Guardian - HP:724/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4767
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4767/5336 SP:383/383 BP:3
+B-Ophilia - HP:4002/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Light Guardian - HP:724/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:724/1129 Shields:3
+2: Horse Fly - HP:2767/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Light Guardian recibe 247 de daño de tipo Axe
+Light Guardian termina con HP:477
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4767/5336 SP:383/383 BP:3
+B-Ophilia - HP:4002/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4619
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4619/5336 SP:383/383 BP:3
+B-Ophilia - HP:4002/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:4619
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4619/5336 SP:383/383 BP:4
+B-Ophilia - HP:4002/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:477/1129 Shields:3
+2: Horse Fly - HP:2767/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2314
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4619/5336 SP:383/383 BP:4
+B-Ophilia - HP:4002/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4528
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4528/5336 SP:383/383 BP:4
+B-Ophilia - HP:4002/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2767/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:477/1129 Shields:3
+2: Horse Fly - HP:2767/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2677
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4528/5336 SP:383/383 BP:4
+B-Ophilia - HP:4002/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4380
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4380/5336 SP:383/383 BP:4
+B-Ophilia - HP:4002/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:4380
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4380/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:477/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:477/1129 Shields:3
+2: Horse Fly - HP:2677/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Light Guardian recibe 79 de daño de tipo Stave
+Light Guardian termina con HP:398
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4380/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4289
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4289/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2677/2857 Shields:2
+3: Winter Wanderweed - HP:2314/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:2175
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4289/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4141
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4141/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:4141
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4141/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2677/2857 Shields:2
+3: Winter Wanderweed - HP:2175/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2677
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4141/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4050
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4050/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2677/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2677/2857 Shields:2
+3: Winter Wanderweed - HP:2175/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2587
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4050/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3902
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3902/5336 SP:383/383 BP:5
+B-Ophilia - HP:4002/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Ophilia recibe 70 de daño físico
+Ophilia termina con HP:3932
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3902/5336 SP:383/383 BP:5
+B-Ophilia - HP:3932/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2175/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2175
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3902/5336 SP:383/383 BP:5
+B-Ophilia - HP:3932/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3741
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3902/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2175/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2175/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:2036
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3902/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3754
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3754/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:3754
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3754/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 4
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2036
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3754/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3663
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3663/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:398/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:398/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Light Guardian recibe 247 de daño de tipo Axe
+Light Guardian termina con HP:151
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3663/5336 SP:383/383 BP:5
+B-Ophilia - HP:3741/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:151/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:3493
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3663/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:151/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:3663
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3663/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:151/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:151/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Light Guardian recibe 79 de daño de tipo Stave
+Light Guardian termina con HP:72
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3663/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3572
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3572/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2587/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:72/1129 Shields:3
+2: Horse Fly - HP:2587/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2497
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3572/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3424
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3424/5336 SP:383/383 BP:5
+B-Ophilia - HP:3493/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Ophilia recibe 70 de daño físico
+Ophilia termina con HP:3423
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3424/5336 SP:383/383 BP:5
+B-Ophilia - HP:3423/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:72/1129 Shields:3
+2: Horse Fly - HP:2497/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2497
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3424/5336 SP:383/383 BP:5
+B-Ophilia - HP:3423/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+4.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3333
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3333/5336 SP:383/383 BP:5
+B-Ophilia - HP:3423/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:2036/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+3.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Light Guardian - HP:72/1129 Shields:3
+2: Horse Fly - HP:2497/2857 Shields:2
+3: Winter Wanderweed - HP:2036/2314 Shields:3
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1897
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3333/5336 SP:383/383 BP:5
+B-Ophilia - HP:3423/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1897/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:3175
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3333/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1897/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Light Guardian usa Attack
+Alfyn recibe 0 de daño físico
+Alfyn termina con HP:3333
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3333/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:72/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1897/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+5.Light Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Light Guardian - HP:72/1129 Shields:3
+2: Horse Fly - HP:2497/2857 Shields:2
+3: Winter Wanderweed - HP:1897/2314 Shields:3
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Light Guardian recibe 79 de daño de tipo Stave
+Light Guardian termina con HP:0
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3333/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1897/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3242
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3242/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1897/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1897/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1758
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3242/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1758/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3094
+----------------------------------------
+INICIA RONDA 12
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3094/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1758/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1758/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2497
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3094/5336 SP:383/383 BP:5
+B-Ophilia - HP:3175/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1758/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2984
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3094/5336 SP:383/383 BP:5
+B-Ophilia - HP:2984/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1758/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1758/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1619
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3094/5336 SP:383/383 BP:5
+B-Ophilia - HP:2984/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2946
+----------------------------------------
+INICIA RONDA 13
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2946/5336 SP:383/383 BP:5
+B-Ophilia - HP:2984/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2497
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2946/5336 SP:383/383 BP:5
+B-Ophilia - HP:2984/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2793
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2946/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2497/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2497/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2407
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2946/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2407/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2798
+----------------------------------------
+INICIA RONDA 14
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2798/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2407/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2407/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2407
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2798/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2407/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:2707
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2707/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2407/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2407/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2317
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2707/5336 SP:383/383 BP:5
+B-Ophilia - HP:2793/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:2545
+----------------------------------------
+INICIA RONDA 15
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2707/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1619
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2707/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:2616
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2616/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1619/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1619/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1480
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2616/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1480/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2468
+----------------------------------------
+INICIA RONDA 16
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2468/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1480/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1480/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1480
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2468/5336 SP:383/383 BP:5
+B-Ophilia - HP:2545/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1480/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2354
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2468/5336 SP:383/383 BP:5
+B-Ophilia - HP:2354/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1480/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1480/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1341
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2468/5336 SP:383/383 BP:5
+B-Ophilia - HP:2354/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1341/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2320
+----------------------------------------
+INICIA RONDA 17
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2320/5336 SP:383/383 BP:5
+B-Ophilia - HP:2354/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1341/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1341/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1341
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2320/5336 SP:383/383 BP:5
+B-Ophilia - HP:2354/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1341/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2163
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2320/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1341/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1341/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1202
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2320/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2172
+----------------------------------------
+INICIA RONDA 18
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2172/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1202/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1202
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2172/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:2081
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2081/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1202/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:1063
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2081/5336 SP:383/383 BP:5
+B-Ophilia - HP:2163/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:1915
+----------------------------------------
+INICIA RONDA 19
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2081/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2317
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2081/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:1990
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1990/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2317/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2317/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2227
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1990/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2227/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1842
+----------------------------------------
+INICIA RONDA 20
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1842/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2227/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2227/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1063
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1842/5336 SP:383/383 BP:5
+B-Ophilia - HP:1915/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2227/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:1724
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1842/5336 SP:383/383 BP:5
+B-Ophilia - HP:1724/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2227/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2227/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2137
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1842/5336 SP:383/383 BP:5
+B-Ophilia - HP:1724/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1694
+----------------------------------------
+INICIA RONDA 21
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1694/5336 SP:383/383 BP:5
+B-Ophilia - HP:1724/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1063
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1694/5336 SP:383/383 BP:5
+B-Ophilia - HP:1724/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:1533
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1694/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:1063/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:1063/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:924
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1694/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:924/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1546
+----------------------------------------
+INICIA RONDA 22
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1546/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:924/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:924/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2137
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1546/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:924/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:1455
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1455/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:924/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:924/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:785
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1455/5336 SP:383/383 BP:5
+B-Ophilia - HP:1533/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:1285
+----------------------------------------
+INICIA RONDA 23
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1455/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:785/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:785
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1455/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:1364
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1364/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2137/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2137/2857 Shields:2
+2: Winter Wanderweed - HP:785/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2047
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1364/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1216
+----------------------------------------
+INICIA RONDA 24
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1216/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:785/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:785
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1216/5336 SP:383/383 BP:5
+B-Ophilia - HP:1285/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:1094
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1216/5336 SP:383/383 BP:5
+B-Ophilia - HP:1094/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:785/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:785/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:646
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1216/5336 SP:383/383 BP:5
+B-Ophilia - HP:1094/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:646/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1068
+----------------------------------------
+INICIA RONDA 25
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1068/5336 SP:383/383 BP:5
+B-Ophilia - HP:1094/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:646/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:646/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:646
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1068/5336 SP:383/383 BP:5
+B-Ophilia - HP:1094/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:646/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:903
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1068/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:646/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:646/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:646/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:646/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:507
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1068/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:920
+----------------------------------------
+INICIA RONDA 26
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:920/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:507/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:507/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:507
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:920/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:829
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:829/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:2047/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:2047/2857 Shields:2
+2: Winter Wanderweed - HP:507/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:1957
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:829/5336 SP:383/383 BP:5
+B-Ophilia - HP:903/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:655
+----------------------------------------
+INICIA RONDA 27
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:829/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:507/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:507
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:829/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:738
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:738/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:507/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:507/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:368
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:738/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:368/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:590
+----------------------------------------
+INICIA RONDA 28
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:590/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:368/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:368/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:368
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:590/5336 SP:383/383 BP:5
+B-Ophilia - HP:655/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:368/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:464
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:590/5336 SP:383/383 BP:5
+B-Ophilia - HP:464/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:368/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:368/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:229
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:590/5336 SP:383/383 BP:5
+B-Ophilia - HP:464/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:229/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:442
+----------------------------------------
+INICIA RONDA 29
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:442/5336 SP:383/383 BP:5
+B-Ophilia - HP:464/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:229/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:229/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:229
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:442/5336 SP:383/383 BP:5
+B-Ophilia - HP:464/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:229/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:273
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:442/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:229/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:229/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:90
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:442/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:294
+----------------------------------------
+INICIA RONDA 30
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:294/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:1957
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:294/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:203
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:203/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1957/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:1957/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:1867
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:203/5336 SP:383/383 BP:5
+B-Ophilia - HP:273/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1867/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Ophilia recibe 248 de daño físico
+Ophilia termina con HP:25
+----------------------------------------
+INICIA RONDA 31
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:203/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1867/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1867/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:90
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:203/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1867/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:112
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:112/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1867/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Horse Fly - HP:1867/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:1777
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:112/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1777/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Alfyn
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:0
+----------------------------------------
+INICIA RONDA 32
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:0/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1777/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Horse Fly
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1777/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Yatagarasu
+2: Healing Touch
+3: Lux Congerere
+4: Ignis Ardere
+5: Steal SP
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Horse Fly - HP:1777/2857 Shields:2
+2: Winter Wanderweed - HP:90/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:1777
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:0/5336 SP:383/383 BP:5
+B-Ophilia - HP:25/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Light Guardian - HP:0/1129 Shields:3
+B-Horse Fly - HP:1777/2857 Shields:2
+C-Winter Wanderweed - HP:90/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Horse Fly
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

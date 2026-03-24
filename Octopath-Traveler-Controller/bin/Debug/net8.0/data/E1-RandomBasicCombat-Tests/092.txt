@@ -1,0 +1,3888 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 91
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:4002/4002 SP:504/504 BP:1
+B-Temenos - HP:4002/4002 SP:432/432 BP:1
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:4002/4002 SP:504/504 BP:1
+B-Temenos - HP:4002/4002 SP:432/432 BP:1
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:4002/4002 SP:504/504 BP:1
+B-Temenos - HP:4002/4002 SP:432/432 BP:1
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:3837
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3837/4002 SP:504/504 BP:1
+B-Temenos - HP:4002/4002 SP:432/432 BP:1
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:3764
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3837/4002 SP:504/504 BP:2
+B-Temenos - HP:3764/4002 SP:432/432 BP:2
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3837/4002 SP:504/504 BP:2
+B-Temenos - HP:3764/4002 SP:432/432 BP:2
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3837/4002 SP:504/504 BP:2
+B-Temenos - HP:3764/4002 SP:432/432 BP:2
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:3672
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3672/4002 SP:504/504 BP:2
+B-Temenos - HP:3764/4002 SP:432/432 BP:2
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:3526
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3672/4002 SP:504/504 BP:3
+B-Temenos - HP:3526/4002 SP:432/432 BP:3
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3672/4002 SP:504/504 BP:3
+B-Temenos - HP:3526/4002 SP:432/432 BP:3
+Equipo del enemigo
+A-Withered Wanderweed - HP:2314/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2314/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:2227
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3672/4002 SP:504/504 BP:3
+B-Temenos - HP:3526/4002 SP:432/432 BP:3
+Equipo del enemigo
+A-Withered Wanderweed - HP:2227/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:3507
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3507/4002 SP:504/504 BP:3
+B-Temenos - HP:3526/4002 SP:432/432 BP:3
+Equipo del enemigo
+A-Withered Wanderweed - HP:2227/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:3288
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3507/4002 SP:504/504 BP:4
+B-Temenos - HP:3288/4002 SP:432/432 BP:4
+Equipo del enemigo
+A-Withered Wanderweed - HP:2227/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2227/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3507/4002 SP:504/504 BP:4
+B-Temenos - HP:3288/4002 SP:432/432 BP:4
+Equipo del enemigo
+A-Withered Wanderweed - HP:2227/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2227/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:2140
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3507/4002 SP:504/504 BP:4
+B-Temenos - HP:3288/4002 SP:432/432 BP:4
+Equipo del enemigo
+A-Withered Wanderweed - HP:2140/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:3342
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3342/4002 SP:504/504 BP:4
+B-Temenos - HP:3288/4002 SP:432/432 BP:4
+Equipo del enemigo
+A-Withered Wanderweed - HP:2140/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Agnea recibe 310 de daño físico
+Agnea termina con HP:3032
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:3288/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2140/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2140/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:2117
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:3288/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2117/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2117/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:3288/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2117/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Temenos recibe 93 de daño físico
+Temenos termina con HP:3195
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:3195/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2117/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:2957
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:2957/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2117/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2117/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:2094
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:2957/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2094/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2094/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:3032/4002 SP:504/504 BP:5
+B-Temenos - HP:2957/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2094/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:2867
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2867/4002 SP:504/504 BP:5
+B-Temenos - HP:2957/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2094/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:2719
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2867/4002 SP:504/504 BP:5
+B-Temenos - HP:2719/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2094/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2094/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:2071
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2867/4002 SP:504/504 BP:5
+B-Temenos - HP:2719/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2071/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2071/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2867/4002 SP:504/504 BP:5
+B-Temenos - HP:2719/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2071/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:2702
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2702/4002 SP:504/504 BP:5
+B-Temenos - HP:2719/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2071/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:2481
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2702/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2071/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:2071/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2702/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:2071/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:2071/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1984
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2702/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1984/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:2537
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2537/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1984/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Agnea recibe 310 de daño físico
+Agnea termina con HP:2227
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1984/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1984/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1961
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1961/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1961/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1874
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2481/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1874/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Temenos recibe 93 de daño físico
+Temenos termina con HP:2388
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2388/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1874/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:2150
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2150/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1874/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1874/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1851
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2150/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1851/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1851/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2227/4002 SP:504/504 BP:5
+B-Temenos - HP:2150/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1851/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:2062
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2062/4002 SP:504/504 BP:5
+B-Temenos - HP:2150/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1851/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:1912
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2062/4002 SP:504/504 BP:5
+B-Temenos - HP:1912/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1851/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1851/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2062/4002 SP:504/504 BP:5
+B-Temenos - HP:1912/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1851/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1851/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1764
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:2062/4002 SP:504/504 BP:5
+B-Temenos - HP:1912/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1764/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:1897
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1897/4002 SP:504/504 BP:5
+B-Temenos - HP:1912/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1764/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:1674
+----------------------------------------
+INICIA RONDA 12
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1897/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1764/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1764/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1741
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1897/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1741/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1741/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1741/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1897/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1741/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:1732
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1732/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1741/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Agnea recibe 310 de daño físico
+Agnea termina con HP:1422
+----------------------------------------
+INICIA RONDA 13
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1741/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Agnea
+1: Sweeping Cleave
+2: Thousand Spears
+3: Incite
+4: Empoison
+5: Last Stand
+6: Lion Dance
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1741/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1718
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1718/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1718/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1718/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1674/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1718/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Temenos recibe 93 de daño físico
+Temenos termina con HP:1581
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1581/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1718/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:1343
+----------------------------------------
+INICIA RONDA 14
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1343/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1718/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1718/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1695
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1343/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1695/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1695/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1608
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1422/4002 SP:504/504 BP:5
+B-Temenos - HP:1343/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1608/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:1257
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1257/4002 SP:504/504 BP:5
+B-Temenos - HP:1343/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1608/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:1105
+----------------------------------------
+INICIA RONDA 15
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1257/4002 SP:504/504 BP:5
+B-Temenos - HP:1105/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1608/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1608/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1585
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1257/4002 SP:504/504 BP:5
+B-Temenos - HP:1105/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1585/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1585/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1257/4002 SP:504/504 BP:5
+B-Temenos - HP:1105/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1585/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:1092
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1092/4002 SP:504/504 BP:5
+B-Temenos - HP:1105/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1585/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:867
+----------------------------------------
+INICIA RONDA 16
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1092/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1585/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1585/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1562
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1092/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1562/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1562/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:1092/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1562/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:927
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:927/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1562/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Agnea recibe 310 de daño físico
+Agnea termina con HP:617
+----------------------------------------
+INICIA RONDA 17
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1562/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1562/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1562/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1562/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1475
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:867/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1475/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Temenos recibe 93 de daño físico
+Temenos termina con HP:774
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:774/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1475/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:536
+----------------------------------------
+INICIA RONDA 18
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:536/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1475/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1475/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1452
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:536/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1452/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:617/4002 SP:504/504 BP:5
+B-Temenos - HP:536/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:452
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:452/4002 SP:504/504 BP:5
+B-Temenos - HP:536/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:298
+----------------------------------------
+INICIA RONDA 19
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:452/4002 SP:504/504 BP:5
+B-Temenos - HP:298/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1452/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Horse Fly recibe 0 de daño de tipo Dagger
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:452/4002 SP:504/504 BP:5
+B-Temenos - HP:298/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1452/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:452/4002 SP:504/504 BP:5
+B-Temenos - HP:298/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:287
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:287/4002 SP:504/504 BP:5
+B-Temenos - HP:298/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Temenos recibe 238 de daño físico
+Temenos termina con HP:60
+----------------------------------------
+INICIA RONDA 20
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:287/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1452/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Agnea
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Agnea
+1: Withered Wanderweed - HP:1452/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Agnea ataca
+Withered Wanderweed recibe 23 de daño de tipo Dagger
+Withered Wanderweed termina con HP:1429
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:287/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1429/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Temenos
+1: Steal SP
+2: Peacock Strut
+3: Aggressive Slash
+4: Shackle Foe
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1429/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1429/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Horse Fly recibe 0 de daño de tipo Stave
+Horse Fly termina con HP:2857
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:287/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1429/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Agnea recibe 165 de daño físico
+Agnea termina con HP:122
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:122/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1429/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Agnea
+2.Temenos
+3.Withered Wanderweed
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Agnea recibe 310 de daño físico
+Agnea termina con HP:0
+----------------------------------------
+INICIA RONDA 21
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:0/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1429/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Turno de Temenos
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Temenos
+1: Withered Wanderweed - HP:1429/2314 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Temenos ataca
+Withered Wanderweed recibe 87 de daño de tipo Stave
+Withered Wanderweed termina con HP:1342
+----------------------------------------
+Equipo del jugador
+A-Agnea - HP:0/4002 SP:504/504 BP:5
+B-Temenos - HP:60/4002 SP:432/432 BP:5
+Equipo del enemigo
+A-Withered Wanderweed - HP:1342/2314 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Temenos
+2.Withered Wanderweed
+3.Horse Fly
+----------------------------------------
+Withered Wanderweed usa Attack
+Temenos recibe 93 de daño físico
+Temenos termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

@@ -1,0 +1,49 @@
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.deps.json
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfo.cs
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.sourcelink.json
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/refint/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/ref/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.deps.json
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfo.cs
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/refint/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/ref/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.deps.json
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfo.cs
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/refint/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/ref/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.deps.json
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.GeneratedMSBuildEditorConfig.editorconfig
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfoInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.AssemblyInfo.cs
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.csproj.CoreCompileInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/refint/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/ref/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-Model.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/bin/Debug/net8.0/Octopath-Traveler-Model.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath-Traveler-View.csproj.AssemblyReference.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-View/obj/Debug/net8.0/Octopath.7E2270E9.Up2Date

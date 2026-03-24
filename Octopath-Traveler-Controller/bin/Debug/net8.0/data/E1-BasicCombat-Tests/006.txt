@@ -1,0 +1,543 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 5
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:3599
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3599/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3599/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:3196
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3196/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3196/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:2793
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2793/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2793/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:2390
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2390/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2390/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:1987
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1987/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1987/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:1584
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1584/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1584/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:1181
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1181/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1181/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:778
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:778/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:778/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:375
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:375/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Snow Fox recibe 0 de daño de tipo Stave
+Snow Fox termina con HP:2600
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:375/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Ophilia
+----------------------------------------
+Snow Fox usa Attack
+Ophilia recibe 403 de daño físico
+Ophilia termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

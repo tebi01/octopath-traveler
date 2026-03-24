@@ -1,0 +1,1038 @@
+[
+  {
+    "Name": "Meep",
+    "Stats": {
+      "HP": 1016,
+      "PhysAtk": 399,
+      "PhysDef": 432,
+      "ElemAtk": 419,
+      "ElemDef": 254,
+      "Speed": 207
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Bow", "Stave", "Dark"]
+  },
+  {
+    "Name": "Shaggy Meep",
+    "Stats": {
+      "HP": 1036,
+      "PhysAtk": 338,
+      "PhysDef": 230,
+      "ElemAtk": 328,
+      "ElemDef": 224,
+      "Speed": 170
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Stave", "Lightning", "Wind"]
+  },
+  {
+    "Name": "Mossy Meep",
+    "Stats": {
+      "HP": 1060,
+      "PhysAtk": 412,
+      "PhysDef": 460,
+      "ElemAtk": 420,
+      "ElemDef": 240024,
+      "Speed": 170
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Axe", "Stave"]
+  },
+  {
+    "Name": "Lord of the Flies",
+    "Stats": {
+      "HP": 5590,
+      "PhysAtk": 422,
+      "PhysDef": 485,
+      "ElemAtk": 360,
+      "ElemDef": 422,
+      "Speed": 157
+    },
+    "Skill": "Befuddling claw",
+    "Shields": 3,
+    "Weaknesses": ["Spear", "Bow", "Wind", "Light"]
+  },
+  {
+    "Name": "Behemoth",
+    "Stats": {
+      "HP": 12690,
+      "PhysAtk": 600,
+      "PhysDef": 450,
+      "ElemAtk": 500,
+      "ElemDef": 450,
+      "Speed": 255
+    },
+    "Skill": "Stampede",
+    "Shields": 8,
+    "Weaknesses": ["Spear", "Axe", "Bow", "Ice"]
+  },
+  {
+    "Name": "Red Fox",
+    "Stats": {
+      "HP": 1451,
+      "PhysAtk": 341,
+      "PhysDef": 244,
+      "ElemAtk": 254,
+      "ElemDef": 219,
+      "Speed": 106
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Dagger", "Bow", "Stave"]
+  },
+  {
+    "Name": "Snow Fox",
+    "Stats": {
+      "HP": 2600,
+      "PhysAtk": 535,
+      "PhysDef": 457,
+      "ElemAtk": 546,
+      "ElemDef": 421,
+      "Speed": 348
+    },
+    "Skill": "Attack",
+    "Shields": 1,
+    "Weaknesses": ["Bow", "Fire", "Lightning"]
+  },
+  {
+    "Name": "Frost Fox",
+    "Stats": {
+      "HP": 1302,
+      "PhysAtk": 422,
+      "PhysDef": 382,
+      "ElemAtk": 410,
+      "ElemDef": 317,
+      "Speed": 200
+    },
+    "Skill": "Ice blast",
+    "Shields": 2,
+    "Weaknesses": ["Bow", "Fire", "Lightning"]
+  },
+  {
+    "Name": "Forest Fox",
+    "Stats": {
+      "HP": 1380,
+      "PhysAtk": 373,
+      "PhysDef": 271,
+      "ElemAtk": 348,
+      "ElemDef": 278,
+      "Speed": 128
+    },
+    "Skill": "Double Bite",
+    "Shields": 2,
+    "Weaknesses": ["Bow", "Fire", "Lightning"]
+  },
+  {
+    "Name": "Highland Ratkin I",
+    "Stats": {
+      "HP": 1000,
+      "PhysAtk": 468,
+      "PhysDef": 627,
+      "ElemAtk": 473,
+      "ElemDef": 430,
+      "Speed": 245
+    },
+    "Skill": "Stab",
+    "Shields": 1,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Lightning"]
+  },
+  {
+    "Name": "Forest Ratkin I",
+    "Stats": {
+      "HP": 1348,
+      "PhysAtk": 273,
+      "PhysDef": 210,
+      "ElemAtk": 239,
+      "ElemDef": 209,
+      "Speed": 88
+    },
+    "Skill": "Stab",
+    "Shields": 1,
+    "Weaknesses": ["Axe", "Dagger", "Lightning", "Light"]
+  },
+  {
+    "Name": "Mad Ratkin",
+    "Stats": {
+      "HP": 1233,
+      "PhysAtk": 435,
+      "PhysDef": 375,
+      "ElemAtk": 438,
+      "ElemDef": 307,
+      "Speed": 236
+    },
+    "Skill": "Stab",
+    "Shields": 1,
+    "Weaknesses": ["Spear", "Lightning", "Light"]
+  },
+  {
+    "Name": "Frost Bear",
+    "Stats": {
+      "HP": 1197,
+      "PhysAtk": 228,
+      "PhysDef": 163,
+      "ElemAtk": 166,
+      "ElemDef": 155,
+      "Speed": 90
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Spear", "Axe", "Wind"]
+  },
+  {
+    "Name": "Hoary Bear",
+    "Stats": {
+      "HP": 2688,
+      "PhysAtk": 361,
+      "PhysDef": 295,
+      "ElemAtk": 257,
+      "ElemDef": 303,
+      "Speed": 117
+    },
+    "Skill": "Rampage",
+    "Shields": 3,
+    "Weaknesses": ["Spear", "Axe", "Wind"]
+  },
+  {
+    "Name": "Horned Fly",
+    "Stats": {
+      "HP": 1205,
+      "PhysAtk": 394,
+      "PhysDef": 348,
+      "ElemAtk": 318,
+      "ElemDef": 351,
+      "Speed": 138
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Spear", "Bow", "Ice", "Wind"]
+  },
+  {
+    "Name": "Horse Fly",
+    "Stats": {
+      "HP": 2857,
+      "PhysAtk": 416,
+      "PhysDef": 404,
+      "ElemAtk": 349,
+      "ElemDef": 393,
+      "Speed": 153
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Spear", "Bow", "Ice", "Wind"]
+  },
+  {
+    "Name": "River Fly",
+    "Stats": {
+      "HP": 1010,
+      "PhysAtk": 348,
+      "PhysDef": 326,
+      "ElemAtk": 338,
+      "ElemDef": 284,
+      "Speed": 180
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Spear", "Bow", "Ice", "Wind"]
+  },
+  {
+    "Name": "Fire Wisp",
+    "Stats": {
+      "HP": 972,
+      "PhysAtk": 244,
+      "PhysDef": 313,
+      "ElemAtk": 303,
+      "ElemDef": 154,
+      "Speed": 87
+    },
+    "Skill": "Meteor Storm",
+    "Shields": 1,
+    "Weaknesses": ["Ice", "Dark"]
+  },
+  {
+    "Name": "Ice Wisp",
+    "Stats": {
+      "HP": 801,
+      "PhysAtk": 291,
+      "PhysDef": 302,
+      "ElemAtk": 299,
+      "ElemDef": 183,
+      "Speed": 137
+    },
+    "Skill": "Freeze",
+    "Shields": 1,
+    "Weaknesses": ["Fire", "Dark"]
+  },
+  {
+    "Name": "Light Wisp",
+    "Stats": {
+      "HP": 972,
+      "PhysAtk": 262,
+      "PhysDef": 351,
+      "ElemAtk": 303,
+      "ElemDef": 160,
+      "Speed": 91
+    },
+    "Skill": "Luminescence",
+    "Shields": 1,
+    "Weaknesses": ["Ice", "Dark"]
+  },
+  {
+    "Name": "Shadow Wisp",
+    "Stats": {
+      "HP": 729,
+      "PhysAtk": 309,
+      "PhysDef": 330,
+      "ElemAtk": 303,
+      "ElemDef": 201,
+      "Speed": 150
+    },
+    "Skill": "Enshadow",
+    "Shields": 1,
+    "Weaknesses": ["Fire", "Light"]
+  },
+  {
+    "Name": "Thunder Wisp",
+    "Stats": {
+      "HP": 947,
+      "PhysAtk": 407,
+      "PhysDef": 570,
+      "ElemAtk": 407,
+      "ElemDef": 257,
+      "Speed": 145
+    },
+    "Skill": "Enshadow",
+    "Shields": 1,
+    "Weaknesses": ["Wind", "Dark"]
+  },
+  {
+    "Name": "Wind Wisp",
+    "Stats": {
+      "HP": 1740,
+      "PhysAtk": 437,
+      "PhysDef": 535,
+      "ElemAtk": 550,
+      "ElemDef": 267,
+      "Speed": 152
+    },
+    "Skill": "Wind slash",
+    "Shields": 1,
+    "Weaknesses": ["Lightning", "Light"]
+  },
+  {
+    "Name": "Flying Fish",
+    "Stats": {
+      "HP": 649,
+      "PhysAtk": 442,
+      "PhysDef": 387,
+      "ElemAtk": 399,
+      "ElemDef": 369,
+      "Speed": 240
+    },
+    "Skill": "Attack",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Bow", "Lightning", "Dark"]
+  },
+  {
+    "Name": "Heavenwing",
+    "Stats": {
+      "HP": 6900,
+      "PhysAtk": 580,
+      "PhysDef": 430,
+      "ElemAtk": 450,
+      "ElemDef": 450,
+      "Speed": 275
+    },
+    "Skill": "Incinerate",
+    "Shields": 7,
+    "Weaknesses": ["Spear", "Bow", "Dark"]
+  },
+  {
+    "Name": "Cait",
+    "Stats": {
+      "HP": 500,
+      "PhysAtk": 105,
+      "PhysDef": 300,
+      "ElemAtk": 100,
+      "ElemDef": 400,
+      "Speed": 475
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Sword", "Dagger", "Axe", "Stave"]
+  },
+  {
+    "Name": "Chubby Cait",
+    "Stats": {
+      "HP": 800,
+      "PhysAtk": 105,
+      "PhysDef": 400,
+      "ElemAtk": 100,
+      "ElemDef": 550,
+      "Speed": 500
+    },
+    "Skill": "Attack",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Dagger", "Axe", "Stave"]
+  },
+  {
+    "Name": "Cultured Cait",
+    "Stats": {
+      "HP": 600,
+      "PhysAtk": 105,
+      "PhysDef": 350,
+      "ElemAtk": 100,
+      "ElemDef": 450,
+      "Speed": 480
+    },
+    "Skill": "Attack",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Dagger", "Axe", "Stave"]
+  },
+  {
+    "Name": "Devil Deer",
+    "Stats": {
+      "HP": 2002,
+      "PhysAtk": 567,
+      "PhysDef": 456,
+      "ElemAtk": 498,
+      "ElemDef": 502,
+      "Speed": 156
+    },
+    "Skill": "Boar Rush",
+    "Shields": 5,
+    "Weaknesses": ["Axe", "Stave", "Lightning", "Wind", "Dark"]
+  },
+  {
+    "Name": "Guardian",
+    "Stats": {
+      "HP": 1201,
+      "PhysAtk": 255,
+      "PhysDef": 257,
+      "ElemAtk": 252,
+      "ElemDef": 270,
+      "Speed": 102
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Dagger", "Bow"]
+  },
+  {
+    "Name": "Flame Guardian",
+    "Stats": {
+      "HP": 1470,
+      "PhysAtk": 363,
+      "PhysDef": 279,
+      "ElemAtk": 336,
+      "ElemDef": 198,
+      "Speed": 121
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Ice"]
+  },
+  {
+    "Name": "Ice Guardian",
+    "Stats": {
+      "HP": 1471,
+      "PhysAtk": 354,
+      "PhysDef": 303,
+      "ElemAtk": 245,
+      "ElemDef": 354,
+      "Speed": 130
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Fire"]
+  },
+  {
+    "Name": "Thunder Guardian",
+    "Stats": {
+      "HP": 1971,
+      "PhysAtk": 329,
+      "PhysDef": 259,
+      "ElemAtk": 354,
+      "ElemDef": 203,
+      "Speed": 111
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Wind"]
+  },
+  {
+    "Name": "Light Guardian",
+    "Stats": {
+      "HP": 1129,
+      "PhysAtk": 279,
+      "PhysDef": 247,
+      "ElemAtk": 303,
+      "ElemDef": 183,
+      "Speed": 115
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Dark"]
+  },
+  {
+    "Name": "Dark Guardian",
+    "Stats": {
+      "HP": 1470,
+      "PhysAtk": 363,
+      "PhysDef": 279,
+      "ElemAtk": 336,
+      "ElemDef": 198,
+      "Speed": 121
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Dagger", "Bow", "Light"]
+  },
+  {
+    "Name": "Wind Elemental",
+    "Stats": {
+      "HP": 2496,
+      "PhysAtk": 310,
+      "PhysDef": 442,
+      "ElemAtk": 329,
+      "ElemDef": 177,
+      "Speed": 117
+    },
+    "Skill": "Windshot",
+    "Shields": 4,
+    "Weaknesses": ["Ice", "Lightning"]
+  },
+  {
+    "Name": "Fire Elemental",
+    "Stats": {
+      "HP": 1354,
+      "PhysAtk": 373,
+      "PhysDef": 364,
+      "ElemAtk": 388,
+      "ElemDef": 246,
+      "Speed": 140
+    },
+    "Skill": "Firesand",
+    "Shields": 4,
+    "Weaknesses": ["Ice", "Wind"]
+  },
+  {
+    "Name": "Lightning Elemental",
+    "Stats": {
+      "HP": 2133,
+      "PhysAtk": 390,
+      "PhysDef": 347,
+      "ElemAtk": 314,
+      "ElemDef": 349,
+      "Speed": 121
+    },
+    "Skill": "Thundershot",
+    "Shields": 4,
+    "Weaknesses": ["Fire", "Wind"]
+  },
+  {
+    "Name": "Light Elemental",
+    "Stats": {
+      "HP": 1880,
+      "PhysAtk": 278,
+      "PhysDef": 373,
+      "ElemAtk": 290,
+      "ElemDef": 157,
+      "Speed": 111
+    },
+    "Skill": "Lightshot",
+    "Shields": 4,
+    "Weaknesses": ["Ice", "Dark"]
+  },
+  {
+    "Name": "Ice Elemental",
+    "Stats": {
+      "HP": 2160,
+      "PhysAtk": 360,
+      "PhysDef": 469,
+      "ElemAtk": 366,
+      "ElemDef": 216,
+      "Speed": 148
+    },
+    "Skill": "Iceshot",
+    "Shields": 4,
+    "Weaknesses": ["Fire", "Lightning"]
+  },
+  {
+    "Name": "Dark Elemental",
+    "Stats": {
+      "HP": 1822,
+      "PhysAtk": 397,
+      "PhysDef": 646,
+      "ElemAtk": 377,
+      "ElemDef": 229,
+      "Speed": 136
+    },
+    "Skill": "Shadowshot",
+    "Shields": 4,
+    "Weaknesses": ["Fire", "Light"]
+  },
+  {
+    "Name": "Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Dagger", "Axe"]
+  },
+  {
+    "Name": "Blood Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Ice"]
+  },
+  {
+    "Name": "Ice Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Fire"]
+  },
+  {
+    "Name": "Wind Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Lightning"]
+  },
+  {
+    "Name": "Light Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Dark"]
+  },
+  {
+    "Name": "Dark Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Light"]
+  },
+  {
+    "Name": "Lightning Remnant",
+    "Stats": {
+      "HP": 2779,
+      "PhysAtk": 212,
+      "PhysDef": 205,
+      "ElemAtk": 359,
+      "ElemDef": 229,
+      "Speed": 145
+    },
+    "Skill": "Double Bite",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Spear", "Axe", "Wind"]
+  },
+  {
+    "Name": "Devourer of Dreams",
+    "Stats": {
+      "HP": 7500,
+      "PhysAtk": 480,
+      "PhysDef": 400,
+      "ElemAtk": 440,
+      "ElemDef": 280,
+      "Speed": 165
+    },
+    "Skill": "Vortal Claw",
+    "Shields": 10,
+    "Weaknesses": ["Sword", "Light"]
+  },
+  {
+    "Name": "Mattias?",
+    "Stats": {
+      "HP": 5780,
+      "PhysAtk": 562,
+      "PhysDef": 506,
+      "ElemAtk": 591,
+      "ElemDef": 619,
+      "Speed": 225
+    },
+    "Skill": "Black Gale",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Axe", "Ice", "Light"]
+  },
+  {
+    "Name": "Devourer of Men",
+    "Stats": {
+      "HP": 7500,
+      "PhysAtk": 480,
+      "PhysDef": 400,
+      "ElemAtk": 440,
+      "ElemDef": 280,
+      "Speed": 165
+    },
+    "Skill": "Shadow Magic",
+    "Shields": 8,
+    "Weaknesses": ["Sword", "Spear", "Dagger", "Axe", "Bow", "Stave", "Fire", "Wind", "Light"]
+  },
+  {
+    "Name": "Azure-eyed Tiger",
+    "Stats": {
+      "HP": 6590,
+      "PhysAtk": 498,
+      "PhysDef": 426,
+      "ElemAtk": 410,
+      "ElemDef": 426,
+      "Speed": 431
+    },
+    "Skill": "Soporific Fang",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Dagger", "Stave", "Ice", "Wind"]
+  },
+  {
+    "Name": "Leviathan",
+    "Stats": {
+      "HP": 5630,
+      "PhysAtk": 483,
+      "PhysDef": 385,
+      "ElemAtk": 434,
+      "ElemDef": 280,
+      "Speed": 166
+    },
+    "Skill": "Constrictor",
+    "Shields": 4,
+    "Weaknesses": ["Spear", "Bow", "Fire", "Lightning", "Wind"]
+  },
+  {
+    "Name": "Mánagarmr",
+    "Stats": {
+      "HP": 7490,
+      "PhysAtk": 798,
+      "PhysDef": 581,
+      "ElemAtk": 599,
+      "ElemDef": 673,
+      "Speed": 233
+    },
+    "Skill": "Savage Fang",
+    "Shields": 4,
+    "Weaknesses": ["Spear", "Axe", "Lightning", "Dark"]
+  },
+  {
+    "Name": "Direwolf",
+    "Stats": {
+      "HP": 3867,
+      "PhysAtk": 403,
+      "PhysDef": 330,
+      "ElemAtk": 330,
+      "ElemDef": 495,
+      "Speed": 319
+    },
+    "Skill": "Triple Slash",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Dagger", "Stave"]
+  },
+  {
+    "Name": "Wolf",
+    "Stats": {
+      "HP": 1577,
+      "PhysAtk": 343,
+      "PhysDef": 231,
+      "ElemAtk": 276,
+      "ElemDef": 273,
+      "Speed": 319
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Axe", "Stave", "Fire", "Wind"]
+  },
+  {
+    "Name": "High Wolf",
+    "Stats": {
+      "HP": 1458,
+      "PhysAtk": 286,
+      "PhysDef": 196,
+      "ElemAtk": 234,
+      "ElemDef": 226,
+      "Speed": 319
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Axe", "Stave", "Fire"]
+  },
+  {
+    "Name": "War Wolf",
+    "Stats": {
+      "HP": 3548,
+      "PhysAtk": 348,
+      "PhysDef": 237,
+      "ElemAtk": 284,
+      "ElemDef": 263,
+      "Speed": 170
+    },
+    "Skill": "Attack",
+    "Shields": 2,
+    "Weaknesses": ["Sword", "Bow", "Wind"]
+  },
+  {
+    "Name": "Wanderweed",
+    "Stats": {
+      "HP": 1533,
+      "PhysAtk": 257,
+      "PhysDef": 245,
+      "ElemAtk": 237,
+      "ElemDef": 262,
+      "Speed": 189
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Bow", "Wind"]
+  },
+  {
+    "Name": "Withered Wanderweed",
+    "Stats": {
+      "HP": 2314,
+      "PhysAtk": 304,
+      "PhysDef": 282,
+      "ElemAtk": 290,
+      "ElemDef": 307,
+      "Speed": 189
+    },
+    "Skill": "Attack",
+    "Shields": 1,
+    "Weaknesses": ["Sword", "Axe", "Fire"]
+  },
+  {
+    "Name": "Winter Wanderweed",
+    "Stats": {
+      "HP": 2314,
+      "PhysAtk": 372,
+      "PhysDef": 355,
+      "ElemAtk": 372,
+      "ElemDef": 307,
+      "Speed": 273
+    },
+    "Skill": "Attack",
+    "Shields": 3,
+    "Weaknesses": ["Sword", "Wind"]
+  },
+  {
+    "Name": "Dreadwolf",
+    "Stats": {
+      "HP": 7530,
+      "PhysAtk": 695,
+      "PhysDef": 464,
+      "ElemAtk": 579,
+      "ElemDef": 508,
+      "Speed": 325
+    },
+    "Skill": "Vorpal Fang",
+    "Shields": 9,
+    "Weaknesses": ["Spear", "Axe", "Wind"]
+  },
+  {
+    "Name": "Demon Goat",
+    "Stats": {
+      "HP": 5480,
+      "PhysAtk": 468,
+      "PhysDef": 437,
+      "ElemAtk": 423,
+      "ElemDef": 454,
+      "Speed": 267
+    },
+    "Skill": "Soporific Strike",
+    "Shields": 4,
+    "Weaknesses": ["Spear", "Axe", "Wind"]
+  },
+  {
+    "Name": "Monarch",
+    "Stats": {
+      "HP": 6740,
+      "PhysAtk": 397,
+      "PhysDef": 342,
+      "ElemAtk": 380,
+      "ElemDef": 401,
+      "Speed": 152
+    },
+    "Skill": "Galestorm",
+    "Shields": 8,
+    "Weaknesses": ["Spear", "Bow", "Dark"]
+  },
+  {
+    "Name": "Mutant Mushroom",
+    "Stats": {
+      "HP": 3129,
+      "PhysAtk": 302,
+      "PhysDef": 334,
+      "ElemAtk": 302,
+      "ElemDef": 351,
+      "Speed": 154
+    },
+    "Skill": "Soporific Sting",
+    "Shields": 2,
+    "Weaknesses": ["Dagger", "Stave", "Fire"]
+  },
+  {
+    "Name": "Mortal Mushroom",
+    "Stats": {
+      "HP": 3129,
+      "PhysAtk": 302,
+      "PhysDef": 334,
+      "ElemAtk": 302,
+      "ElemDef": 351,
+      "Speed": 454
+    },
+    "Skill": "Soporific Sting",
+    "Shields": 1,
+    "Weaknesses": ["Axe", "Lightning", "Light"]
+  },
+  {
+    "Name": "Armor Eater",
+    "Stats": {
+      "HP": 1594,
+      "PhysAtk": 341,
+      "PhysDef": 261,
+      "ElemAtk": 298,
+      "ElemDef": 266,
+      "Speed": 108
+    },
+    "Skill": "Consume Armor",
+    "Shields": 4,
+    "Weaknesses": ["Sword", "Axe", "Stave"]
+  },
+  {
+    "Name": "Albino Bat",
+    "Stats": {
+      "HP": 1896,
+      "PhysAtk": 387,
+      "PhysDef": 353,
+      "ElemAtk": 297,
+      "ElemDef": 254,
+      "Speed": 134
+    },
+    "Skill": "Flap",
+    "Shields": 4,
+    "Weaknesses": ["Dark", "Spear", "Bow", "Stave"]
+  },
+  {
+    "Name": "Army Ant",
+    "Stats": {
+      "HP": 502,
+      "PhysAtk": 135,
+      "PhysDef": 81,
+      "ElemAtk": 122,
+      "ElemDef": 92,
+      "Speed": 175
+    },
+    "Skill": "Acid Spray",
+    "Shields": 1,
+    "Weaknesses": ["Wind", "Sword", "Axe", "Bow", "Stave"]
+  },
+  {
+    "Name": "Accursed Armor",
+    "Stats": {
+      "HP": 3746,
+      "PhysAtk": 400,
+      "PhysDef": 301,
+      "ElemAtk": 352,
+      "ElemDef": 319,
+      "Speed": 132
+    },
+    "Skill": "Gather Strength",
+    "Shields": 5,
+    "Weaknesses": ["Fire", "Light", "Spear", "Axe", "Stave"]
+  },
+  {
+    "Name": "Curator",
+    "Stats": {
+      "HP": 1530,
+      "PhysAtk": 192,
+      "PhysDef": 187,
+      "ElemAtk": 234,
+      "ElemDef": 230,
+      "Speed": 153
+    },
+    "Skill": "Augmented Magic",
+    "Shields": 3,
+    "Weaknesses": ["Dagger", "Spear", "Bow", "Stave"]
+  },
+  {
+    "Name": "Blood Revenant",
+    "Stats": {
+      "HP": 16352,
+      "PhysAtk": 592,
+      "PhysDef": 532,
+      "ElemAtk": 576,
+      "ElemDef": 491,
+      "Speed": 160
+    },
+    "Skill": "Volcano",
+    "Shields": 7,
+    "Weaknesses": ["Ice", "Dagger", "Bow", "Stave"]
+  },
+  {
+    "Name": "Dark Roller",
+    "Stats": {
+      "HP": 4291,
+      "PhysAtk": 330,
+      "PhysDef": 431,
+      "ElemAtk": 330,
+      "ElemDef": 304,
+      "Speed": 224
+    },
+    "Skill": "Poison Strike",
+    "Shields": 1,
+    "Weaknesses": ["Dagger", "Lightning"]
+  },
+  {
+    "Name": "Shaggy Spider",
+    "Stats": {
+      "HP": 4247,
+      "PhysAtk": 396,
+      "PhysDef": 403,
+      "ElemAtk": 357,
+      "ElemDef": 364,
+      "Speed": 228
+    },
+    "Skill": "Web Storm",
+    "Shields": 4,
+    "Weaknesses": ["Dagger", "Axe", "Stave", "Lightning", "Light"]
+  }
+]

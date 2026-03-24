@@ -1,0 +1,552 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 72
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:3222/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1577/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Snow Fox usa Attack
+Z'aanta recibe 457 de daño físico
+Z'aanta termina con HP:2765
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:2765/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1577/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Z'aanta
+3.Flying Fish
+4.Wanderweed
+5.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Wolf usa Attack
+Z'aanta recibe 207 de daño físico
+Z'aanta termina con HP:2558
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:2558/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1577/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Z'aanta
+2.Flying Fish
+3.Wanderweed
+4.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Turno de Z'aanta
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Z'aanta
+1: Healing Touch
+2: Blizzard
+3: Rehabilitate
+4: Spearhead
+5: Revive and Rejuvenate
+6: Leghold Trap
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Z'aanta
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Z'aanta
+1: Wolf - HP:1577/1577 Shields:2
+2: Flying Fish - HP:649/649 Shields:4
+3: Snow Fox - HP:2600/2600 Shields:1
+4: Wanderweed - HP:1533/1533 Shields:3
+5: Horned Fly - HP:1205/1205 Shields:2
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Z'aanta ataca
+Wolf recibe 285 de daño de tipo Bow
+Wolf termina con HP:1292
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:2558/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+2.Wanderweed
+3.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Flying Fish usa Attack
+Z'aanta recibe 336 de daño físico
+Z'aanta termina con HP:2222
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:2222/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wanderweed
+2.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Wanderweed usa Attack
+Z'aanta recibe 96 de daño físico
+Z'aanta termina con HP:2126
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:2126/3222 SP:371/371 BP:1
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Horned Fly usa Attack
+Z'aanta recibe 274 de daño físico
+Z'aanta termina con HP:1852
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:1852/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Snow Fox usa Attack
+Z'aanta recibe 457 de daño físico
+Z'aanta termina con HP:1395
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:1395/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Z'aanta
+3.Flying Fish
+4.Wanderweed
+5.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Wolf usa Attack
+Z'aanta recibe 207 de daño físico
+Z'aanta termina con HP:1188
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:1188/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1205/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Z'aanta
+2.Flying Fish
+3.Wanderweed
+4.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Turno de Z'aanta
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Z'aanta
+1: Wolf - HP:1292/1577 Shields:2
+2: Flying Fish - HP:649/649 Shields:4
+3: Snow Fox - HP:2600/2600 Shields:1
+4: Wanderweed - HP:1533/1533 Shields:3
+5: Horned Fly - HP:1205/1205 Shields:2
+6: Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Z'aanta ataca
+Horned Fly recibe 168 de daño de tipo Axe
+Horned Fly termina con HP:1037
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:1188/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1037/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+2.Wanderweed
+3.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Flying Fish usa Attack
+Z'aanta recibe 336 de daño físico
+Z'aanta termina con HP:852
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:852/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1037/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wanderweed
+2.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Wanderweed usa Attack
+Z'aanta recibe 96 de daño físico
+Z'aanta termina con HP:756
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:756/3222 SP:371/371 BP:2
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1037/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Horned Fly usa Attack
+Z'aanta recibe 274 de daño físico
+Z'aanta termina con HP:482
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:482/3222 SP:371/371 BP:3
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1037/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Snow Fox usa Attack
+Z'aanta recibe 457 de daño físico
+Z'aanta termina con HP:25
+----------------------------------------
+Equipo del jugador
+A-Z'aanta - HP:25/3222 SP:371/371 BP:3
+Equipo del enemigo
+A-Wolf - HP:1292/1577 Shields:2
+B-Flying Fish - HP:649/649 Shields:4
+C-Snow Fox - HP:2600/2600 Shields:1
+D-Wanderweed - HP:1533/1533 Shields:3
+E-Horned Fly - HP:1037/1205 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Z'aanta
+3.Flying Fish
+4.Wanderweed
+5.Horned Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Wolf
+3.Z'aanta
+4.Flying Fish
+5.Wanderweed
+6.Horned Fly
+----------------------------------------
+Wolf usa Attack
+Z'aanta recibe 207 de daño físico
+Z'aanta termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

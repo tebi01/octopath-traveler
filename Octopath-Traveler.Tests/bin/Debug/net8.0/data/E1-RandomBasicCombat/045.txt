@@ -1,0 +1,7 @@
+Player Team
+Temenos
+Enemy Team
+War Wolf
+Horse Fly
+Flame Guardian
+Guardian

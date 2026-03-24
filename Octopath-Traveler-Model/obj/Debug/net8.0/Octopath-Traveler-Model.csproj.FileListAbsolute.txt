@@ -1,0 +1,11 @@
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.deps.json
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.AssemblyInfoInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.AssemblyInfo.cs
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.csproj.CoreCompileInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/refint/Octopath-Traveler-Model.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/ref/Octopath-Traveler-Model.dll

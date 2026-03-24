@@ -1,0 +1,75 @@
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.exe
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.deps.json
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.runtimeconfig.json
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.AssemblyReference.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfo.cs
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.sourcelink.json
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath.C3A4523E.Up2Date
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/refint/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.genruntimeconfig.cache
+C:/Users/matia/Desktop/OctoProyect/proyecto-octopath/baseCode/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/ref/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.exe
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.deps.json
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.runtimeconfig.json
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.AssemblyReference.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfo.cs
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath.C3A4523E.Up2Date
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/refint/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.genruntimeconfig.cache
+C:/Users/matia/Desktop/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/ref/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.exe
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.deps.json
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.runtimeconfig.json
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.AssemblyReference.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfoInputs.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfo.cs
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.CoreCompileInputs.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath.C3A4523E.Up2Date
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/refint/Octopath-Traveler-Controller.dll
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.pdb
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.genruntimeconfig.cache
+C:/Users/matia/Desktop/Base Octopath/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/ref/Octopath-Traveler-Controller.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.deps.json
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.runtimeconfig.json
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Controller.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-View.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.AssemblyReference.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.GeneratedMSBuildEditorConfig.editorconfig
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfoInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.AssemblyInfo.cs
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.csproj.CoreCompileInputs.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath.C3A4523E.Up2Date
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/refint/Octopath-Traveler-Controller.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.pdb
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/Octopath-Traveler-Controller.genruntimeconfig.cache
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/obj/Debug/net8.0/ref/Octopath-Traveler-Controller.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Model.dll
+/home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Controller/bin/Debug/net8.0/Octopath-Traveler-Model.pdb

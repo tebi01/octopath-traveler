@@ -1,0 +1,396 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 12
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+B-Primrose - HP:4002/4002 SP:504/504 BP:1
+Equipo del enemigo
+A-Frost Bear - HP:1197/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Primrose
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Primrose
+1: Frost Bear - HP:1197/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Primrose ataca
+Frost Bear recibe 149 de daño de tipo Dagger
+Frost Bear termina con HP:1048
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+B-Primrose - HP:4002/4002 SP:504/504 BP:1
+Equipo del enemigo
+A-Frost Bear - HP:1048/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Frost Bear - HP:1048/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Frost Bear recibe 163 de daño de tipo Stave
+Frost Bear termina con HP:885
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+B-Primrose - HP:4002/4002 SP:504/504 BP:1
+Equipo del enemigo
+A-Frost Bear - HP:885/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Ophilia recibe 4 de daño físico
+Ophilia termina con HP:3998
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:2
+B-Primrose - HP:4002/4002 SP:504/504 BP:2
+Equipo del enemigo
+A-Frost Bear - HP:885/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Primrose
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Primrose
+1: Frost Bear - HP:885/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Primrose ataca
+Frost Bear recibe 149 de daño de tipo Dagger
+Frost Bear termina con HP:736
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:2
+B-Primrose - HP:4002/4002 SP:504/504 BP:2
+Equipo del enemigo
+A-Frost Bear - HP:736/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Frost Bear - HP:736/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Frost Bear recibe 163 de daño de tipo Stave
+Frost Bear termina con HP:573
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:2
+B-Primrose - HP:4002/4002 SP:504/504 BP:2
+Equipo del enemigo
+A-Frost Bear - HP:573/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Primrose recibe 66 de daño físico
+Primrose termina con HP:3936
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:3
+B-Primrose - HP:3936/4002 SP:504/504 BP:3
+Equipo del enemigo
+A-Frost Bear - HP:573/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Primrose
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Primrose
+1: Frost Bear - HP:573/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Primrose ataca
+Frost Bear recibe 149 de daño de tipo Dagger
+Frost Bear termina con HP:424
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:3
+B-Primrose - HP:3936/4002 SP:504/504 BP:3
+Equipo del enemigo
+A-Frost Bear - HP:424/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Frost Bear - HP:424/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Frost Bear recibe 163 de daño de tipo Stave
+Frost Bear termina con HP:261
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3998/4002 SP:470/470 BP:3
+B-Primrose - HP:3936/4002 SP:504/504 BP:3
+Equipo del enemigo
+A-Frost Bear - HP:261/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Ophilia recibe 4 de daño físico
+Ophilia termina con HP:3994
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3994/4002 SP:470/470 BP:4
+B-Primrose - HP:3936/4002 SP:504/504 BP:4
+Equipo del enemigo
+A-Frost Bear - HP:261/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Primrose
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Primrose
+1: Frost Bear - HP:261/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Primrose ataca
+Frost Bear recibe 149 de daño de tipo Dagger
+Frost Bear termina con HP:112
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3994/4002 SP:470/470 BP:4
+B-Primrose - HP:3936/4002 SP:504/504 BP:4
+Equipo del enemigo
+A-Frost Bear - HP:112/1197 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Primrose
+2.Ophilia
+3.Frost Bear
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Frost Bear - HP:112/1197 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Frost Bear recibe 163 de daño de tipo Stave
+Frost Bear termina con HP:0
+----------------------------------------
+Gana equipo del jugador

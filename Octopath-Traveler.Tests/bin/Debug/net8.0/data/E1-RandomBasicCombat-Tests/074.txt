@@ -1,0 +1,2464 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 73
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5336/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2857/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:5245
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5245/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2857/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: River Fly - HP:1010/1010 Shields:2
+4: Horse Fly - HP:2857/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: River Fly - HP:1010/1010 Shields:2
+4: Horse Fly - HP:2857/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2767
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5245/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:5119
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5119/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:5059
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5059/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4911
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4911/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:4832
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4832/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4741
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4741/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:1010/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: River Fly - HP:1010/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+River Fly recibe 168 de daño de tipo Axe
+River Fly termina con HP:842
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4741/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:4615
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4615/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:4555
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4555/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:4407
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4407/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:4328
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4328/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:4237
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4237/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: River Fly - HP:842/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: River Fly - HP:842/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Winter Wanderweed recibe 139 de daño de tipo Axe
+Winter Wanderweed termina con HP:2175
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4237/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:4111
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4111/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:4051
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4051/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3903
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3903/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:3824
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3824/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3733
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3733/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:842/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Meep recibe 62 de daño de tipo Axe
+Meep termina con HP:954
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3733/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:3607
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3607/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:3547
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3547/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:3399
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3399/5336 SP:383/383 BP:4
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:3320
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3320/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:3229
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3229/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:954/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:842/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Meep recibe 62 de daño de tipo Axe
+Meep termina con HP:892
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3229/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:3103
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3103/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:3043
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3043/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2895
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2895/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:2816
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2816/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:2725
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2725/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:842/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:892/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:842/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+River Fly recibe 168 de daño de tipo Axe
+River Fly termina con HP:674
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2725/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:2599
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2599/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:2539
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2539/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:2391
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2391/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:2312
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2312/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:2221
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2221/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:892/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:892/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:674/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Meep recibe 62 de daño de tipo Axe
+Meep termina con HP:830
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2221/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:2095
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2095/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:2035
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2035/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1887
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1887/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:1808
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1808/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:1717
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1717/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:674/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:830/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:674/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+River Fly recibe 168 de daño de tipo Axe
+River Fly termina con HP:506
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1717/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:1591
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1591/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:1531
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1531/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:1383
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1383/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:1304
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1304/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:1213
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1213/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:506/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:830/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:506/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+River Fly recibe 168 de daño de tipo Axe
+River Fly termina con HP:338
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1213/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:1087
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1087/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:1027
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1027/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:879
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:879/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:800
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:800/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:709
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:709/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2767/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:830/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:338/1010 Shields:2
+4: Horse Fly - HP:2767/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Horse Fly recibe 90 de daño de tipo Axe
+Horse Fly termina con HP:2677
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:709/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:583
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:583/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:523
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:523/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:375
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:375/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Dark Guardian usa Attack
+Alfyn recibe 79 de daño físico
+Alfyn termina con HP:296
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:296/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Alfyn recibe 91 de daño físico
+Alfyn termina con HP:205
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:205/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:830/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.River Fly
+4.Horse Fly
+5.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Heal More
+2: Healing Touch
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:830/1016 Shields:2
+2: Winter Wanderweed - HP:2175/2314 Shields:3
+3: River Fly - HP:338/1010 Shields:2
+4: Horse Fly - HP:2677/2857 Shields:2
+5: Dark Guardian - HP:1470/1470 Shields:3
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Meep recibe 62 de daño de tipo Axe
+Meep termina con HP:768
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:205/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:768/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.River Fly
+3.Horse Fly
+4.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:79
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:79/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:768/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.River Fly
+2.Horse Fly
+3.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+River Fly usa Attack
+Alfyn recibe 60 de daño físico
+Alfyn termina con HP:19
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:19/5336 SP:383/383 BP:5
+Equipo del enemigo
+A-Meep - HP:768/1016 Shields:2
+B-Winter Wanderweed - HP:2175/2314 Shields:3
+C-River Fly - HP:338/1010 Shields:2
+D-Horse Fly - HP:2677/2857 Shields:2
+E-Dark Guardian - HP:1470/1470 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+2.Dark Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Alfyn
+3.Meep
+4.River Fly
+5.Horse Fly
+6.Dark Guardian
+----------------------------------------
+Horse Fly usa Attack
+Alfyn recibe 148 de daño físico
+Alfyn termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

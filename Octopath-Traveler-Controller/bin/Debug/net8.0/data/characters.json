@@ -1,0 +1,236 @@
+[
+  {
+    "Name": "Olberic",
+    "Stats": {
+      "HP": 5781,
+      "SP": 291,
+      "PhysAtk": 434,
+      "PhysDef": 378,
+      "ElemAtk": 237,
+      "ElemDef": 271,
+      "Speed": 235
+    },
+    "Weapons": ["Sword", "Spear"]
+  },
+  {
+    "Name": "Cyrus",
+    "Stats": {
+      "HP": 3557,
+      "SP": 582,
+      "PhysAtk": 236,
+      "PhysDef": 281,
+      "ElemAtk": 454,
+      "ElemDef": 330,
+      "Speed": 253
+    },
+    "Weapons": ["Stave"]
+  },
+  {
+    "Name": "Tressa",
+    "Stats": {
+      "HP": 4891,
+      "SP": 357,
+      "PhysAtk": 384,
+      "PhysDef": 333,
+      "ElemAtk": 360,
+      "ElemDef": 285,
+      "Speed": 240
+    },
+    "Weapons": ["Spear", "Bow"]
+  },
+  {
+    "Name": "Ophilia",
+    "Stats": {
+      "HP": 4002,
+      "SP": 470,
+      "PhysAtk": 251,
+      "PhysDef": 292,
+      "ElemAtk": 380,
+      "ElemDef": 399,
+      "Speed": 291
+    },
+    "Weapons": ["Stave"]
+  },
+  {
+    "Name": "Primrose",
+    "Stats": {
+      "HP": 4002,
+      "SP": 504,
+      "PhysAtk": 240,
+      "PhysDef": 230,
+      "ElemAtk": 442,
+      "ElemDef": 332,
+      "Speed": 392
+    },
+    "Weapons": ["Dagger"]
+  },
+  {
+    "Name": "Alfyn",
+    "Stats": {
+      "HP": 5336,
+      "SP": 383,
+      "PhysAtk": 380,
+      "PhysDef": 392,
+      "ElemAtk": 286,
+      "ElemDef": 238,
+      "Speed": 256
+    },
+    "Weapons": ["Axe"]
+  },
+  {
+    "Name": "Therion",
+    "Stats": {
+      "HP": 4447,
+      "SP": 332,
+      "PhysAtk": 378,
+      "PhysDef": 255,
+      "ElemAtk": 301,
+      "ElemDef": 228,
+      "Speed": 445
+    },
+    "Weapons": ["Dagger", "Sword"]
+  },
+  {
+    "Name": "H'aanit",
+    "Stats": {
+      "HP": 4447,
+      "SP": 369,
+      "PhysAtk": 388,
+      "PhysDef": 231,
+      "ElemAtk": 327,
+      "ElemDef": 255,
+      "Speed": 350
+    },
+    "Weapons": ["Axe","Bow"]
+  },
+  {
+    "Name": "Z'aanta",
+    "Stats": {
+      "HP": 3222,
+      "SP": 371,
+      "PhysAtk": 397,
+      "PhysDef": 238,
+      "ElemAtk": 290,
+      "ElemDef": 233,
+      "Speed": 315
+    },
+    "Weapons": ["Axe","Bow"]
+  },
+  {
+    "Name": "Heatcore",
+    "Stats": {
+      "HP": 2822,
+      "SP": 342,
+      "PhysAtk": 348,
+      "PhysDef": 280,
+      "ElemAtk": 286,
+      "ElemDef": 253,
+      "Speed": 420
+    },
+    "Weapons": ["Axe","Bow"]
+  },
+  {
+    "Name": "Ochette",
+    "Stats": {
+      "HP": 4447,
+      "SP": 369,
+      "PhysAtk": 426,
+      "PhysDef": 211,
+      "ElemAtk": 327,
+      "ElemDef": 235,
+      "Speed": 383
+    },
+    "Weapons": ["Axe","Bow"]
+  },
+  {
+    "Name": "Castti",
+    "Stats": {
+      "HP": 5336,
+      "SP": 426,
+      "PhysAtk": 380,
+      "PhysDef": 452,
+      "ElemAtk": 283,
+      "ElemDef": 328,
+      "Speed": 286
+    },
+    "Weapons": ["Axe"]
+  },
+  {
+    "Name": "Throné",
+    "Stats": {
+      "HP": 4447,
+      "SP": 332,
+      "PhysAtk": 398,
+      "PhysDef": 235,
+      "ElemAtk": 301,
+      "ElemDef": 228,
+      "Speed": 462
+    },
+    "Weapons": ["Dagger", "Sword"]
+  },
+  {
+    "Name": "Osvald",
+    "Stats": {
+      "HP": 3557,
+      "SP": 541,
+      "PhysAtk": 286,
+      "PhysDef": 321,
+      "ElemAtk": 454,
+      "ElemDef": 330,
+      "Speed": 218
+    },
+    "Weapons": ["Stave"]
+  },
+  {
+    "Name": "Partitio",
+    "Stats": {
+      "HP": 4891,
+      "SP": 314,
+      "PhysAtk": 414,
+      "PhysDef": 333,
+      "ElemAtk": 312,
+      "ElemDef": 285,
+      "Speed": 228
+    },
+    "Weapons": ["Spear", "Bow"]
+  },
+  {
+    "Name": "Agnea",
+    "Stats": {
+      "HP": 4002,
+      "SP": 504,
+      "PhysAtk": 235,
+      "PhysDef": 230,
+      "ElemAtk": 451,
+      "ElemDef": 332,
+      "Speed": 408
+    },
+    "Weapons": ["Dagger"]
+  },
+  {
+    "Name": "Temenos",
+    "Stats": {
+      "HP": 4002,
+      "SP": 432,
+      "PhysAtk": 284,
+      "PhysDef": 302,
+      "ElemAtk": 378,
+      "ElemDef": 399,
+      "Speed": 281
+    },
+    "Weapons": ["Stave"]
+  },
+  {
+    "Name": "Hikari",
+    "Stats": {
+      "HP": 5781,
+      "SP": 317,
+      "PhysAtk": 424,
+      "PhysDef": 378,
+      "ElemAtk": 257,
+      "ElemDef": 271,
+      "Speed": 283
+    },
+    "Weapons": ["Sword", "Spear"]
+  }
+]

@@ -1,0 +1,259 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 7
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:1
+Equipo del enemigo
+A-High Wolf - HP:1458/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+High Wolf usa Attack
+Olberic recibe 0 de daño físico
+Olberic termina con HP:5781
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:1
+Equipo del enemigo
+A-High Wolf - HP:1458/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turno de Olberic
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Sword
+2: Spear
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Olberic
+1: High Wolf - HP:1458/1458 Shields:2
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Olberic ataca
+High Wolf recibe 368 de daño de tipo Sword
+High Wolf termina con HP:1090
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:2
+Equipo del enemigo
+A-High Wolf - HP:1090/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+High Wolf usa Attack
+Olberic recibe 0 de daño físico
+Olberic termina con HP:5781
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:2
+Equipo del enemigo
+A-High Wolf - HP:1090/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turno de Olberic
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Olberic
+1: Level Slash
+2: Abide
+3: Spearhead
+4: Incite
+5: Cross Strike
+6: Thousand Spears
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Olberic
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Sword
+2: Spear
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Olberic
+1: High Wolf - HP:1090/1458 Shields:2
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Olberic ataca
+High Wolf recibe 368 de daño de tipo Sword
+High Wolf termina con HP:722
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:3
+Equipo del enemigo
+A-High Wolf - HP:722/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+High Wolf usa Attack
+Olberic recibe 0 de daño físico
+Olberic termina con HP:5781
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:3
+Equipo del enemigo
+A-High Wolf - HP:722/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turno de Olberic
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Sword
+2: Spear
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Olberic
+1: High Wolf - HP:722/1458 Shields:2
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Olberic ataca
+High Wolf recibe 368 de daño de tipo Spear
+High Wolf termina con HP:354
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:4
+Equipo del enemigo
+A-High Wolf - HP:354/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+High Wolf usa Attack
+Olberic recibe 0 de daño físico
+Olberic termina con HP:5781
+----------------------------------------
+Equipo del jugador
+A-Olberic - HP:5781/5781 SP:291/291 BP:4
+Equipo del enemigo
+A-High Wolf - HP:354/1458 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Olberic
+----------------------------------------
+Turnos de la siguiente ronda
+1.High Wolf
+2.Olberic
+----------------------------------------
+Turno de Olberic
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Sword
+2: Spear
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Olberic
+1: High Wolf - HP:354/1458 Shields:2
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Olberic ataca
+High Wolf recibe 368 de daño de tipo Spear
+High Wolf termina con HP:0
+----------------------------------------
+Gana equipo del jugador
