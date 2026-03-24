@@ -1,0 +1,6 @@
+Player Team
+Partitio (Donate BP, Shooting Stars, Armor Corrosive, Amputation, Spearhead)
+Enemy Team
+Light Guardian
+Dark Guardian
+River Fly

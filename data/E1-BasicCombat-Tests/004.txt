@@ -1,0 +1,1731 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 3
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:4447/4447 SP:369/369 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Shaggy Meep - HP:1036/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ochette
+1: Cancelar
+INPUT: 1
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Shaggy Meep - HP:1036/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Shaggy Meep recibe 323 de daño de tipo Axe
+Shaggy Meep termina con HP:713
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:4447/4447 SP:369/369 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Shaggy Meep - HP:713/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Heal Wounds
+2: Holy Light
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Shaggy Meep - HP:713/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2314
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:4447/4447 SP:369/369 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Shaggy Meep - HP:713/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:4175
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:4175/4447 SP:369/369 BP:1
+B-Ophilia - HP:4002/4002 SP:470/470 BP:1
+Equipo del enemigo
+A-Shaggy Meep - HP:713/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Shaggy Meep usa Attack
+Ochette recibe 228 de daño físico
+Ochette termina con HP:3947
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3947/4447 SP:369/369 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Shaggy Meep - HP:713/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Shaggy Meep - HP:713/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Shaggy Meep recibe 323 de daño de tipo Axe
+Shaggy Meep termina con HP:390
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3947/4447 SP:369/369 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Shaggy Meep - HP:390/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Shaggy Meep - HP:390/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2314
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3947/4447 SP:369/369 BP:2
+B-Ophilia - HP:4002/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Shaggy Meep - HP:390/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3811
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3947/4447 SP:369/369 BP:2
+B-Ophilia - HP:3811/4002 SP:470/470 BP:2
+Equipo del enemigo
+A-Shaggy Meep - HP:390/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Shaggy Meep usa Attack
+Ochette recibe 228 de daño físico
+Ochette termina con HP:3719
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3719/4447 SP:369/369 BP:3
+B-Ophilia - HP:3811/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Shaggy Meep - HP:390/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Shaggy Meep - HP:390/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Shaggy Meep recibe 323 de daño de tipo Axe
+Shaggy Meep termina con HP:67
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3719/4447 SP:369/369 BP:3
+B-Ophilia - HP:3811/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Shaggy Meep - HP:67/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Heal Wounds
+2: Holy Light
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Shaggy Meep - HP:67/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2314
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3719/4447 SP:369/369 BP:3
+B-Ophilia - HP:3811/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Shaggy Meep - HP:67/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3620
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3719/4447 SP:369/369 BP:3
+B-Ophilia - HP:3620/4002 SP:470/470 BP:3
+Equipo del enemigo
+A-Shaggy Meep - HP:67/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Shaggy Meep usa Attack
+Ochette recibe 228 de daño físico
+Ochette termina con HP:3491
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:4
+B-Ophilia - HP:3620/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Shaggy Meep - HP:67/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+4.Shaggy Meep
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Shaggy Meep - HP:67/1036 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Shaggy Meep recibe 323 de daño de tipo Axe
+Shaggy Meep termina con HP:0
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:4
+B-Ophilia - HP:3620/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:2314/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2314
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:4
+B-Ophilia - HP:3620/4002 SP:470/470 BP:4
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3429
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:2314/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:2116
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2116/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:2116/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2116
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3491/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2116/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:3219
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:2116/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:2116/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:1918
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1918/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:1918/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1918
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3429/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1918/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3238
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3238/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1918/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:1918/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:1720
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3238/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1720/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:1720/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1720
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3238/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1720/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3047
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1720/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:1720/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:1522
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1522/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:1522/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1522
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:3219/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1522/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:2947
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1522/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:1522/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:1324
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1324/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:1324/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1324
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:3047/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1324/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2856
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1324/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:1324/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:1126
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1126/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:1126/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:1126
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2947/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1126/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:2675
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:1126/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:1126/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:928
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:928/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:928/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:928
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2856/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:928/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2665
+----------------------------------------
+INICIA RONDA 12
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:928/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:928/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:730
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:730/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:730/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:730
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2675/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:730/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:2403
+----------------------------------------
+INICIA RONDA 13
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:730/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:730/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:532
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:532/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:532/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:532
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2665/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:532/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2474
+----------------------------------------
+INICIA RONDA 14
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2474/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:532/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:532/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Axe
+Winter Wanderweed termina con HP:334
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2474/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:334/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:334/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:334
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2474/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:334/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:2283
+----------------------------------------
+INICIA RONDA 15
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2283/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:334/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:334/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:136
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2283/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:136/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Winter Wanderweed - HP:136/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:136
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2403/4447 SP:369/369 BP:5
+B-Ophilia - HP:2283/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:136/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Winter Wanderweed usa Attack
+Ochette recibe 272 de daño físico
+Ochette termina con HP:2131
+----------------------------------------
+INICIA RONDA 16
+----------------------------------------
+Equipo del jugador
+A-Ochette - HP:2131/4447 SP:369/369 BP:5
+B-Ophilia - HP:2283/4002 SP:470/470 BP:5
+Equipo del enemigo
+A-Shaggy Meep - HP:0/1036 Shields:3
+B-Winter Wanderweed - HP:136/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ochette
+2.Ophilia
+3.Winter Wanderweed
+----------------------------------------
+Turno de Ochette
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Ochette
+1: Winter Wanderweed - HP:136/2314 Shields:3
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ochette ataca
+Winter Wanderweed recibe 198 de daño de tipo Bow
+Winter Wanderweed termina con HP:0
+----------------------------------------
+Gana equipo del jugador

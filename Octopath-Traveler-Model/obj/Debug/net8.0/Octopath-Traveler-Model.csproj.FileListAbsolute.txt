@@ -9,3 +9,15 @@
 /home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/refint/Octopath-Traveler-Model.dll
 /home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.pdb
 /home/cahinostroza/Escritorio/iic2113/2026-1/Octopath-Traveler/Octopath-Traveler-Model/obj/Debug/net8.0/ref/Octopath-Traveler-Model.dll
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.deps.json
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.dll
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/bin/Debug/net8.0/Octopath-Traveler-Model.pdb
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.GeneratedMSBuildEditorConfig.editorconfig
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.AssemblyInfoInputs.cache
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.AssemblyInfo.cs
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.csproj.CoreCompileInputs.cache
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.sourcelink.json
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.dll
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/refint/Octopath-Traveler-Model.dll
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/Octopath-Traveler-Model.pdb
+/Users/eberosg/Documents/u_2026/Detallado_2/Octopath/Octopath-Traveler-Model/obj/Debug/net8.0/ref/Octopath-Traveler-Model.dll

@@ -1,0 +1,290 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 9
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5336/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:5033
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:1016/1016 Shields:2
+2: Red Fox - HP:1451/1451 Shields:3
+3: Snow Fox - HP:2600/2600 Shields:1
+4: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Meep recibe 62 de daño de tipo Axe
+Meep termina con HP:954
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:4907
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4907/5336 SP:383/383 BP:1
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Red Fox usa Attack
+Alfyn recibe 51 de daño físico
+Alfyn termina con HP:4856
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4856/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:4553
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4553/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Meep - HP:954/1016 Shields:2
+2: Red Fox - HP:1451/1451 Shields:3
+3: Snow Fox - HP:2600/2600 Shields:1
+4: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2563
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4553/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2563/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Meep usa Attack
+Alfyn recibe 126 de daño físico
+Alfyn termina con HP:4427
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4427/5336 SP:383/383 BP:2
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2563/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Red Fox usa Attack
+Alfyn recibe 51 de daño físico
+Alfyn termina con HP:4376
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4376/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2563/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:4073
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4073/5336 SP:383/383 BP:3
+Equipo del enemigo
+A-Meep - HP:954/1016 Shields:2
+B-Red Fox - HP:1451/1451 Shields:3
+C-Snow Fox - HP:2563/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Meep
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Alfyn
+3.Meep
+4.Red Fox
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 4
+----------------------------------------
+El equipo de viajeros ha huido!
+----------------------------------------
+Gana equipo del enemigo

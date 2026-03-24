@@ -1,0 +1,177 @@
+[
+  {
+    "Name": "Inner Strength",
+    "Description": "Aumenta en 50 el SP máximo de la unidad que porte la habilidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Elemental Augmentation",
+    "Description": "Aumenta en 50 el stat ElemAtk de la unidad que porte la habilidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Summon Strength",
+    "Description": "Aumenta en 50 el stat PhysAtk de la unidad que porte la habilidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Hale and Hearty",
+    "Description": "Aumenta en 500 el HP máximo de la unidad que porte la habilidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Fleefoot",
+    "Description": "Aumenta en 50 el stat Speed de la unidad que porte la habilidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Patience",
+    "Description": "Si al final de la ronda, el stat HP y el stat SP de la unidad son par, entonces la unidad obtiene un turno adicional antes de finalizar la ronda.",
+    "Target": "User"
+  },
+  {
+    "Name": "Vim and Vigor",
+    "Description": "Al finalizar cada ronda, el portador recupera una cantidad de HP equivalente al 10 % de su HP máximo",
+    "Target": "User"
+  },
+  {
+    "Name": "Second Wind",
+    "Description": "Al finalizar cada ronda, el portador recupera una cantidad de SP equivalente al 5 % de su SP máximo",
+    "Target": "User"
+  },
+  {
+    "Name": "Persistence",
+    "Description": "Aumenta en 1 turno la duración de los buffs recibidos por la unidad",
+    "Target": "User"
+  },
+  {
+    "Name": "Saving Grace",
+    "Description": "Permite al portador recuperar HP por encima de su HP máximo.",
+    "Target": "User"
+  },
+  {
+    "Name": "Hang Tough",
+    "Description": "Si el usuario tiene más del 10% de su HP máximo, cualquier ataque que reciba lo dejará con al menos 1HP.",
+    "Target": "User"
+  },
+  {
+    "Name": "SP Saver",
+    "Description": "Reduce a la mitad el consumo de SP del portador",
+    "Target": "User"
+  },
+  {
+    "Name": "The Show Goes On",
+    "Description": "Los buffs que la unidad otorgue a sus aliados, tendrán 1 turno extra de duración",
+    "Target": "User"
+  },
+  {
+    "Name": "Encore",
+    "Description": "La primera vez que la unidad muere en combate, vuelve con el 25% de su HP máximo",
+    "Target": "User"
+  },
+  {
+    "Name": "Inspiration",
+    "Description": "Con cada ataque básico, recupera SP igual al 1% del daño realizado",
+    "Target": "User"
+  },
+  {
+    "Name": "Heightened Healing",
+    "Description": "Aumenta en un 30% las restauración de HP recibidas.",
+    "Target": "User"
+  },
+  {
+    "Name": "Second Serving",
+    "Description": "Al realizar un ataque básico, si el HP del usuario es par, entonces realiza un ataque adicional.",
+    "Target": "User"
+  },
+  {
+    "Name": "Boost Start",
+    "Description": "El portador inicia la batalla con 1BP adicional.",
+    "Target": "User"
+  },
+  {
+    "Name": "Divine Aura",
+    "Description": "Si al recibir un ataque, el HP del portador y el HP del atacante son par, entonces anula el daño recibido",
+    "Target": "User"
+  },
+  {
+    "Name": "Stat Swap",
+    "Description": "Intercambia los stats PhysAtk y ElemAtk entre si",
+    "Target": "User"
+  },
+  {
+    "Name": "Elemental Edge",
+    "Description": "El portador tendrá Increased Elemental Attack y Increased Elemental Defense durante toda la partida.",
+    "Target": "User"
+  },
+  {
+    "Name": "Physical Prowess",
+    "Description": "El portador tendrá Increased Physical Attack y Increased Physical Defense durante toda la partida.",
+    "Target": "User"
+  },
+  {
+    "Name": "Intimidation",
+    "Description": "Al inicio del combate, si el viajero que se encuentra en la primera posición del tablero posee HP y SP pares, entonces todos los enemigos iniciaran con Decreased Physical Defense y Decreased Elemental Defense por 2 rondas (Si más de una unidad posee la habilidad, el efecto no es acumulable.)",
+    "Target": "Enemies"
+  },
+  {
+    "Name": "Heighten Senses",
+    "Description": "Si al inicio de la ronda, el stat HP y SP de la unidad son impares, entonces la unidad se pondrá primera en la cola de turnos de la ronda.",
+    "Target": "User"
+  },
+  {
+    "Name": "Endure",
+    "Description": "Si el usuario posee algún Ailment, tendrá Increased Physical Defense y Increased Elemental Defense.",
+    "Target": "User"
+  },
+  {
+    "Name": "Dauntless",
+    "Description": "Si el usuario posee algún Ailment, tendrá Increased Physical Attack y Increased Elemental Attack",
+    "Target": "User"
+  },
+  {
+    "Name": "Resist Ailments",
+    "Description": "El usuario es inmune a Ailments",
+    "Target": "User"
+  },
+  {
+    "Name": "Insult to Injury",
+    "Description": "Los Ailments que aplique el usuario duran un ronda más.",
+    "Target": "User"
+  },
+  {
+    "Name": "Fortitude",
+    "Description": "Si el HP de la unidad se encuentra por debajo del 30% del HP máximo, entonces duplica su PhysAtk",
+    "Target": "User"
+  },
+  {
+    "Name": "Stronger Strikes",
+    "Description": "Al atacar con una debilidad a una bestia, esta recibirá un 70% de daño adicional, en lugar de 50%.",
+    "Target": "Enemy"
+  },
+  {
+    "Name": "Augmented Elements",
+    "Description": "Los ataques elementales del usuario infligen un 20% de daño adicional.",
+    "Target": "User"
+  },
+  {
+    "Name": "Eye for an Eye",
+    "Description": "Si luego de recibir un ataque físico, el HP del usuario es impar, entonces realiza un contrataque al atacante, realizando un ataque básico con su primer arma",
+    "Target": "Enemy"
+  },
+  {
+    "Name": "Cover",
+    "Description": "El usuario recibe los ataque con target Single que se realicen sobre aliados con 30% de vida o menos",
+    "Target": "Ally"
+  },
+  {
+    "Name": "BP Eater",
+    "Description": "Las habilidades del usuario utilizadas con boost realizan un 50% de daño adicional",
+    "Target": "User"
+  },
+  {
+    "Name": "Incidental Attack",
+    "Description": "Al usar habilidades que no realicen daño sobre un enemigo, si el HP del usuario es impar, realiza un ataque básico contra el objetivo con su primer arma",
+    "Target": "User"
+  }
+]

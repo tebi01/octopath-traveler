@@ -1,8 +1,11 @@
 namespace Octopath_Traveler_View;
 
-public class TeamsInfo
+public sealed class TeamsInfo
 {
-    public string[] TravelerNames;
-    public string[] BeastNames;
-    public bool Invalid;
+    public string TeamFilePath { get; }
+
+    public TeamsInfo(string teamFilePath)
+    {
+        TeamFilePath = teamFilePath;
+    }
 }

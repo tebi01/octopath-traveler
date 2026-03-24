@@ -1,0 +1,1673 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 6
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:4447/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:1197/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:4447
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:4447/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:1197/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1458/1458 Shields:2
+4: Frost Bear - HP:1197/1197 Shields:3
+5: Withered Wanderweed - HP:2314/2314 Shields:1
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Frost Bear recibe 354 de daño de tipo Dagger
+Frost Bear termina con HP:843
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:4447/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+4.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:4311
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:4311/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:4028
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:4028/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:3868
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3868/4447 SP:332/332 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Throné recibe 61 de daño físico
+Throné termina con HP:3807
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3807/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:3807
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3807/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2314/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1458/1458 Shields:2
+4: Frost Bear - HP:843/1197 Shields:3
+5: Withered Wanderweed - HP:2314/2314 Shields:1
+6: Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Withered Wanderweed recibe 235 de daño de tipo Dagger
+Withered Wanderweed termina con HP:2079
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3807/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+4.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:3671
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3671/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:3388
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3388/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:3228
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3228/4447 SP:332/332 BP:2
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Throné recibe 61 de daño físico
+Throné termina con HP:3167
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3167/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:3167
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3167/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:843/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1458/1458 Shields:2
+4: Frost Bear - HP:843/1197 Shields:3
+5: Withered Wanderweed - HP:2079/2314 Shields:1
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Frost Bear recibe 354 de daño de tipo Sword
+Frost Bear termina con HP:489
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3167/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+4.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:3031
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:3031/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:2748
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2748/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:2588
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2588/4447 SP:332/332 BP:3
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Throné recibe 61 de daño físico
+Throné termina con HP:2527
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2527/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:2527
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2527/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:489/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1458/1458 Shields:2
+4: Frost Bear - HP:489/1197 Shields:3
+5: Withered Wanderweed - HP:2079/2314 Shields:1
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Frost Bear recibe 354 de daño de tipo Sword
+Frost Bear termina con HP:135
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2527/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+4.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:2391
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2391/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:2108
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:2108/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:1948
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1948/4447 SP:332/332 BP:4
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Throné recibe 61 de daño físico
+Throné termina con HP:1887
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1887/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:1887
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1887/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1458/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1458/1458 Shields:2
+4: Frost Bear - HP:135/1197 Shields:3
+5: Withered Wanderweed - HP:2079/2314 Shields:1
+6: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+High Wolf recibe 321 de daño de tipo Sword
+High Wolf termina con HP:1137
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1887/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+4.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:1751
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1751/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:1468
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1468/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:1308
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1308/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Frost Bear usa Attack
+Throné recibe 61 de daño físico
+Throné termina con HP:1247
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1247/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:1247
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1247/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:135/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+5.Frost Bear
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+6.Frost Bear
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1137/1458 Shields:2
+4: Frost Bear - HP:135/1197 Shields:3
+5: Withered Wanderweed - HP:2079/2314 Shields:1
+6: Cancelar
+INPUT: 4
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Frost Bear recibe 354 de daño de tipo Dagger
+Frost Bear termina con HP:0
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1247/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:1111
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:1111/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:828
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:828/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:668
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:668/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:668
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:668/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:1016/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1137/1458 Shields:2
+4: Withered Wanderweed - HP:2079/2314 Shields:1
+5: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+Meep recibe 85 de daño de tipo Sword
+Meep termina con HP:931
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:668/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:532
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:532/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Meep usa Attack
+Throné recibe 283 de daño físico
+Throné termina con HP:249
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:249/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Withered Wanderweed usa Attack
+Throné recibe 160 de daño físico
+Throné termina con HP:89
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:89/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Cait usa Attack
+Throné recibe 0 de daño físico
+Throné termina con HP:89
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:89/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:1137/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Throné
+2.High Wolf
+3.Meep
+4.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:931/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1137/1458 Shields:2
+4: Withered Wanderweed - HP:2079/2314 Shields:1
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Throné
+1: Glacies Claudere
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Throné
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Dagger
+2: Sword
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Throné
+1: Meep - HP:931/1016 Shields:2
+2: Cait - HP:500/500 Shields:2
+3: High Wolf - HP:1137/1458 Shields:2
+4: Withered Wanderweed - HP:2079/2314 Shields:1
+5: Cancelar
+INPUT: 3
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Throné ataca
+High Wolf recibe 321 de daño de tipo Sword
+High Wolf termina con HP:816
+----------------------------------------
+Equipo del jugador
+A-Throné - HP:89/4447 SP:332/332 BP:5
+Equipo del enemigo
+A-Meep - HP:931/1016 Shields:2
+B-Cait - HP:500/500 Shields:2
+C-High Wolf - HP:816/1458 Shields:2
+D-Frost Bear - HP:0/1197 Shields:3
+E-Withered Wanderweed - HP:2079/2314 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.High Wolf
+2.Meep
+3.Withered Wanderweed
+----------------------------------------
+Turnos de la siguiente ronda
+1.Cait
+2.Throné
+3.High Wolf
+4.Meep
+5.Withered Wanderweed
+----------------------------------------
+High Wolf usa Attack
+Throné recibe 136 de daño físico
+Throné termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

@@ -1,0 +1,7 @@
+Player Team
+Therion (Sweeping Cleave, HP Thief, Steal SP, Rest, Cross Strike, Ember)
+Osvald (Cleaving Blow, Abide, Mole Dance, Reflective Veil, Sidestep)
+Enemy Team
+Shaggy Meep
+Mossy Meep
+Cait

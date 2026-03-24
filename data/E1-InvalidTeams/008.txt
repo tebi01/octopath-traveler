@@ -1,0 +1,10 @@
+Player Team
+Tressa
+Cyrus
+Enemy Team
+Guardian
+Monarch
+Demon Goat
+River Fly
+Behemoth
+Mossy Meep

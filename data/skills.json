@@ -1,0 +1,1001 @@
+[
+  {
+    "Name": "Heal Wounds",
+    "SP": 6,
+    "Type": "Light",
+    "Description": "Restaura HP a todos las unidades del grupo.",
+    "Target": "Party",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en 0.5 por cada BP"
+  },
+  {
+    "Name": "Holy Light",
+    "SP": 6,
+    "Type": "Light",
+    "Description": "Inflige daño de tipo Light a un enemigo",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Sheltering Veil",
+    "SP": 6,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Elemental Defense durante 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Luminescence",
+    "SP": 9,
+    "Type": "Light",
+    "Description": "Inflige daño de tipo Light a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Heal More",
+    "SP": 25,
+    "Type": "",
+    "Description": "Restaura HP a todos las unidades del grupo.",
+    "Target": "Party",
+    "Modifier": 2,
+    "Boost": "Aumenta el modificador en un 30% por cada BP"
+  },
+  {
+    "Name": "Reflective Veil",
+    "SP": 22,
+    "Type": "",
+    "Description": "Otorga a un aliado la capacidad de reflejar un ataque elemental. El aliado no recibe daño, si no que lo recibe el enemigo que lo lanzó.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta un ataque elemental reflejado por cada BP"
+  },
+  {
+    "Name": "Revive",
+    "SP": 50,
+    "Type": "",
+    "Description": "Revive a todos los aliados caídos con 1 HP",
+    "Target": "Party",
+    "Modifier": 1.4,
+    "Boost": "Además de revivir, restaura HP a todos los aliados, efectuando una curación con un modificador de 1.4 por cada BP"
+  },
+  {
+    "Name": "Aelfric's Auspices",
+    "SP": 30,
+    "Type": "",
+    "Description": "Selecciona a un aliado. Durante 3 rondas las habilidades de ese aliado se activarán 2 veces (no afecta a otras Divine Skills).",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Fireball",
+    "SP": 8,
+    "Type": "Fire",
+    "Description": "Inflige daño de tipo Fire a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Icewind",
+    "SP": 8,
+    "Type": "Ice",
+    "Description": "Inflige daño de tipo Ice a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Lightning Bolt",
+    "SP": 8,
+    "Type": "Lightning",
+    "Description": "Inflige daño de tipo Lightning a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Fire Storm",
+    "SP": 22,
+    "Type": "Fire",
+    "Description": "Inflige daño de tipo Fire a todos los enemigos 2 veces.",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Blizzard",
+    "SP": 22,
+    "Type": "Ice",
+    "Description": "Inflige daño de tipo Ice a todos los enemigos 2 veces.",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Lightning Blast",
+    "SP": 22,
+    "Type": "Lightning",
+    "Description": "Inflige daño de tipo Lightning a todos los enemigos 2 veces.",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Alephan's Enlightenment",
+    "SP": 30,
+    "Type": "",
+    "Description": "Selecciona a un aliado. Durante 3 rondas sus habilidades con target 'Enemies' tendrán target 'Single' realizando el doble de daño. (no afecta a otras Divine Skills).",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Tradewinds",
+    "SP": 7,
+    "Type": "Wind",
+    "Description": "Inflige daño de tipo Wind a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Rest",
+    "SP": 0,
+    "Type": "",
+    "Description": "Restaura HP y 25 SP a la unidad",
+    "Target": "Self",
+    "Modifier": 1,
+    "Boost": "Aumenta el modificador en un 30% y restaura 25 SP adicionales por cada BP"
+  },
+  {
+    "Name": "Trade Tempest",
+    "SP": 10,
+    "Type": "Wind",
+    "Description": "Inflige daño de tipo Wind a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Donate BP",
+    "SP": 3,
+    "Type": "",
+    "Description": "Escoge un aliado. La unidad seleccionada recibe 1 BP.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "La unidad seleccionada recibe 1 BP adicional por cada BP gastado"
+  },
+  {
+    "Name": "Sidestep",
+    "SP": 10,
+    "Type": "",
+    "Description": "Esquiva el siguiente ataque físico dirigido a la unidad.",
+    "Target": "Self",
+    "Modifier": 0,
+    "Boost": "Esquiva un ataque físico adicional por cada BP"
+  },
+  {
+    "Name": "Level Slash",
+    "SP": 9,
+    "Type": "Sword",
+    "Description": "Inflige daño de tipo Sword a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Abide",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Physical Attack durante 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Spearhead",
+    "SP": 6,
+    "Type": "Spear",
+    "Description": "Inflige daño de tipo Spear a un enemigo y posiciona al usuario primero en la cola de turnos de la siguiente ronda.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Incite",
+    "SP": 4,
+    "Type": "",
+    "Description": "Los ataques con target 'Single' de un enemigo serán dirigidos a la unidad durante 3 rondas",
+    "Target": "Self",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Cross Strike",
+    "SP": 12,
+    "Type": "Sword",
+    "Description": "Inflige daño de tipo Sword a un enemigo",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Stout Wall",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga al usuario Increased Physical Defense durante 3 rondas.",
+    "Target": "Self",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Thousand Spears",
+    "SP": 20,
+    "Type": "Spear",
+    "Description": "Inflige daño de tipo Spear 7 veces al enemigo con menos Phys Def.",
+    "Target": "Single",
+    "Modifier": 0.8,
+    "Boost": "Aumenta el modificador en un 50% por cada BP"
+  },
+  {
+    "Name": "Brand's Thunder",
+    "SP": 30,
+    "Type": "Sword",
+    "Description": "Inflige un gran daño de tipo Sword a un enemigo.",
+    "Target": "Single",
+    "Modifier": 7,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Lion Dance",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Physical Attack durante 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Moonlight Waltz",
+    "SP": 7,
+    "Type": "Dark",
+    "Description": "Inflige daño de tipo Dark a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Peacock Strut",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Elemental Attack por 2 rondas",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Mole Dance",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Physical Defense por 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Night Ode",
+    "SP": 10,
+    "Type": "Dark",
+    "Description": "Inflige daño de tipo Dark a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Panther Dance",
+    "SP": 4,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Increased Speed por 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Sealticge's Seduction",
+    "SP": 30,
+    "Type": "",
+    "Description": "Selecciona a un aliado. Durante 3 rondas las habilidades de ese aliado con target 'Single' tendrán target 'Enemies' y las habilidades con target 'Allies' tendrán target 'Party'. (no afecta a otras Divine Skills).",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "First Aid",
+    "SP": 4,
+    "Type": "",
+    "Description": "Restaura HP a una unidad.",
+    "Target": "Ally",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 40% por cada BP"
+  },
+  {
+    "Name": "Icicle",
+    "SP": 7,
+    "Type": "Ice",
+    "Description": "Inflige daño de tipo Ice a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Rehabilitate",
+    "SP": 10,
+    "Type": "",
+    "Description": "Cura todos los status Ailments de una unidad, además la convierta inmune a ellos durante 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Amputation",
+    "SP": 8,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipo Axe a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Empoison",
+    "SP": 6,
+    "Type": "",
+    "Description": "Aplica 2 Poison a un enemigo.",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Vivify",
+    "SP": 16,
+    "Type": "",
+    "Description": "Revive a un aliado caído y le cura una cantidad de HP.",
+    "Target": "Ally",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 50% por cada BP"
+  },
+  {
+    "Name": "Last Stand",
+    "SP": 16,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipo Axe a todos los enemigos. Realiza 3% más de daño por cada 1% de HP que le falte a la unidad que usa la habilidad.",
+    "Target": "Enemies",
+    "Modifier": 1.4,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Wildfire",
+    "SP": 7,
+    "Type": "Fire",
+    "Description": "Inflige daño de tipo Fire a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "HP Thief",
+    "SP": 6,
+    "Type": "Dagger",
+    "Description": "Inflige de tipo Dagger a un enemigo 2 veces y restaura HP igual a la mitad del daño infligido.",
+    "Target": "Single",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "Shackle Foe",
+    "SP": 4,
+    "Type": "",
+    "Description": "Provoca Decreased Physical Attack a un enemigo por 2 rondas",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Armor Corrosive",
+    "SP": 4,
+    "Type": "",
+    "Description": "Provoca Decreased Physical Defense a un enemigo durante 2 rondas.",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Steal SP",
+    "SP": 6,
+    "Type": "Dagger",
+    "Description": "Inflige daño de tipo Dagger a un enemigo 2 veces y restaura SP igual al 5% del daño infligido.",
+    "Target": "Single",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "Share SP",
+    "SP": 0,
+    "Type": "",
+    "Description": "Escoge un aliado. La unidad le transfiere la mitad de su SP actual.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "El aliado recibe un 30% de SP adicional."
+  },
+  {
+    "Name": "Aeber's Reckoning",
+    "SP": 30,
+    "Type": "Dagger",
+    "Description": "Inflige daño de tipo Dagger a todos los enemigos. Inflige 1% de daño adicional por cada 4 puntos de Speed que tenga la unidad.",
+    "Target": "Enemies",
+    "Modifier": 3.5,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Rain of Arrows",
+    "SP": 8,
+    "Type": "Bow",
+    "Description": "Inflige daño de tipo Bow 6 veces al enemigo con menor HP.",
+    "Target": "Single",
+    "Modifier": 0.8,
+    "Boost": "Aumenta el modificador en un 50% por cada BP"
+  },
+  {
+    "Name": "True Strike",
+    "SP": 10,
+    "Type": "Bow",
+    "Description": "Inflige daño de tipo Bow a un enemigo.",
+    "Target": "Single",
+    "Modifier": 2,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Thunderbird",
+    "SP": 7,
+    "Type": "Lightning",
+    "Description": "Inflige daño de tipo Lightning a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Leghold Trap",
+    "SP": 6,
+    "Type": "",
+    "Description": "Selecciona a un enemigo. Durante 2 rondas atacará al final de la ronda",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Mercy Strike",
+    "SP": 4,
+    "Type": "Bow",
+    "Description": "Inflige daño de tipo Bow a un enemigo. El enemigo no podrá bajar de 1 HP con este ataque.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Arrowstorm",
+    "SP": 24,
+    "Type": "Bow",
+    "Description": "Inflige daño de tipo Bow a todos los enemigos 6 veces.",
+    "Target": "Enemies",
+    "Modifier": 0.8,
+    "Boost": "Aumenta el modificador en un 40% por cada BP"
+  },
+  {
+    "Name": "Draefendi's Rage",
+    "SP": 30,
+    "Type": "Bow",
+    "Description": "Inflige un gran daño de tipo Bow a todos los enemigos.",
+    "Target": "Single",
+    "Modifier": 7,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Starsong",
+    "SP": 25,
+    "Type": "",
+    "Description": "Por 2 rondas, le otorga a un aliado Increased Physical Defense, Increased Elemental Defense y Increased Speed.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Moon's Reflection",
+    "SP": 30,
+    "Type": "",
+    "Description": "Otorga a un aliado 1 Contra Ataque.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta en 1 el Contra Ataque otorgado por cada BP"
+  },
+  {
+    "Name": "Steorra's Prophecy",
+    "SP": 50,
+    "Type": "Dark",
+    "Description": "Inflige daño de tipo Dark a todos los enemigos. Aumenta el modificador en un 20% por cada BP que tenga el equipo",
+    "Target": "Enemies",
+    "Modifier": 3,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Tenebrae Operire",
+    "SP": 36,
+    "Type": "Dark",
+    "Description": "Inflige daño de tipo Dark a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Lux Congerere",
+    "SP": 36,
+    "Type": "Light",
+    "Description": "Inflige daño de tipo Light a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Ventus Saltare",
+    "SP": 36,
+    "Type": "Wind",
+    "Description": "Inflige daño de tipo Wind a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Tonitrus Canere",
+    "SP": 36,
+    "Type": "Lightning",
+    "Description": "Inflige daño de tipo Lightning a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Glacies Claudere",
+    "SP": 36,
+    "Type": "Ice",
+    "Description": "Inflige daño de tipo Ice a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Ignis Ardere",
+    "SP": 36,
+    "Type": "Fire",
+    "Description": "Inflige daño de tipo Fire a todos los enemigos 3 veces",
+    "Target": "Enemies",
+    "Modifier": 1.6,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Phoenix Storm",
+    "SP": 35,
+    "Type": "Bow",
+    "Description": "Inflige daño de tipo Bow a un enemigo",
+    "Target": "Single",
+    "Modifier": 2.1,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Fox Spirit",
+    "SP": 35,
+    "Type": "Stave",
+    "Description": "Inflige daño de tipo Stave a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Yatagarasu",
+    "SP": 35,
+    "Type": "Dagger",
+    "Description": "Inflige daño de tipo Dagger a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Qilin's Horn",
+    "SP": 35,
+    "Type": "Spear",
+    "Description": "Inflige daño de tipo Spear a un enemigo",
+    "Target": "Single",
+    "Modifier": 2.1,
+    "Boost": "Aumenta el modificador en un 100% por cada BP"
+  },
+  {
+    "Name": "Tiger Rage",
+    "SP": 35,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipo Axe a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Guardian Liondog",
+    "SP": 35,
+    "Type": "Sword",
+    "Description": "Inflige 5 ataques de tipo Sword al enemigo con mayor Speed.",
+    "Target": "Single",
+    "Modifier": 2,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Elemental Break",
+    "SP": 20,
+    "Type": "Stave",
+    "Description": "Inflige daño de tipo Stave a un enemigo y le provoca Decreased Elemental Defense por 2 rondas",
+    "Target": "Single",
+    "Modifier": 2,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Precise Shot",
+    "SP": 6,
+    "Type": "Bow",
+    "Description": "Inflige 3 ataque de tipo Bow, al enemigo con menor cantidad de Phys Def.",
+    "Target": "Single",
+    "Modifier": 1.2,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "Cleaving Blow",
+    "SP": 12,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipó Axe a un enemigo. Si el objeto del ataque posee menos PhysAtk que el usuario entonces el usuario obtiene Increased Physical Attack durante 2 rondas, en caso contrario el usuario obtiene Increased Physical Defense durante 2 rondas.",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Draefendi's Bow",
+    "SP": 30,
+    "Type": "Bow",
+    "Description": "Realiza 3 ataque de tipo Bow sobre todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 3.5,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Healing Touch",
+    "SP": 6,
+    "Type": "",
+    "Description": "Escoge un aliado, si esta vivo restaura HP, si esta muerto lo revive con 1 HP y luego le restaura HP.",
+    "Target": "Ally",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en 0.5 por cada BP"
+  },
+  {
+    "Name": "Sweeping Cleave",
+    "SP": 9,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipo Axe a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.8,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Poison Axe",
+    "SP": 12,
+    "Type": "Axe",
+    "Description": "Inflige daño de tipo Axe a un enemigo, adicionalmente aplica 2 Poison al objetivo",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 70% por cada BP y aplica 1 Poison más por cada BP"
+  },
+  {
+    "Name": "Darkest Night",
+    "SP": 7,
+    "Type": "Dark",
+    "Description": "Inflige daño de tipo Dark a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 120% por cada BP"
+  },
+  {
+    "Name": "Surprise Attack",
+    "SP": 12,
+    "Type": "Sword",
+    "Description": "Inflige daño de tipo Sword a un enemigo. Si el objetivo aún no ha jugado su turno duplica el daño realizado",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Swift Step",
+    "SP": 4,
+    "Type": "",
+    "Description": "Aumenta la velocidad del usuario durante 3 rondas",
+    "Target": "Self",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Ember",
+    "SP": 7,
+    "Type": "",
+    "Description": "Inflige daño de tipo Fire a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 50% por cada BP"
+  },
+  {
+    "Name": "Sweeping Gale",
+    "SP": 7,
+    "Type": "Wind",
+    "Description": "Inflige daño de tipo Wind a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 50% por cada BP"
+  },
+  {
+    "Name": "Dagger Dance",
+    "SP": 9,
+    "Type": "Dagger",
+    "Description": "Inflige daño de tipo Dagger a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Heavenly Healing",
+    "SP": 30,
+    "Type": "",
+    "Description": "Restaura HP a una unidad.",
+    "Target": "Ally",
+    "Modifier": 3.2,
+    "Boost": "Aumenta el modificador en un 30% por cada BP"
+  },
+  {
+    "Name": "Prayer to the Flame",
+    "SP": 8,
+    "Type": "",
+    "Description": "Otorga a un aliado Increased Physical Defense y Increased Elemental Defense durante 2 rondas.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Mystical Staff",
+    "SP": 6,
+    "Type": "Stave",
+    "Description": "Inflige daño de tipo Stave a un enemigo 2 veces. Restaura SP igual al 10% del daño realizado",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Revive and Rejuvenate",
+    "SP": 40,
+    "Type": "",
+    "Description": "Revive y retaura HP a todas las unidades aliadas",
+    "Target": "Party",
+    "Modifier": 3.5,
+    "Boost": "Aumenta el modificador en un 40% por cada BP"
+  },
+  {
+    "Name": "Aggressive Slash",
+    "SP": 9,
+    "Type": "Sword",
+    "Description": "Inflige 3 ataques de tipo Sword al enemigo con mayor PhysAtk",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta en 1 la cantidad de ataques por cada BP"
+  },
+  {
+    "Name": "Brand's Blade",
+    "SP": 30,
+    "Type": "Sword",
+    "Description": "Inflige daño de tipo Sword a un enemigo",
+    "Target": "Single",
+    "Modifier": 7,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Shooting Stars",
+    "SP": 35,
+    "Type": "",
+    "Description": "Inflige 3 ataques, de tipo Wind, Light y Dark a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 0.9,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Nightmare Chimera",
+    "SP": 35,
+    "Type": "",
+    "Description": "Inflige daño de un arma a elección a un enemigo",
+    "Target": "Single",
+    "Modifier": 1.9,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Ethereal Healing",
+    "SP": 30,
+    "Type": "",
+    "Description": "Durante 2 rondas, cada viajero recuperará un 10% de su vida máxima luego de jugar un turno.",
+    "Target": "Party",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 1 ronda por cada BP"
+  },
+  {
+    "Name": "Celestial Intervention",
+    "SP": 25,
+    "Type": "",
+    "Description": "Escoge una unidad, si es enemiga está será inmune a recibir buffs durante 2 rondas, si es aliada esta será inmune a recibir debuffs durante 2 rondas.",
+    "Target": "Any",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Balogar's Blade",
+    "SP": 50,
+    "Type": "",
+    "Description": "Inflige daño de los 6 elementos (Fire, Ice, Lightning, Wind, Light y Dark) a un enemigo.",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Winnehild's Battle Cry",
+    "SP": 50,
+    "Type": "",
+    "Description": "Inflige daño de las 6 armas (Sword, Bow, Dagger, Axe, Stave y Spear) a todos los enemigos.",
+    "Target": "Enemies",
+    "Modifier": 1.5,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Sleeping Dart",
+    "SP": 22,
+    "Type": "Bow",
+    "Description": "Realiza un ataque de tipo Bow a un enemigo. En caso de realizar daño, aplica 2 de Sleep al objetivo.",
+    "Target": "Single",
+    "Modifier": 1.3,
+    "Boost": "Aumenta la duración del efecto en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Poison Dart",
+    "SP": 22,
+    "Type": "Bow",
+    "Description": "Realiza un ataque de tipo Bow a un enemigo. En caso de realizar daño, aplica 2 de Poison al objetivo.",
+    "Target": "Single",
+    "Modifier": 1.3,
+    "Boost": "Aumenta la duración del efecto en 2 rondas por cada BP"
+  },
+  {
+    "Name": "Heavy Blade",
+    "SP": 35,
+    "Type": "Sword",
+    "Description": "Realiza un ataque de tipo Sword. En caso de realizar daño, aplica 2 Unconscious al objetivo",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 80% por cada BP"
+  },
+  {
+    "Name": "Poison Bomb",
+    "SP": 25,
+    "Type": "",
+    "Description": "Aplica 1 Poison a todos los enemigos",
+    "Target": "Enemies",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 1 rondas por cada BP"
+  },
+  {
+    "Name": "Lullaby",
+    "SP": 16,
+    "Type": "",
+    "Description": "Aplica 2 Sleep a un enemigo",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 1 rondas por cada BP"
+  },
+  {
+    "Name": "Corrosive Stab",
+    "SP": 22,
+    "Type": "Dagger",
+    "Description": "Inflige daño de tipo Dagger a un enemigo. Además aplica 2 Poison y Decreased Physical Defense al enemigo durante 2 rondas",
+    "Target": "Single",
+    "Modifier": 1.5,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "Double Edge",
+    "SP": 12,
+    "Type": "Sword",
+    "Description": "Inflige un gran daño de tipo Sword a un enemigo. El usuario pierde un 30% de su vida actual",
+    "Target": "Single",
+    "Modifier": 2.5,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "BP Boost",
+    "SP": 50,
+    "Type": "",
+    "Description": "Escoge un aliado. Durante 3 rondas la unidad obtendrá 2 BP al final de cada ronda.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Transfusion",
+    "SP": 18,
+    "Type": "",
+    "Description": "Escoge un aliado. El usuario pierde el 50% de su vida actual y la unidad escogida recibe esa cantidad de vida como curación",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la curación entregada en un 20% por cada BP"
+  },
+  {
+    "Name": "Transfer Rune",
+    "SP": 25,
+    "Type": "",
+    "Description": "Selecciona un aliado. Sus habilidades con target Self, pasaran a tener target Party durante 3 rondas",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "Aumenta la duración del efecto en 1 rondas por cada BP"
+  },
+  {
+    "Name": "Combustion",
+    "SP": 36,
+    "Type": "Fire",
+    "Description": "Inflige un gran daño de tipo Fire. El usuario pierde el 80% de su vida actual.",
+    "Target": "Enemies",
+    "Modifier": 2.8,
+    "Boost": "Aumenta el modificador en un 70% por cada BP"
+  },
+  {
+    "Name": "Thunder Shock",
+    "SP": 22,
+    "Type": "Lightning",
+    "Description": "Inflige daño de tipo Lightning a un enemigo. Aplica 2 Unconscious al objetivo",
+    "Target": "Single",
+    "Modifier": 1.7,
+    "Boost": "Aumenta el modificador en un 90% por cada BP"
+  },
+  {
+    "Name": "Holy Touch",
+    "SP": 35,
+    "Type": "",
+    "Description": "Restaura toda la vida de un aliado y cura todos sus Ailments.",
+    "Target": "Ally",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Total Heal",
+    "SP": 35,
+    "Type": "",
+    "Description": "Cura todos los Ailments de todos los viajeros y los hace inmune a Ailments durante 2 rondas",
+    "Target": "Party",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  },
+  {
+    "Name": "Fair Fight",
+    "SP": 40,
+    "Type": "",
+    "Description": "Disminuye el HP del objetivo al HP actual del usuario (Si el objetivo tiene menor HP que el usuario, entonces la habilidad no tiene efecto)",
+    "Target": "Single",
+    "Modifier": 0,
+    "Boost": "[Divine Skill] Solo se puede usar con 3 BP"
+  }
+]

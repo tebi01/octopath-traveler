@@ -1,0 +1,8 @@
+Player Team
+Heatcore (Precise Shot, Holy Light, Mole Dance, Lightning Bolt, Fire Storm, Rehabilitate)
+Enemy Team
+Meep
+Winter Wanderweed
+Red Fox
+Withered Wanderweed
+Wolf

@@ -1,0 +1,939 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 68
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2822/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:1016/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Heatcore
+1: Meep - HP:1016/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Red Fox - HP:1451/1451 Shields:3
+4: Withered Wanderweed - HP:2314/2314 Shields:1
+5: Wolf - HP:1577/1577 Shields:2
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Heatcore ataca
+Meep recibe 20 de daño de tipo Axe
+Meep termina con HP:996
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2822/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Winter Wanderweed
+3.Meep
+4.Withered Wanderweed
+5.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Wolf usa Attack
+Heatcore recibe 165 de daño físico
+Heatcore termina con HP:2657
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2657/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Meep
+3.Withered Wanderweed
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Winter Wanderweed usa Attack
+Heatcore recibe 203 de daño físico
+Heatcore termina con HP:2454
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2454/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Meep usa Attack
+Heatcore recibe 238 de daño físico
+Heatcore termina con HP:2216
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2216/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Withered Wanderweed usa Attack
+Heatcore recibe 115 de daño físico
+Heatcore termina con HP:2101
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:2101/2822 SP:342/342 BP:1
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Red Fox usa Attack
+Heatcore recibe 163 de daño físico
+Heatcore termina con HP:1938
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1938/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:996/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Heatcore
+1: Meep - HP:996/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Red Fox - HP:1451/1451 Shields:3
+4: Withered Wanderweed - HP:2314/2314 Shields:1
+5: Wolf - HP:1577/1577 Shields:2
+6: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Heatcore ataca
+Meep recibe 20 de daño de tipo Axe
+Meep termina con HP:976
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1938/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Winter Wanderweed
+3.Meep
+4.Withered Wanderweed
+5.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Wolf usa Attack
+Heatcore recibe 165 de daño físico
+Heatcore termina con HP:1773
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1773/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Meep
+3.Withered Wanderweed
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Winter Wanderweed usa Attack
+Heatcore recibe 203 de daño físico
+Heatcore termina con HP:1570
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1570/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Meep usa Attack
+Heatcore recibe 238 de daño físico
+Heatcore termina con HP:1332
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1332/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Withered Wanderweed usa Attack
+Heatcore recibe 115 de daño físico
+Heatcore termina con HP:1217
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1217/2822 SP:342/342 BP:2
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Red Fox usa Attack
+Heatcore recibe 163 de daño físico
+Heatcore termina con HP:1054
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1054/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1577/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Heatcore
+1: Meep - HP:976/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Red Fox - HP:1451/1451 Shields:3
+4: Withered Wanderweed - HP:2314/2314 Shields:1
+5: Wolf - HP:1577/1577 Shields:2
+6: Cancelar
+INPUT: 5
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Heatcore ataca
+Wolf recibe 221 de daño de tipo Bow
+Wolf termina con HP:1356
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:1054/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Winter Wanderweed
+3.Meep
+4.Withered Wanderweed
+5.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Wolf usa Attack
+Heatcore recibe 165 de daño físico
+Heatcore termina con HP:889
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:889/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Meep
+3.Withered Wanderweed
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Winter Wanderweed usa Attack
+Heatcore recibe 203 de daño físico
+Heatcore termina con HP:686
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:686/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Meep
+2.Withered Wanderweed
+3.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Meep usa Attack
+Heatcore recibe 238 de daño físico
+Heatcore termina con HP:448
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:448/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Withered Wanderweed
+2.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Withered Wanderweed usa Attack
+Heatcore recibe 115 de daño físico
+Heatcore termina con HP:333
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:333/2822 SP:342/342 BP:3
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Red Fox usa Attack
+Heatcore recibe 163 de daño físico
+Heatcore termina con HP:170
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:170/2822 SP:342/342 BP:4
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Heatcore
+1: Precise Shot
+2: Holy Light
+3: Mole Dance
+4: Lightning Bolt
+5: Fire Storm
+6: Rehabilitate
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Heatcore
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione un objetivo para Heatcore
+1: Meep - HP:976/1016 Shields:2
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Red Fox - HP:1451/1451 Shields:3
+4: Withered Wanderweed - HP:2314/2314 Shields:1
+5: Wolf - HP:1356/1577 Shields:2
+6: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Heatcore ataca
+Winter Wanderweed recibe 97 de daño de tipo Bow
+Winter Wanderweed termina con HP:2217
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:170/2822 SP:342/342 BP:4
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2217/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Wolf
+2.Winter Wanderweed
+3.Meep
+4.Withered Wanderweed
+5.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Wolf usa Attack
+Heatcore recibe 165 de daño físico
+Heatcore termina con HP:5
+----------------------------------------
+Equipo del jugador
+A-Heatcore - HP:5/2822 SP:342/342 BP:4
+Equipo del enemigo
+A-Meep - HP:976/1016 Shields:2
+B-Winter Wanderweed - HP:2217/2314 Shields:3
+C-Red Fox - HP:1451/1451 Shields:3
+D-Withered Wanderweed - HP:2314/2314 Shields:1
+E-Wolf - HP:1356/1577 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Meep
+3.Withered Wanderweed
+4.Red Fox
+----------------------------------------
+Turnos de la siguiente ronda
+1.Heatcore
+2.Wolf
+3.Winter Wanderweed
+4.Meep
+5.Withered Wanderweed
+6.Red Fox
+----------------------------------------
+Winter Wanderweed usa Attack
+Heatcore recibe 203 de daño físico
+Heatcore termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

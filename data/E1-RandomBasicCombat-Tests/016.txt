@@ -1,0 +1,3852 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 15
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+B-Osvald - HP:3557/3557 SP:541/541 BP:1
+Equipo del enemigo
+A-Flame Guardian - HP:1470/1470 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1470/1470 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:1423
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:4002/4002 SP:470/470 BP:1
+B-Osvald - HP:3557/3557 SP:541/541 BP:1
+Equipo del enemigo
+A-Flame Guardian - HP:1423/1470 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3811
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3811/4002 SP:470/470 BP:1
+B-Osvald - HP:3557/3557 SP:541/541 BP:1
+Equipo del enemigo
+A-Flame Guardian - HP:1423/1470 Shields:3
+B-Winter Wanderweed - HP:2314/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1423/1470 Shields:3
+2: Winter Wanderweed - HP:2314/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2298
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3811/4002 SP:470/470 BP:1
+B-Osvald - HP:3557/3557 SP:541/541 BP:1
+Equipo del enemigo
+A-Flame Guardian - HP:1423/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:3632
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3632/4002 SP:470/470 BP:2
+B-Osvald - HP:3557/3557 SP:541/541 BP:2
+Equipo del enemigo
+A-Flame Guardian - HP:1423/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1423/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1423/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:1376
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3632/4002 SP:470/470 BP:2
+B-Osvald - HP:3557/3557 SP:541/541 BP:2
+Equipo del enemigo
+A-Flame Guardian - HP:1376/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3441
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3441/4002 SP:470/470 BP:2
+B-Osvald - HP:3557/3557 SP:541/541 BP:2
+Equipo del enemigo
+A-Flame Guardian - HP:1376/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1376/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:1284
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3441/4002 SP:470/470 BP:2
+B-Osvald - HP:3557/3557 SP:541/541 BP:2
+Equipo del enemigo
+A-Flame Guardian - HP:1284/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:3407
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3441/4002 SP:470/470 BP:3
+B-Osvald - HP:3407/3557 SP:541/541 BP:3
+Equipo del enemigo
+A-Flame Guardian - HP:1284/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1284/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:1237
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3441/4002 SP:470/470 BP:3
+B-Osvald - HP:3407/3557 SP:541/541 BP:3
+Equipo del enemigo
+A-Flame Guardian - HP:1237/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:3250
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:3
+B-Osvald - HP:3407/3557 SP:541/541 BP:3
+Equipo del enemigo
+A-Flame Guardian - HP:1237/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1237/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:1145
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:3
+B-Osvald - HP:3407/3557 SP:541/541 BP:3
+Equipo del enemigo
+A-Flame Guardian - HP:1145/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:3257
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:4
+B-Osvald - HP:3257/3557 SP:541/541 BP:4
+Equipo del enemigo
+A-Flame Guardian - HP:1145/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1145/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2298
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:4
+B-Osvald - HP:3257/3557 SP:541/541 BP:4
+Equipo del enemigo
+A-Flame Guardian - HP:1145/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:3095
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:4
+B-Osvald - HP:3095/3557 SP:541/541 BP:4
+Equipo del enemigo
+A-Flame Guardian - HP:1145/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1145/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:1053
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3250/4002 SP:470/470 BP:4
+B-Osvald - HP:3095/3557 SP:541/541 BP:4
+Equipo del enemigo
+A-Flame Guardian - HP:1053/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:3071
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3071/4002 SP:470/470 BP:5
+B-Osvald - HP:3095/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:1053/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1053/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1053/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:1053/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2298
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3071/4002 SP:470/470 BP:5
+B-Osvald - HP:3095/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:1053/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2933
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3071/4002 SP:470/470 BP:5
+B-Osvald - HP:2933/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:1053/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1053/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:1053/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:961
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:3071/4002 SP:470/470 BP:5
+B-Osvald - HP:2933/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:2892
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2892/4002 SP:470/470 BP:5
+B-Osvald - HP:2933/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2298
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2892/4002 SP:470/470 BP:5
+B-Osvald - HP:2933/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2771
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2892/4002 SP:470/470 BP:5
+B-Osvald - HP:2771/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2298/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2298/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2282
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2892/4002 SP:470/470 BP:5
+B-Osvald - HP:2771/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2282/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:2713
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2713/4002 SP:470/470 BP:5
+B-Osvald - HP:2771/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2282/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2282/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2282
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2713/4002 SP:470/470 BP:5
+B-Osvald - HP:2771/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2282/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2609
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2713/4002 SP:470/470 BP:5
+B-Osvald - HP:2609/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2282/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2282/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2266
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2713/4002 SP:470/470 BP:5
+B-Osvald - HP:2609/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2266/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:2534
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2534/4002 SP:470/470 BP:5
+B-Osvald - HP:2609/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2266/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2266/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2266
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2534/4002 SP:470/470 BP:5
+B-Osvald - HP:2609/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2266/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2447
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2534/4002 SP:470/470 BP:5
+B-Osvald - HP:2447/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2266/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2266/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2266/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2250
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2534/4002 SP:470/470 BP:5
+B-Osvald - HP:2447/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2250/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:2355
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2355/4002 SP:470/470 BP:5
+B-Osvald - HP:2447/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2250/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2250/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2250
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2355/4002 SP:470/470 BP:5
+B-Osvald - HP:2447/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2250/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2285
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2355/4002 SP:470/470 BP:5
+B-Osvald - HP:2285/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2250/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2250/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2234
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2355/4002 SP:470/470 BP:5
+B-Osvald - HP:2285/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:2176
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2176/4002 SP:470/470 BP:5
+B-Osvald - HP:2285/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2234
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2176/4002 SP:470/470 BP:5
+B-Osvald - HP:2285/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:2123
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2176/4002 SP:470/470 BP:5
+B-Osvald - HP:2123/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:961/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:961/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:869
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:2176/4002 SP:470/470 BP:5
+B-Osvald - HP:2123/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:869/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:1997
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1997/4002 SP:470/470 BP:5
+B-Osvald - HP:2123/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:869/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:869/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2234
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1997/4002 SP:470/470 BP:5
+B-Osvald - HP:2123/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:869/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:1961
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1997/4002 SP:470/470 BP:5
+B-Osvald - HP:1961/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:869/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:869/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:777
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1997/4002 SP:470/470 BP:5
+B-Osvald - HP:1961/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:777/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:1818
+----------------------------------------
+INICIA RONDA 12
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1818/4002 SP:470/470 BP:5
+B-Osvald - HP:1961/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:777/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:777/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2234
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1818/4002 SP:470/470 BP:5
+B-Osvald - HP:1961/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:777/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:1799
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1818/4002 SP:470/470 BP:5
+B-Osvald - HP:1799/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:777/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:777/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:685
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1818/4002 SP:470/470 BP:5
+B-Osvald - HP:1799/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:1639
+----------------------------------------
+INICIA RONDA 13
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1639/4002 SP:470/470 BP:5
+B-Osvald - HP:1799/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2234
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1639/4002 SP:470/470 BP:5
+B-Osvald - HP:1799/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:1637
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1639/4002 SP:470/470 BP:5
+B-Osvald - HP:1637/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2234/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2234/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2218
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1639/4002 SP:470/470 BP:5
+B-Osvald - HP:1637/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2218/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:1460
+----------------------------------------
+INICIA RONDA 14
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1637/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2218/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2218/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2218
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1637/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2218/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:1475
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1475/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2218/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2218/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2202
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1475/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:1325
+----------------------------------------
+INICIA RONDA 15
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1325/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:685/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:685/1470 Shields:3
+2: Winter Wanderweed - HP:2202/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:638
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1460/4002 SP:470/470 BP:5
+B-Osvald - HP:1325/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:638/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:1269
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1269/4002 SP:470/470 BP:5
+B-Osvald - HP:1325/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:638/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:638/1470 Shields:3
+2: Winter Wanderweed - HP:2202/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:546
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1269/4002 SP:470/470 BP:5
+B-Osvald - HP:1325/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:546/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:1175
+----------------------------------------
+INICIA RONDA 16
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1269/4002 SP:470/470 BP:5
+B-Osvald - HP:1175/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:546/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:546/1470 Shields:3
+2: Winter Wanderweed - HP:2202/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:499
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1269/4002 SP:470/470 BP:5
+B-Osvald - HP:1175/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:1078
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1078/4002 SP:470/470 BP:5
+B-Osvald - HP:1175/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2202/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:499/1470 Shields:3
+2: Winter Wanderweed - HP:2202/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2186
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1078/4002 SP:470/470 BP:5
+B-Osvald - HP:1175/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2186/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:1025
+----------------------------------------
+INICIA RONDA 17
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1078/4002 SP:470/470 BP:5
+B-Osvald - HP:1025/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2186/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:499/1470 Shields:3
+2: Winter Wanderweed - HP:2186/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2186
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:1078/4002 SP:470/470 BP:5
+B-Osvald - HP:1025/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2186/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:887
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:887/4002 SP:470/470 BP:5
+B-Osvald - HP:1025/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2186/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Osvald
+1: Mole Dance
+2: Lion Dance
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:499/1470 Shields:3
+2: Winter Wanderweed - HP:2186/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2170
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:887/4002 SP:470/470 BP:5
+B-Osvald - HP:1025/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:875
+----------------------------------------
+INICIA RONDA 18
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:887/4002 SP:470/470 BP:5
+B-Osvald - HP:875/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:499/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:499/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:452
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:887/4002 SP:470/470 BP:5
+B-Osvald - HP:875/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:452/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Ophilia recibe 191 de daño físico
+Ophilia termina con HP:696
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:875/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:452/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:452/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:360
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:875/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:360/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Osvald recibe 150 de daño físico
+Osvald termina con HP:725
+----------------------------------------
+INICIA RONDA 19
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:725/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:360/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:360/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:313
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:725/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:313/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:563
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:563/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:313/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:313/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:313/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:221
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:696/4002 SP:470/470 BP:5
+B-Osvald - HP:563/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:221/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:517
+----------------------------------------
+INICIA RONDA 20
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:517/4002 SP:470/470 BP:5
+B-Osvald - HP:563/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:221/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Ophilia
+1: Panther Dance
+2: HP Thief
+3: Rain of Arrows
+4: Dagger Dance
+5: Armor Corrosive
+6: Surprise Attack
+7: Cancelar
+INPUT: 7
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:221/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2170
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:517/4002 SP:470/470 BP:5
+B-Osvald - HP:563/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:221/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:401
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:517/4002 SP:470/470 BP:5
+B-Osvald - HP:401/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:221/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:221/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Flame Guardian recibe 92 de daño de tipo Stave
+Flame Guardian termina con HP:129
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:517/4002 SP:470/470 BP:5
+B-Osvald - HP:401/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:338
+----------------------------------------
+INICIA RONDA 21
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:338/4002 SP:470/470 BP:5
+B-Osvald - HP:401/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:129/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Winter Wanderweed recibe 0 de daño de tipo Stave
+Winter Wanderweed termina con HP:2170
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:338/4002 SP:470/470 BP:5
+B-Osvald - HP:401/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:239
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:338/4002 SP:470/470 BP:5
+B-Osvald - HP:239/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2170/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:129/1470 Shields:3
+2: Winter Wanderweed - HP:2170/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2154
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:338/4002 SP:470/470 BP:5
+B-Osvald - HP:239/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2154/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:159
+----------------------------------------
+INICIA RONDA 22
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:159/4002 SP:470/470 BP:5
+B-Osvald - HP:239/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:129/1470 Shields:3
+B-Winter Wanderweed - HP:2154/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Ophilia
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Ophilia
+1: Flame Guardian - HP:129/1470 Shields:3
+2: Winter Wanderweed - HP:2154/2314 Shields:3
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Ophilia ataca
+Flame Guardian recibe 47 de daño de tipo Stave
+Flame Guardian termina con HP:82
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:159/4002 SP:470/470 BP:5
+B-Osvald - HP:239/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:82/1470 Shields:3
+B-Winter Wanderweed - HP:2154/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:77
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:159/4002 SP:470/470 BP:5
+B-Osvald - HP:77/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:82/1470 Shields:3
+B-Winter Wanderweed - HP:2154/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Osvald
+2.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Turno de Osvald
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Stave
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Osvald
+1: Flame Guardian - HP:82/1470 Shields:3
+2: Winter Wanderweed - HP:2154/2314 Shields:3
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Osvald ataca
+Winter Wanderweed recibe 16 de daño de tipo Stave
+Winter Wanderweed termina con HP:2138
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:159/4002 SP:470/470 BP:5
+B-Osvald - HP:77/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:82/1470 Shields:3
+B-Winter Wanderweed - HP:2138/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Ophilia
+2.Winter Wanderweed
+3.Osvald
+4.Flame Guardian
+----------------------------------------
+Flame Guardian usa Attack
+Ophilia recibe 179 de daño físico
+Ophilia termina con HP:0
+----------------------------------------
+INICIA RONDA 23
+----------------------------------------
+Equipo del jugador
+A-Ophilia - HP:0/4002 SP:470/470 BP:5
+B-Osvald - HP:77/3557 SP:541/541 BP:5
+Equipo del enemigo
+A-Flame Guardian - HP:82/1470 Shields:3
+B-Winter Wanderweed - HP:2138/2314 Shields:3
+----------------------------------------
+Turnos de la ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Turnos de la siguiente ronda
+1.Winter Wanderweed
+2.Osvald
+3.Flame Guardian
+----------------------------------------
+Winter Wanderweed usa Attack
+Osvald recibe 162 de daño físico
+Osvald termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

@@ -1,0 +1,7 @@
+Player Team
+Olberic
+Tressa
+Enemy Team
+Meep
+Snow Fox
+Horse Fly

@@ -1,0 +1,5783 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+14: 015.txt
+15: 016.txt
+16: 017.txt
+17: 018.txt
+18: 019.txt
+19: 020.txt
+20: 021.txt
+21: 022.txt
+22: 023.txt
+23: 024.txt
+24: 025.txt
+25: 026.txt
+26: 027.txt
+27: 028.txt
+28: 029.txt
+29: 030.txt
+30: 031.txt
+31: 032.txt
+32: 033.txt
+33: 034.txt
+34: 035.txt
+35: 036.txt
+36: 037.txt
+37: 038.txt
+38: 039.txt
+39: 040.txt
+40: 041.txt
+41: 042.txt
+42: 043.txt
+43: 044.txt
+44: 045.txt
+45: 046.txt
+46: 047.txt
+47: 048.txt
+48: 049.txt
+49: 050.txt
+50: 051.txt
+51: 052.txt
+52: 053.txt
+53: 054.txt
+54: 055.txt
+55: 056.txt
+56: 057.txt
+57: 058.txt
+58: 059.txt
+59: 060.txt
+60: 061.txt
+61: 062.txt
+62: 063.txt
+63: 064.txt
+64: 065.txt
+65: 066.txt
+66: 067.txt
+67: 068.txt
+68: 069.txt
+69: 070.txt
+70: 071.txt
+71: 072.txt
+72: 073.txt
+73: 074.txt
+74: 075.txt
+75: 076.txt
+76: 077.txt
+77: 078.txt
+78: 079.txt
+79: 080.txt
+80: 081.txt
+81: 082.txt
+82: 083.txt
+83: 084.txt
+84: 085.txt
+85: 086.txt
+86: 087.txt
+87: 088.txt
+88: 089.txt
+89: 090.txt
+90: 091.txt
+91: 092.txt
+92: 093.txt
+93: 094.txt
+94: 095.txt
+95: 096.txt
+96: 097.txt
+97: 098.txt
+98: 099.txt
+99: 100.txt
+INPUT: 90
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5336/5336 SP:383/383 BP:1
+B-Castti - HP:5336/5336 SP:426/426 BP:1
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:5033
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:1
+B-Castti - HP:5336/5336 SP:426/426 BP:1
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2600/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:649/649 Shields:4
+2: Snow Fox - HP:2600/2600 Shields:1
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2563
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:1
+B-Castti - HP:5336/5336 SP:426/426 BP:1
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2563/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:649/649 Shields:4
+2: Snow Fox - HP:2563/2600 Shields:1
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2526
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:1
+B-Castti - HP:5336/5336 SP:426/426 BP:1
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Flying Fish usa Attack
+Castti recibe 122 de daño físico
+Castti termina con HP:5214
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:2
+B-Castti - HP:5214/5336 SP:426/426 BP:2
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:4971
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:2
+B-Castti - HP:4971/5336 SP:426/426 BP:2
+Equipo del enemigo
+A-Flying Fish - HP:649/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:649/649 Shields:4
+2: Snow Fox - HP:2526/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:542
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:2
+B-Castti - HP:4971/5336 SP:426/426 BP:2
+Equipo del enemigo
+A-Flying Fish - HP:542/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:542/649 Shields:4
+2: Snow Fox - HP:2526/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:435
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:5033/5336 SP:383/383 BP:2
+B-Castti - HP:4971/5336 SP:426/426 BP:2
+Equipo del enemigo
+A-Flying Fish - HP:435/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Flying Fish usa Attack
+Alfyn recibe 182 de daño físico
+Alfyn termina con HP:4851
+----------------------------------------
+INICIA RONDA 3
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4851/5336 SP:383/383 BP:3
+B-Castti - HP:4971/5336 SP:426/426 BP:3
+Equipo del enemigo
+A-Flying Fish - HP:435/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:4728
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4851/5336 SP:383/383 BP:3
+B-Castti - HP:4728/5336 SP:426/426 BP:3
+Equipo del enemigo
+A-Flying Fish - HP:435/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:435/649 Shields:4
+2: Snow Fox - HP:2526/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:328
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4851/5336 SP:383/383 BP:3
+B-Castti - HP:4728/5336 SP:426/426 BP:3
+Equipo del enemigo
+A-Flying Fish - HP:328/649 Shields:4
+B-Snow Fox - HP:2526/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:328/649 Shields:4
+2: Snow Fox - HP:2526/2600 Shields:1
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:328/649 Shields:4
+2: Snow Fox - HP:2526/2600 Shields:1
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2489
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4851/5336 SP:383/383 BP:3
+B-Castti - HP:4728/5336 SP:426/426 BP:3
+Equipo del enemigo
+A-Flying Fish - HP:328/649 Shields:4
+B-Snow Fox - HP:2489/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Flying Fish usa Attack
+Alfyn recibe 182 de daño físico
+Alfyn termina con HP:4669
+----------------------------------------
+INICIA RONDA 4
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4669/5336 SP:383/383 BP:4
+B-Castti - HP:4728/5336 SP:426/426 BP:4
+Equipo del enemigo
+A-Flying Fish - HP:328/649 Shields:4
+B-Snow Fox - HP:2489/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:4485
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4669/5336 SP:383/383 BP:4
+B-Castti - HP:4485/5336 SP:426/426 BP:4
+Equipo del enemigo
+A-Flying Fish - HP:328/649 Shields:4
+B-Snow Fox - HP:2489/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:328/649 Shields:4
+2: Snow Fox - HP:2489/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:221
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4669/5336 SP:383/383 BP:4
+B-Castti - HP:4485/5336 SP:426/426 BP:4
+Equipo del enemigo
+A-Flying Fish - HP:221/649 Shields:4
+B-Snow Fox - HP:2489/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:221/649 Shields:4
+2: Snow Fox - HP:2489/2600 Shields:1
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2452
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4669/5336 SP:383/383 BP:4
+B-Castti - HP:4485/5336 SP:426/426 BP:4
+Equipo del enemigo
+A-Flying Fish - HP:221/649 Shields:4
+B-Snow Fox - HP:2452/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Flying Fish usa Attack
+Alfyn recibe 182 de daño físico
+Alfyn termina con HP:4487
+----------------------------------------
+INICIA RONDA 5
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4487/5336 SP:383/383 BP:5
+B-Castti - HP:4485/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:221/649 Shields:4
+B-Snow Fox - HP:2452/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:4184
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4485/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:221/649 Shields:4
+B-Snow Fox - HP:2452/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:221/649 Shields:4
+2: Snow Fox - HP:2452/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:114
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4485/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:114/649 Shields:4
+B-Snow Fox - HP:2452/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:114/649 Shields:4
+2: Snow Fox - HP:2452/2600 Shields:1
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2415
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4485/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:114/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Flying Fish usa Attack
+Castti recibe 122 de daño físico
+Castti termina con HP:4363
+----------------------------------------
+INICIA RONDA 6
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4363/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:114/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:4120
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:114/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+3.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Flying Fish - HP:114/649 Shields:4
+2: Snow Fox - HP:2415/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:7
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:7/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+2.Flying Fish
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+4.Flying Fish
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Flying Fish - HP:7/649 Shields:4
+2: Snow Fox - HP:2415/2600 Shields:1
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Flying Fish recibe 107 de daño de tipo Axe
+Flying Fish termina con HP:0
+----------------------------------------
+INICIA RONDA 7
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:4184/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:3881
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2415/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2415/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2378
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2378/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2378/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2378/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2341
+----------------------------------------
+INICIA RONDA 8
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:4120/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2341/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:3877
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2341/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2341/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2304
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2304/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2304/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2304/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2267
+----------------------------------------
+INICIA RONDA 9
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3881/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2267/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:3578
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2267/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2267/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2230
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2230/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2230/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2230/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2193
+----------------------------------------
+INICIA RONDA 10
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3877/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2193/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:3634
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3634/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2193/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2193/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2193/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2193/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2193/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2193/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2156
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3634/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2156/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2156/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2156/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2156/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2119
+----------------------------------------
+INICIA RONDA 11
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3634/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2119/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:3391
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2119/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2119/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2082
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2082/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2082/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2045
+----------------------------------------
+INICIA RONDA 12
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3578/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2045/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:3275
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2045/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:2045/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:2008
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:2008/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:2008/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1971
+----------------------------------------
+INICIA RONDA 13
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3391/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1971/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:3148
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1971/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1971/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1934
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1934/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1934/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1897
+----------------------------------------
+INICIA RONDA 14
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:3275/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1897/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:2972
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1897/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1897/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1897/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1860
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1860/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1860/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1823
+----------------------------------------
+INICIA RONDA 15
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:3148/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1823/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:2905
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1823/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1823/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1786
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1786/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1786/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1749
+----------------------------------------
+INICIA RONDA 16
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2972/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1749/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:2669
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1749/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1749/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1749/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1712
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1712/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1712/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1675
+----------------------------------------
+INICIA RONDA 17
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2905/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1675/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:2662
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1675/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1675/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1638
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1638/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1638/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1601
+----------------------------------------
+INICIA RONDA 18
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2669/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1601/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:2366
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1601/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1601/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1564
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1564/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1564/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1527
+----------------------------------------
+INICIA RONDA 19
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2662/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1527/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:2419
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2419/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1527/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1527/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1490
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2419/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1490/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1490/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1453
+----------------------------------------
+INICIA RONDA 20
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2419/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1453/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:2176
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1453/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1453/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1416
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1416/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1416/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1379
+----------------------------------------
+INICIA RONDA 21
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2366/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1379/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:2063
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1379/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1379/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1379/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1342
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1342/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1342/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1305
+----------------------------------------
+INICIA RONDA 22
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:2176/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1305/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:1933
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1305/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1305/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1268
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1268/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1268/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1231
+----------------------------------------
+INICIA RONDA 23
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:2063/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1231/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:1760
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1231/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1231/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1194
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1194/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1194/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1157
+----------------------------------------
+INICIA RONDA 24
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1933/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1157/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:1690
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1157/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1157/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1120
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1120/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1120/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1120/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1083
+----------------------------------------
+INICIA RONDA 25
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1760/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1083/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:1457
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1083/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1083/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1046
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1046/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1046/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:1046/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:1009
+----------------------------------------
+INICIA RONDA 26
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1690/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1009/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:1447
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:1009/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1009/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:1009/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:972
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:972/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:972/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:935
+----------------------------------------
+INICIA RONDA 27
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1457/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:935/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:1154
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:935/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:935/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:898
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:898/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:898/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:861
+----------------------------------------
+INICIA RONDA 28
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1447/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:861/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:1204
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1204/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:861/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:861/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:824
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1204/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:824/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:824/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:787
+----------------------------------------
+INICIA RONDA 29
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:1204/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:787/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:961
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:787/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:787/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:750
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:750/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:750/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:713
+----------------------------------------
+INICIA RONDA 30
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:1154/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:713/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:851
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:713/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:713/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:676
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:676/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:676/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:639
+----------------------------------------
+INICIA RONDA 31
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:961/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:639/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:718
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:639/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:639/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:639/2600 Shields:1
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:639/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:602
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:602/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:602/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:565
+----------------------------------------
+INICIA RONDA 32
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:851/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:565/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:548
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:565/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:565/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:528
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:528/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:528/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:491
+----------------------------------------
+INICIA RONDA 33
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:718/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:491/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:475
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:491/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 2
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Castti
+1: Glacies Claudere
+2: True Strike
+3: Holy Light
+4: Amputation
+5: Incite
+6: Cancelar
+INPUT: 6
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:491/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:454
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:454/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Alfyn
+1: Trade Tempest
+2: Armor Corrosive
+3: Cancelar
+INPUT: 3
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:454/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:417
+----------------------------------------
+INICIA RONDA 34
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:548/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:417/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:245
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:417/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:417/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:380
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:380/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:380/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:343
+----------------------------------------
+INICIA RONDA 35
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:475/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:343/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:232
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:232/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:343/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+2.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:343/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:306
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:232/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:306/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turno de Alfyn
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Alfyn
+1: Snow Fox - HP:306/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Alfyn ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:269
+----------------------------------------
+INICIA RONDA 36
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:245/5336 SP:383/383 BP:5
+B-Castti - HP:232/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:269/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+3.Alfyn
+----------------------------------------
+Snow Fox usa Attack
+Alfyn recibe 303 de daño físico
+Alfyn termina con HP:0
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:0/5336 SP:383/383 BP:5
+B-Castti - HP:232/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:269/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Castti
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+----------------------------------------
+Turno de Castti
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Castti
+1: Snow Fox - HP:269/2600 Shields:1
+2: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Castti ataca
+Snow Fox recibe 37 de daño de tipo Axe
+Snow Fox termina con HP:232
+----------------------------------------
+INICIA RONDA 37
+----------------------------------------
+Equipo del jugador
+A-Alfyn - HP:0/5336 SP:383/383 BP:5
+B-Castti - HP:232/5336 SP:426/426 BP:5
+Equipo del enemigo
+A-Flying Fish - HP:0/649 Shields:4
+B-Snow Fox - HP:232/2600 Shields:1
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Castti
+----------------------------------------
+Turnos de la siguiente ronda
+1.Snow Fox
+2.Castti
+----------------------------------------
+Snow Fox usa Attack
+Castti recibe 243 de daño físico
+Castti termina con HP:0
+----------------------------------------
+Gana equipo del enemigo

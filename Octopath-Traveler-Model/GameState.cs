@@ -1,8 +1,26 @@
 ﻿namespace Octopath_Traveler_Model;
 
-public class GameState
+public sealed class GameState
 {
-    // This class should be used as an "DB" for the game
-    // It should contain all the information about the game, like the teams, the unit in turn
-    // It should be updated by the controller, but it should be consumed by the view to show the information to the user
+    public PlayerTeam? PlayerTeam { get; init; }
+    public EnemyTeam? EnemyTeam { get; init; }
+    public BattleBoard? Board { get; init; }
+    public CombatFlow.CombatFlowState? CombatFlow { get; private set; }
+
+    public GameState()
+    {
+    }
+
+    public GameState(PlayerTeam playerTeam, EnemyTeam enemyTeam)
+    {
+        PlayerTeam = playerTeam ?? throw new ArgumentNullException(nameof(playerTeam));
+        EnemyTeam = enemyTeam ?? throw new ArgumentNullException(nameof(enemyTeam));
+        Board = new BattleBoard(PlayerTeam, EnemyTeam);
+        CombatFlow = new CombatFlow.CombatFlowState(PlayerTeam, EnemyTeam, Board);
+    }
+
+    public void AttachCombatFlow(CombatFlow.CombatFlowState combatFlow)
+    {
+        CombatFlow = combatFlow ?? throw new ArgumentNullException(nameof(combatFlow));
+    }
 }

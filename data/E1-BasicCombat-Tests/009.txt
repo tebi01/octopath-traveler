@@ -1,0 +1,260 @@
+Elige un archivo para cargar los equipos
+0: 001.txt
+1: 002.txt
+2: 003.txt
+3: 004.txt
+4: 005.txt
+5: 006.txt
+6: 007.txt
+7: 008.txt
+8: 009.txt
+9: 010.txt
+10: 011.txt
+11: 012.txt
+12: 013.txt
+13: 014.txt
+INPUT: 8
+----------------------------------------
+INICIA RONDA 1
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4891/4891 SP:357/357 BP:1
+B-H'aanit - HP:4447/4447 SP:369/369 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+B-Horse Fly - HP:2857/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turno de H'aanit
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para H'aanit
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Horse Fly - HP:2857/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+H'aanit ataca
+Horse Fly recibe 100 de daño de tipo Axe
+Horse Fly termina con HP:2757
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4891/4891 SP:357/357 BP:1
+B-H'aanit - HP:4447/4447 SP:369/369 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+B-Horse Fly - HP:2757/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Tressa
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Snow Fox usa Attack
+Tressa recibe 362 de daño físico
+Tressa termina con HP:4529
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4529/4891 SP:357/357 BP:1
+B-H'aanit - HP:4447/4447 SP:369/369 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2600/2600 Shields:1
+B-Horse Fly - HP:2757/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Tressa
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turno de Tressa
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Spear
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para Tressa
+1: Snow Fox - HP:2600/2600 Shields:1
+2: Horse Fly - HP:2757/2857 Shields:2
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+Tressa ataca
+Snow Fox recibe 42 de daño de tipo Spear
+Snow Fox termina con HP:2558
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4529/4891 SP:357/357 BP:1
+B-H'aanit - HP:4447/4447 SP:369/369 BP:1
+Equipo del enemigo
+A-Snow Fox - HP:2558/2600 Shields:1
+B-Horse Fly - HP:2757/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Horse Fly usa Attack
+Tressa recibe 207 de daño físico
+Tressa termina con HP:4322
+----------------------------------------
+INICIA RONDA 2
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4322/4891 SP:357/357 BP:2
+B-H'aanit - HP:4447/4447 SP:369/369 BP:2
+Equipo del enemigo
+A-Snow Fox - HP:2558/2600 Shields:1
+B-Horse Fly - HP:2757/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turno de H'aanit
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 1
+----------------------------------------
+Seleccione un arma
+1: Axe
+2: Bow
+3: Cancelar
+INPUT: 1
+----------------------------------------
+Seleccione un objetivo para H'aanit
+1: Snow Fox - HP:2558/2600 Shields:1
+2: Horse Fly - HP:2757/2857 Shields:2
+3: Cancelar
+INPUT: 2
+----------------------------------------
+Seleccione cuantos BP utilizar
+INPUT: 0
+----------------------------------------
+H'aanit ataca
+Horse Fly recibe 100 de daño de tipo Axe
+Horse Fly termina con HP:2657
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4322/4891 SP:357/357 BP:2
+B-H'aanit - HP:4447/4447 SP:369/369 BP:2
+Equipo del enemigo
+A-Snow Fox - HP:2558/2600 Shields:1
+B-Horse Fly - HP:2657/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Snow Fox
+2.Tressa
+3.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Snow Fox usa Attack
+H'aanit recibe 464 de daño físico
+H'aanit termina con HP:3983
+----------------------------------------
+Equipo del jugador
+A-Tressa - HP:4322/4891 SP:357/357 BP:2
+B-H'aanit - HP:3983/4447 SP:369/369 BP:2
+Equipo del enemigo
+A-Snow Fox - HP:2558/2600 Shields:1
+B-Horse Fly - HP:2657/2857 Shields:2
+----------------------------------------
+Turnos de la ronda
+1.Tressa
+2.Horse Fly
+----------------------------------------
+Turnos de la siguiente ronda
+1.H'aanit
+2.Snow Fox
+3.Tressa
+4.Horse Fly
+----------------------------------------
+Turno de Tressa
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 2
+----------------------------------------
+Seleccione una habilidad para Tressa
+1: Tradewinds
+2: Rest
+3: Trade Tempest
+4: Sidestep
+5: Cancelar
+INPUT: 5
+----------------------------------------
+Turno de Tressa
+1: Ataque básico
+2: Usar habilidad
+3: Defender
+4: Huir
+INPUT: 4
+----------------------------------------
+El equipo de viajeros ha huido!
+----------------------------------------
+Gana equipo del enemigo
