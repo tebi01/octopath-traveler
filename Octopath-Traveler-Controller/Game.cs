@@ -20,9 +20,9 @@ public sealed class Game
     {
         try
         {
-            var info = _view.SelectTeamInfo();
-            var builder = new TeamsBuilder(info);
-            _state = builder.Build();
+            var teamInfo = _view.SelectTeamInfo();
+            var teamBuilder = new TeamsBuilder(teamInfo);
+            _state = teamBuilder.Build();
             RunCombat();
         }
         catch (Exception)
@@ -33,91 +33,181 @@ public sealed class Game
 
     private void RunCombat()
     {
-        var flow = _state.CombatFlow ?? throw new InvalidOperationException("Combat flow is not initialized.");
-        var roundNumber = 0;
+        var combatState = GetCombatState();
+        var roundNumber = 1;
 
-        while (flow.Result == BattleResult.Ongoing)
+        while (IsBattleOngoing(combatState))
         {
+            PrepareRound(combatState, roundNumber);
+            ExecuteRoundTurns(combatState);
             roundNumber++;
-            if (roundNumber > 1)
-            {
-                IncreaseBpForAliveTravelers(flow);
-            }
-
-            var currentQueue = TurnQueueFactory.BuildCurrentRoundQueue(flow);
-            var nextQueue = TurnQueueFactory.BuildNextRoundQueue(flow);
-            flow.StartRound(currentQueue, nextQueue);
-
-            _view.ShowRoundStart(roundNumber);
-            _view.ShowCombatStatus(flow.BuildViewSnapshot());
-
-            while (flow.CurrentRound is not null && !flow.CurrentRound.CurrentQueue.IsEmpty && flow.Result == BattleResult.Ongoing)
-            {
-                var turn = flow.PeekTurn() ?? throw new InvalidOperationException("Round queue is inconsistent.");
-
-                if (turn.UnitReference.Kind == CombatantKind.Traveler)
-                {
-                    ResolveTravelerTurn(flow, turn);
-                }
-                else
-                {
-                    ResolveBeastTurn(flow, turn);
-                }
-
-                if (flow.Result != BattleResult.Ongoing)
-                {
-                    break;
-                }
-
-                var result = EvaluateBattleResult(flow);
-                if (result != BattleResult.Ongoing)
-                {
-                    flow.FinishBattle(result);
-                    ShowWinner(result);
-                    break;
-                }
-
-                if (!flow.CurrentRound.CurrentQueue.IsEmpty)
-                {
-                    _view.ShowCombatStatus(flow.BuildViewSnapshot(), includeLeadingSeparator: true);
-                }
-            }
         }
     }
 
-    private void ResolveTravelerTurn(CombatFlowState flow, TurnEntry turn)
+    private CombatFlowState GetCombatState()
     {
-        var traveler = (Traveler)turn.UnitReference.Unit;
+        return _state.CombatFlow ?? throw new InvalidOperationException("Combat flow is not initialized.");
+    }
 
-        while (flow.Result == BattleResult.Ongoing)
+    private static bool IsBattleOngoing(CombatFlowState combatState)
+    {
+        return combatState.Result == BattleResult.Ongoing;
+    }
+
+    private void PrepareRound(CombatFlowState combatState, int roundNumber)
+    {
+        RechargeBpIfNeeded(combatState, roundNumber);
+        StartRoundQueues(combatState);
+        _view.ShowRoundStart(roundNumber);
+        _view.ShowCombatStatus(combatState.BuildViewSnapshot());
+    }
+
+    private static void RechargeBpIfNeeded(CombatFlowState combatState, int roundNumber)
+    {
+        if (roundNumber > 1)
         {
-            var action = _view.AskTravelerMainAction(traveler.Name);
-            switch (action)
-            {
-                case 1:
-                    if (TryResolveTravelerBasicAttack(flow, turn, traveler))
-                    {
-                        flow.CompleteTurn();
-                        return;
-                    }
+            RechargeBpForAliveTravelers(combatState);
+        }
+    }
 
-                    break;
-                case 2:
-                    _ = _view.AskTravelerSkill(traveler.Name, traveler.ActiveSkills);
-                    break;
-                case 3:
-                    flow.CompleteTurn();
-                    return;
-                case 4:
-                    _view.ShowFleeMessage();
-                    flow.FinishBattle(BattleResult.PlayerDefeat);
-                    _view.ShowEnemyWinMessage();
-                    return;
+    private static void StartRoundQueues(CombatFlowState combatState)
+    {
+        var currentRoundQueue = TurnQueueFactory.BuildCurrentRoundQueue(combatState);
+        var nextRoundQueue = TurnQueueFactory.BuildNextRoundQueue(combatState);
+        combatState.StartRound(currentRoundQueue, nextRoundQueue);
+    }
+
+    private void ExecuteRoundTurns(CombatFlowState combatState)
+    {
+        while (HasPendingTurns(combatState) && IsBattleOngoing(combatState))
+        {
+            var currentTurn = GetCurrentTurn(combatState);
+            ResolveTurn(combatState, currentTurn);
+
+            if (!IsBattleOngoing(combatState))
+            {
+                break;
+            }
+
+            if (TryFinishBattle(combatState))
+            {
+                break;
+            }
+
+            ShowRoundStateAfterTurn(combatState);
+        }
+    }
+
+    private static bool HasPendingTurns(CombatFlowState combatState)
+    {
+        return combatState.CurrentRound is not null && !combatState.CurrentRound.CurrentQueue.IsEmpty;
+    }
+
+    private static TurnEntry GetCurrentTurn(CombatFlowState combatState)
+    {
+        return combatState.PeekTurn() ?? throw new InvalidOperationException("Round queue is inconsistent.");
+    }
+
+    private void ResolveTurn(CombatFlowState combatState, TurnEntry currentTurn)
+    {
+        if (currentTurn.UnitReference.Kind == CombatantKind.Traveler)
+        {
+            ResolveTravelerTurn(combatState, currentTurn);
+            return;
+        }
+
+        ResolveBeastTurn(combatState, currentTurn);
+    }
+
+    private bool TryFinishBattle(CombatFlowState combatState)
+    {
+        var battleOutcome = EvaluateBattleResult(combatState);
+        if (battleOutcome == BattleResult.Ongoing)
+        {
+            return false;
+        }
+
+        combatState.FinishBattle(battleOutcome);
+        ShowWinner(battleOutcome);
+        return true;
+    }
+
+    private void ShowRoundStateAfterTurn(CombatFlowState combatState)
+    {
+        if (combatState.CurrentRound is not null && !combatState.CurrentRound.CurrentQueue.IsEmpty)
+        {
+            _view.ShowCombatStatus(combatState.BuildViewSnapshot(), includeLeadingSeparator: true);
+        }
+    }
+
+    private void ResolveTravelerTurn(CombatFlowState combatState, TurnEntry travelerTurn)
+    {
+        var traveler = GetTraveler(travelerTurn);
+
+        while (IsBattleOngoing(combatState))
+        {
+            var selectedAction = AskTravelerAction(traveler);
+            if (TryHandleTravelerAction(combatState, travelerTurn, traveler, selectedAction))
+            {
+                return;
             }
         }
     }
 
-    private bool TryResolveTravelerBasicAttack(CombatFlowState flow, TurnEntry turn, Traveler traveler)
+    private static Traveler GetTraveler(TurnEntry travelerTurn)
+    {
+        return (Traveler)travelerTurn.UnitReference.Unit;
+    }
+
+    private int AskTravelerAction(Traveler traveler)
+    {
+        return _view.AskTravelerMainAction(traveler.Name);
+    }
+
+    private bool TryHandleTravelerAction(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler, int selectedAction)
+    {
+        return selectedAction switch
+        {
+            1 => TryHandleTravelerBasicAttack(combatState, travelerTurn, traveler),
+            2 => ShowTravelerSkills(traveler),
+            3 => CompleteTravelerTurn(combatState),
+            4 => TravelerFlees(combatState),
+            _ => false
+        };
+    }
+
+    private bool TryHandleTravelerBasicAttack(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler)
+    {
+        if (!TryResolveTravelerBasicAttack(combatState, travelerTurn, traveler))
+        {
+            return false;
+        }
+
+        combatState.CompleteTurn();
+        return true;
+    }
+
+    private bool ShowTravelerSkills(Traveler traveler)
+    {
+        _ = _view.AskTravelerSkill(traveler.Name, traveler.ActiveSkills);
+        return false;
+    }
+
+    private static bool CompleteTravelerTurn(CombatFlowState combatState)
+    {
+        combatState.CompleteTurn();
+        return true;
+    }
+
+    private bool TravelerFlees(CombatFlowState combatState)
+    {
+        _view.ShowFleeMessage();
+        combatState.FinishBattle(BattleResult.PlayerDefeat);
+        _view.ShowEnemyWinMessage();
+        return true;
+    }
+
+    private bool TryResolveTravelerBasicAttack(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler)
     {
         var selectedWeapon = _view.AskWeaponSelection(traveler.Weapons);
         if (selectedWeapon == traveler.Weapons.Count + 1)
@@ -127,9 +217,9 @@ public sealed class Game
 
         var weapon = traveler.Weapons[selectedWeapon - 1];
 
-        var aliveBeasts = flow.GetAliveBeasts();
+        var aliveBeasts = combatState.GetAliveBeasts();
         var enemySnapshots = aliveBeasts
-            .Select(reference => BuildEnemySnapshot(flow, reference))
+            .Select(reference => BuildEnemySnapshot(combatState, reference))
             .ToList();
 
         var selectedTarget = _view.AskTravelerTarget(traveler.Name, enemySnapshots);
@@ -140,29 +230,38 @@ public sealed class Game
 
         var targetReference = aliveBeasts[selectedTarget - 1];
 
-        var actorState = flow.GetUnitState(turn.UnitReference);
+        var actorState = combatState.GetUnitState(travelerTurn.UnitReference);
         if (actorState.CurrentBp > 0)
         {
             _ = _view.AskBoostPointsToUse();
         }
 
         var damage = CalculatePhysicalDamage(traveler.Stats.PhysicalAttack, targetReference.Unit.Stats.PhysicalDefense, BasicAttackModifier);
-        var targetCurrentHp = flow.ApplyDamage(targetReference, damage);
+        var targetCurrentHp = combatState.ApplyDamage(targetReference, damage);
 
         _view.ShowTravelerAttackResult(traveler.Name, targetReference.Unit.Name, weapon, damage, targetCurrentHp);
         return true;
     }
 
-    private void ResolveBeastTurn(CombatFlowState flow, TurnEntry turn)
+    private void ResolveBeastTurn(CombatFlowState combatState, TurnEntry beastTurn)
     {
-        var target = SelectBeastTarget(flow);
-        var beast = (Beast)turn.UnitReference.Unit;
+        var beast = GetBeast(beastTurn);
+        var targetTraveler = SelectBeastTarget(combatState);
+        var dealtDamage = CalculateBeastAttackDamage(beast, targetTraveler);
+        var targetCurrentHp = combatState.ApplyDamage(targetTraveler, dealtDamage);
 
-        var damage = CalculatePhysicalDamage(beast.Stats.PhysicalAttack, target.Unit.Stats.PhysicalDefense, BasicAttackModifier);
-        var targetCurrentHp = flow.ApplyDamage(target, damage);
+        combatState.CompleteTurn();
+        _view.ShowBeastAttackResult(beast.Name, targetTraveler.Unit.Name, dealtDamage, targetCurrentHp);
+    }
 
-        flow.CompleteTurn();
-        _view.ShowBeastAttackResult(beast.Name, target.Unit.Name, damage, targetCurrentHp);
+    private static Beast GetBeast(TurnEntry beastTurn)
+    {
+        return (Beast)beastTurn.UnitReference.Unit;
+    }
+
+    private static int CalculateBeastAttackDamage(Beast beast, UnitReference targetTraveler)
+    {
+        return CalculatePhysicalDamage(beast.Stats.PhysicalAttack, targetTraveler.Unit.Stats.PhysicalDefense, BasicAttackModifier);
     }
 
     private static UnitReference SelectBeastTarget(CombatFlowState flow)
@@ -212,11 +311,11 @@ public sealed class Game
             state.CurrentShields);
     }
 
-    private static void IncreaseBpForAliveTravelers(CombatFlowState flow)
+    private static void RechargeBpForAliveTravelers(CombatFlowState combatState)
     {
-        foreach (var state in flow.UnitStates.Where(s => s.UnitReference.Kind == CombatantKind.Traveler && s.IsAlive))
+        foreach (var travelerState in combatState.UnitStates.Where(s => s.UnitReference.Kind == CombatantKind.Traveler && s.IsAlive))
         {
-            state.CurrentBp = Math.Min(5, state.CurrentBp + 1);
+            travelerState.CurrentBp = Math.Min(5, travelerState.CurrentBp + 1);
         }
     }
 
