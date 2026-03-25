@@ -22,20 +22,4 @@ public enum CombatantKind
     Beast
 }
 
-public enum CombatActionType
-{
-    BasicAttack,
-    UseActiveSkill,
-    Defend,
-    Flee,
-    BeastSkill,
-    Cancel
-}
-
-public enum TurnResolution
-{
-    NoTurnAvailable,
-    ActionCancelled,
-    TurnConsumed
-}
 

@@ -11,7 +11,6 @@ public sealed class CombatFlowState
     public CombatPhase Phase { get; private set; }
     public BattleResult Result { get; private set; }
     public RoundState? CurrentRound { get; private set; }
-    public DeclaredAction? CurrentDeclaredAction { get; private set; }
 
     public IReadOnlyCollection<CombatUnitState> UnitStates => _unitStates.Values;
 
@@ -35,7 +34,6 @@ public sealed class CombatFlowState
 
         var roundNumber = CurrentRound is null ? 1 : CurrentRound.Number + 1;
         CurrentRound = new RoundState(roundNumber, currentQueue, nextQueue);
-        CurrentDeclaredAction = null;
         Phase = CombatPhase.RoundSetup;
 
         ResetRoundFlagsForLivingUnits();
@@ -46,42 +44,6 @@ public sealed class CombatFlowState
         return CurrentRound?.PeekCurrentTurn();
     }
 
-    public void BeginTurn()
-    {
-        if (CurrentRound is null)
-        {
-            throw new InvalidOperationException("A round must be started before beginning a turn.");
-        }
-
-        Phase = CombatPhase.TurnInProgress;
-    }
-
-    public void DeclareAction(DeclaredAction action)
-    {
-        if (Phase != CombatPhase.TurnInProgress)
-        {
-            throw new InvalidOperationException("An action can only be declared during an active turn.");
-        }
-
-        CurrentDeclaredAction = action ?? throw new ArgumentNullException(nameof(action));
-
-        if (action.BoostPointsSpent > 0 && _unitStates.TryGetValue(action.Actor.Unit, out var state))
-        {
-            state.UsedBoostingThisRound = true;
-        }
-    }
-
-    public void CancelTurn()
-    {
-        if (Phase != CombatPhase.TurnInProgress)
-        {
-            throw new InvalidOperationException("A turn can only be cancelled during an active turn.");
-        }
-
-        CurrentDeclaredAction = null;
-        Phase = CombatPhase.RoundSetup;
-    }
-
     public TurnEntry? CompleteTurn()
     {
         if (CurrentRound is null)
@@ -89,7 +51,6 @@ public sealed class CombatFlowState
             throw new InvalidOperationException("A round must be started before completing a turn.");
         }
 
-        CurrentDeclaredAction = null;
         var resolvedTurn = CurrentRound.ConsumeCurrentTurn();
 
         if (CurrentRound.CurrentQueue.IsEmpty)
@@ -102,15 +63,6 @@ public sealed class CombatFlowState
         return resolvedTurn;
     }
 
-    public void EndRound()
-    {
-        if (CurrentRound is null)
-        {
-            throw new InvalidOperationException("A round must be started before ending it.");
-        }
-
-        Phase = CombatPhase.RoundEnd;
-    }
 
     public void FinishBattle(BattleResult result)
     {

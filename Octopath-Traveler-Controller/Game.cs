@@ -13,7 +13,7 @@ public sealed class Game
 
     public Game(View view, string teamsFolder)
     {
-        _view = new MainConsoleView(_state, view, teamsFolder);
+        _view = new MainConsoleView(view, teamsFolder);
     }
 
     public void Play()
@@ -262,12 +262,12 @@ public sealed class Game
     {
         var dealtDamage = CalculateTravelerAttackDamage(basicAttackContext);
         var targetCurrentHp = basicAttackContext.TravelerTurnContext.CombatState.ApplyDamage(basicAttackContext.TargetBeast, dealtDamage);
-        _view.ShowTravelerAttackResult(
+        _view.ShowTravelerAttackResult(new TravelerAttackViewData(
             basicAttackContext.TravelerTurnContext.Traveler.Name,
             basicAttackContext.TargetBeast.Unit.Name,
             basicAttackContext.WeaponType,
             dealtDamage,
-            targetCurrentHp);
+            targetCurrentHp));
     }
 
     private static int CalculateTravelerAttackDamage(TravelerBasicAttackContext basicAttackContext)
@@ -298,11 +298,11 @@ public sealed class Game
     {
         var dealtDamage = CalculateBeastAttackDamage(beastTurnContext);
         var targetCurrentHp = beastTurnContext.CombatState.ApplyDamage(beastTurnContext.TargetTraveler, dealtDamage);
-        _view.ShowBeastAttackResult(
+        _view.ShowBeastAttackResult(new BeastAttackViewData(
             beastTurnContext.Beast.Name,
             beastTurnContext.TargetTraveler.Unit.Name,
             dealtDamage,
-            targetCurrentHp);
+            targetCurrentHp));
     }
 
     private static UnitReference SelectBeastTarget(CombatFlowState combatState)

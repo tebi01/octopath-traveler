@@ -6,11 +6,12 @@ namespace Octopath_Traveler_View;
 public sealed class MainConsoleView
 {
     private const string Separator = "----------------------------------------";
+    private const string CancelLabel = "Cancelar";
 
     private readonly View _view;
     private readonly string _teamsFolder;
 
-    public MainConsoleView(GameState gameState, View view, string teamsFolder)
+    public MainConsoleView(View view, string teamsFolder)
     {
         _view = view;
         _teamsFolder = teamsFolder;
@@ -25,10 +26,7 @@ public sealed class MainConsoleView
     {
         _view.WriteLine("Elige un archivo para cargar los equipos");
         var files = Directory.GetFiles(_teamsFolder).Order().ToArray();
-        for (var index = 0; index < files.Length; index++)
-        {
-            _view.WriteLine($"{index}: {Path.GetFileName(files[index])}");
-        }
+        ShowTeamFiles(files);
 
         var selectedIndex = ReadOption(0, files.Length - 1);
         return new TeamsInfo(files[selectedIndex]);
@@ -48,25 +46,9 @@ public sealed class MainConsoleView
             PrintSeparator();
         }
 
-        _view.WriteLine("Equipo del jugador");
-        foreach (var unit in snapshot.PlayerTeam)
-        {
-            _view.WriteLine($"{unit.BoardSlot}-{unit.Name} - HP:{unit.CurrentHp}/{unit.MaxHp} SP:{unit.CurrentSp}/{unit.MaxSp} BP:{unit.CurrentBp}");
-        }
-
-        _view.WriteLine("Equipo del enemigo");
-        foreach (var unit in snapshot.EnemyTeam)
-        {
-            _view.WriteLine($"{unit.BoardSlot}-{unit.Name} - HP:{unit.CurrentHp}/{unit.MaxHp} Shields:{unit.CurrentShields}");
-        }
-
-        PrintSeparator();
-        _view.WriteLine("Turnos de la ronda");
-        ShowTurns(snapshot.CurrentRoundTurns);
-
-        PrintSeparator();
-        _view.WriteLine("Turnos de la siguiente ronda");
-        ShowTurns(snapshot.NextRoundTurns);
+        ShowPlayerTeam(snapshot.PlayerTeam);
+        ShowEnemyTeam(snapshot.EnemyTeam);
+        ShowRoundQueues(snapshot);
     }
 
     public int AskTravelerMainAction(string travelerName)
@@ -82,45 +64,20 @@ public sealed class MainConsoleView
 
     public int AskWeaponSelection(IReadOnlyList<string> weapons)
     {
-        PrintSeparator();
-        _view.WriteLine("Seleccione un arma");
-        for (var index = 0; index < weapons.Count; index++)
-        {
-            _view.WriteLine($"{index + 1}: {weapons[index]}");
-        }
-
-        var cancelOption = weapons.Count + 1;
-        _view.WriteLine($"{cancelOption}: Cancelar");
-        return ReadOption(1, cancelOption);
+        return AskOptionWithCancel("Seleccione un arma", weapons);
     }
 
     public int AskTravelerTarget(string travelerName, IReadOnlyList<UnitDisplaySnapshot> enemies)
     {
-        PrintSeparator();
-        _view.WriteLine($"Seleccione un objetivo para {travelerName}");
-        for (var index = 0; index < enemies.Count; index++)
-        {
-            var enemy = enemies[index];
-            _view.WriteLine($"{index + 1}: {enemy.Name} - HP:{enemy.CurrentHp}/{enemy.MaxHp} Shields:{enemy.CurrentShields}");
-        }
-
-        var cancelOption = enemies.Count + 1;
-        _view.WriteLine($"{cancelOption}: Cancelar");
-        return ReadOption(1, cancelOption);
+        var targetOptions = enemies
+            .Select(enemy => $"{enemy.Name} - HP:{enemy.CurrentHp}/{enemy.MaxHp} Shields:{enemy.CurrentShields}")
+            .ToList();
+        return AskOptionWithCancel($"Seleccione un objetivo para {travelerName}", targetOptions);
     }
 
     public int AskTravelerSkill(string travelerName, IReadOnlyList<string> activeSkills)
     {
-        PrintSeparator();
-        _view.WriteLine($"Seleccione una habilidad para {travelerName}");
-        for (var index = 0; index < activeSkills.Count; index++)
-        {
-            _view.WriteLine($"{index + 1}: {activeSkills[index]}");
-        }
-
-        var cancelOption = activeSkills.Count + 1;
-        _view.WriteLine($"{cancelOption}: Cancelar");
-        return ReadOption(1, cancelOption);
+        return AskOptionWithCancel($"Seleccione una habilidad para {travelerName}", activeSkills);
     }
 
     public int AskBoostPointsToUse()
@@ -130,20 +87,20 @@ public sealed class MainConsoleView
         return ReadNonNegativeInt();
     }
 
-    public void ShowTravelerAttackResult(string attackerName, string targetName, string weaponType, int damage, int targetCurrentHp)
+    public void ShowTravelerAttackResult(TravelerAttackViewData attackData)
     {
         PrintSeparator();
-        _view.WriteLine($"{attackerName} ataca");
-        _view.WriteLine($"{targetName} recibe {damage} de daño de tipo {weaponType}");
-        _view.WriteLine($"{targetName} termina con HP:{targetCurrentHp}");
+        _view.WriteLine($"{attackData.AttackerName} ataca");
+        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño de tipo {attackData.WeaponType}");
+        _view.WriteLine($"{attackData.TargetName} termina con HP:{attackData.TargetCurrentHp}");
     }
 
-    public void ShowBeastAttackResult(string beastName, string targetName, int damage, int targetCurrentHp)
+    public void ShowBeastAttackResult(BeastAttackViewData attackData)
     {
         PrintSeparator();
-        _view.WriteLine($"{beastName} usa Attack");
-        _view.WriteLine($"{targetName} recibe {damage} de daño físico");
-        _view.WriteLine($"{targetName} termina con HP:{targetCurrentHp}");
+        _view.WriteLine($"{attackData.BeastName} usa Attack");
+        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño físico");
+        _view.WriteLine($"{attackData.TargetName} termina con HP:{attackData.TargetCurrentHp}");
     }
 
     public void ShowFleeMessage()
@@ -162,6 +119,62 @@ public sealed class MainConsoleView
     {
         PrintSeparator();
         _view.WriteLine("Gana equipo del enemigo");
+    }
+
+    private void ShowTeamFiles(IReadOnlyList<string> files)
+    {
+        for (var index = 0; index < files.Count; index++)
+        {
+            _view.WriteLine($"{index}: {Path.GetFileName(files[index])}");
+        }
+    }
+
+    private void ShowPlayerTeam(IReadOnlyList<UnitDisplaySnapshot> players)
+    {
+        _view.WriteLine("Equipo del jugador");
+        foreach (var player in players)
+        {
+            _view.WriteLine($"{player.BoardSlot}-{player.Name} - HP:{player.CurrentHp}/{player.MaxHp} SP:{player.CurrentSp}/{player.MaxSp} BP:{player.CurrentBp}");
+        }
+    }
+
+    private void ShowEnemyTeam(IReadOnlyList<UnitDisplaySnapshot> enemies)
+    {
+        _view.WriteLine("Equipo del enemigo");
+        foreach (var enemy in enemies)
+        {
+            _view.WriteLine($"{enemy.BoardSlot}-{enemy.Name} - HP:{enemy.CurrentHp}/{enemy.MaxHp} Shields:{enemy.CurrentShields}");
+        }
+    }
+
+    private void ShowRoundQueues(CombatViewSnapshot snapshot)
+    {
+        PrintSeparator();
+        _view.WriteLine("Turnos de la ronda");
+        ShowTurns(snapshot.CurrentRoundTurns);
+
+        PrintSeparator();
+        _view.WriteLine("Turnos de la siguiente ronda");
+        ShowTurns(snapshot.NextRoundTurns);
+    }
+
+    private int AskOptionWithCancel(string title, IReadOnlyList<string> options)
+    {
+        PrintSeparator();
+        _view.WriteLine(title);
+        ShowIndexedOptions(options);
+
+        var cancelOption = options.Count + 1;
+        _view.WriteLine($"{cancelOption}: {CancelLabel}");
+        return ReadOption(1, cancelOption);
+    }
+
+    private void ShowIndexedOptions(IReadOnlyList<string> options)
+    {
+        for (var index = 0; index < options.Count; index++)
+        {
+            _view.WriteLine($"{index + 1}: {options[index]}");
+        }
     }
 
     private void ShowTurns(IReadOnlyList<string> turnNames)
