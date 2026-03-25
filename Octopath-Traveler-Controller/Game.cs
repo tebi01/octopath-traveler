@@ -142,145 +142,186 @@ public sealed class Game
 
     private void ResolveTravelerTurn(CombatFlowState combatState, TurnEntry travelerTurn)
     {
-        var traveler = GetTraveler(travelerTurn);
+        var travelerTurnContext = new TravelerTurnContext(combatState, travelerTurn);
 
-        while (IsBattleOngoing(combatState))
+        while (IsBattleOngoing(travelerTurnContext.CombatState))
         {
-            var selectedAction = AskTravelerAction(traveler);
-            if (TryHandleTravelerAction(combatState, travelerTurn, traveler, selectedAction))
+            var selectedAction = AskTravelerAction(travelerTurnContext);
+            if (TryHandleTravelerAction(travelerTurnContext, selectedAction))
             {
                 return;
             }
         }
     }
 
-    private static Traveler GetTraveler(TurnEntry travelerTurn)
+    private int AskTravelerAction(TravelerTurnContext travelerTurnContext)
     {
-        return (Traveler)travelerTurn.UnitReference.Unit;
+        return _view.AskTravelerMainAction(travelerTurnContext.Traveler.Name);
     }
 
-    private int AskTravelerAction(Traveler traveler)
-    {
-        return _view.AskTravelerMainAction(traveler.Name);
-    }
-
-    private bool TryHandleTravelerAction(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler, int selectedAction)
+    private bool TryHandleTravelerAction(TravelerTurnContext travelerTurnContext, int selectedAction)
     {
         return selectedAction switch
         {
-            1 => TryHandleTravelerBasicAttack(combatState, travelerTurn, traveler),
-            2 => ShowTravelerSkills(traveler),
-            3 => CompleteTravelerTurn(combatState),
-            4 => TravelerFlees(combatState),
+            1 => TryHandleTravelerBasicAttack(travelerTurnContext),
+            2 => ShowTravelerSkills(travelerTurnContext),
+            3 => CompleteTravelerTurn(travelerTurnContext),
+            4 => TravelerFlees(travelerTurnContext),
             _ => false
         };
     }
 
-    private bool TryHandleTravelerBasicAttack(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler)
+    private bool TryHandleTravelerBasicAttack(TravelerTurnContext travelerTurnContext)
     {
-        if (!TryResolveTravelerBasicAttack(combatState, travelerTurn, traveler))
+        if (!TryResolveTravelerBasicAttack(travelerTurnContext))
         {
             return false;
         }
 
-        combatState.CompleteTurn();
+        travelerTurnContext.CombatState.CompleteTurn();
         return true;
     }
 
-    private bool ShowTravelerSkills(Traveler traveler)
+    private bool ShowTravelerSkills(TravelerTurnContext travelerTurnContext)
     {
-        _ = _view.AskTravelerSkill(traveler.Name, traveler.ActiveSkills);
+        _ = _view.AskTravelerSkill(travelerTurnContext.Traveler.Name, travelerTurnContext.Traveler.ActiveSkills);
         return false;
     }
 
-    private static bool CompleteTravelerTurn(CombatFlowState combatState)
+    private static bool CompleteTravelerTurn(TravelerTurnContext travelerTurnContext)
     {
-        combatState.CompleteTurn();
+        travelerTurnContext.CombatState.CompleteTurn();
         return true;
     }
 
-    private bool TravelerFlees(CombatFlowState combatState)
+    private bool TravelerFlees(TravelerTurnContext travelerTurnContext)
     {
         _view.ShowFleeMessage();
-        combatState.FinishBattle(BattleResult.PlayerDefeat);
+        travelerTurnContext.CombatState.FinishBattle(BattleResult.PlayerDefeat);
         _view.ShowEnemyWinMessage();
         return true;
     }
 
-    private bool TryResolveTravelerBasicAttack(CombatFlowState combatState, TurnEntry travelerTurn, Traveler traveler)
+    private bool TryResolveTravelerBasicAttack(TravelerTurnContext travelerTurnContext)
     {
-        var selectedWeapon = _view.AskWeaponSelection(traveler.Weapons);
-        if (selectedWeapon == traveler.Weapons.Count + 1)
+        var selectedWeapon = TrySelectWeapon(travelerTurnContext);
+        if (selectedWeapon is null)
         {
             return false;
         }
 
-        var weapon = traveler.Weapons[selectedWeapon - 1];
+        var selectedTarget = TrySelectTravelerTarget(travelerTurnContext);
+        if (selectedTarget is null)
+        {
+            return false;
+        }
 
-        var aliveBeasts = combatState.GetAliveBeasts();
+        AskBoostPointsIfAvailable(travelerTurnContext);
+        var basicAttackContext = new TravelerBasicAttackContext(travelerTurnContext, selectedWeapon, selectedTarget);
+        ExecuteTravelerBasicAttack(basicAttackContext);
+        return true;
+    }
+
+    private string? TrySelectWeapon(TravelerTurnContext travelerTurnContext)
+    {
+        var selectedWeapon = _view.AskWeaponSelection(travelerTurnContext.Traveler.Weapons);
+        if (selectedWeapon == travelerTurnContext.Traveler.Weapons.Count + 1)
+        {
+            return null;
+        }
+
+        return travelerTurnContext.Traveler.Weapons[selectedWeapon - 1];
+    }
+
+    private UnitReference? TrySelectTravelerTarget(TravelerTurnContext travelerTurnContext)
+    {
+        var aliveBeasts = travelerTurnContext.CombatState.GetAliveBeasts();
         var enemySnapshots = aliveBeasts
-            .Select(reference => BuildEnemySnapshot(combatState, reference))
+            .Select(reference => BuildEnemySnapshot(travelerTurnContext.CombatState, reference))
             .ToList();
 
-        var selectedTarget = _view.AskTravelerTarget(traveler.Name, enemySnapshots);
+        var selectedTarget = _view.AskTravelerTarget(travelerTurnContext.Traveler.Name, enemySnapshots);
         if (selectedTarget == enemySnapshots.Count + 1)
         {
-            return false;
+            return null;
         }
 
-        var targetReference = aliveBeasts[selectedTarget - 1];
+        return aliveBeasts[selectedTarget - 1];
+    }
 
-        var actorState = combatState.GetUnitState(travelerTurn.UnitReference);
-        if (actorState.CurrentBp > 0)
+    private void AskBoostPointsIfAvailable(TravelerTurnContext travelerTurnContext)
+    {
+        var travelerState = travelerTurnContext.CombatState.GetUnitState(travelerTurnContext.TravelerTurn.UnitReference);
+        if (travelerState.CurrentBp > 0)
         {
             _ = _view.AskBoostPointsToUse();
         }
+    }
 
-        var damage = CalculatePhysicalDamage(traveler.Stats.PhysicalAttack, targetReference.Unit.Stats.PhysicalDefense, BasicAttackModifier);
-        var targetCurrentHp = combatState.ApplyDamage(targetReference, damage);
+    private void ExecuteTravelerBasicAttack(TravelerBasicAttackContext basicAttackContext)
+    {
+        var dealtDamage = CalculateTravelerAttackDamage(basicAttackContext);
+        var targetCurrentHp = basicAttackContext.TravelerTurnContext.CombatState.ApplyDamage(basicAttackContext.TargetBeast, dealtDamage);
+        _view.ShowTravelerAttackResult(
+            basicAttackContext.TravelerTurnContext.Traveler.Name,
+            basicAttackContext.TargetBeast.Unit.Name,
+            basicAttackContext.WeaponType,
+            dealtDamage,
+            targetCurrentHp);
+    }
 
-        _view.ShowTravelerAttackResult(traveler.Name, targetReference.Unit.Name, weapon, damage, targetCurrentHp);
-        return true;
+    private static int CalculateTravelerAttackDamage(TravelerBasicAttackContext basicAttackContext)
+    {
+        return CalculatePhysicalDamage(
+            basicAttackContext.TravelerTurnContext.Traveler.Stats.PhysicalAttack,
+            basicAttackContext.TargetBeast.Unit.Stats.PhysicalDefense,
+            BasicAttackModifier);
     }
 
     private void ResolveBeastTurn(CombatFlowState combatState, TurnEntry beastTurn)
     {
-        var beast = GetBeast(beastTurn);
         var targetTraveler = SelectBeastTarget(combatState);
-        var dealtDamage = CalculateBeastAttackDamage(beast, targetTraveler);
-        var targetCurrentHp = combatState.ApplyDamage(targetTraveler, dealtDamage);
-
-        combatState.CompleteTurn();
-        _view.ShowBeastAttackResult(beast.Name, targetTraveler.Unit.Name, dealtDamage, targetCurrentHp);
+        var beastTurnContext = new BeastTurnContext(combatState, beastTurn, targetTraveler);
+        ExecuteBeastAttack(beastTurnContext);
+        beastTurnContext.CombatState.CompleteTurn();
     }
 
-    private static Beast GetBeast(TurnEntry beastTurn)
+    private static int CalculateBeastAttackDamage(BeastTurnContext beastTurnContext)
     {
-        return (Beast)beastTurn.UnitReference.Unit;
+        return CalculatePhysicalDamage(
+            beastTurnContext.Beast.Stats.PhysicalAttack,
+            beastTurnContext.TargetTraveler.Unit.Stats.PhysicalDefense,
+            BasicAttackModifier);
     }
 
-    private static int CalculateBeastAttackDamage(Beast beast, UnitReference targetTraveler)
+    private void ExecuteBeastAttack(BeastTurnContext beastTurnContext)
     {
-        return CalculatePhysicalDamage(beast.Stats.PhysicalAttack, targetTraveler.Unit.Stats.PhysicalDefense, BasicAttackModifier);
+        var dealtDamage = CalculateBeastAttackDamage(beastTurnContext);
+        var targetCurrentHp = beastTurnContext.CombatState.ApplyDamage(beastTurnContext.TargetTraveler, dealtDamage);
+        _view.ShowBeastAttackResult(
+            beastTurnContext.Beast.Name,
+            beastTurnContext.TargetTraveler.Unit.Name,
+            dealtDamage,
+            targetCurrentHp);
     }
 
-    private static UnitReference SelectBeastTarget(CombatFlowState flow)
+    private static UnitReference SelectBeastTarget(CombatFlowState combatState)
     {
-        var travelers = flow.GetAliveTravelers();
+        var travelers = combatState.GetAliveTravelers();
         return travelers
-            .OrderByDescending(reference => flow.GetUnitState(reference).CurrentHp)
+            .OrderByDescending(reference => combatState.GetUnitState(reference).CurrentHp)
             .ThenBy(reference => reference.BoardPosition)
             .First();
     }
 
-    private static BattleResult EvaluateBattleResult(CombatFlowState flow)
+    private static BattleResult EvaluateBattleResult(CombatFlowState combatState)
     {
-        if (!flow.GetAliveBeasts().Any())
+        if (!combatState.GetAliveBeasts().Any())
         {
             return BattleResult.PlayerVictory;
         }
 
-        if (!flow.GetAliveTravelers().Any())
+        if (!combatState.GetAliveTravelers().Any())
         {
             return BattleResult.PlayerDefeat;
         }
@@ -294,9 +335,9 @@ public sealed class Game
         return Math.Max(0, Convert.ToInt32(Math.Floor(rawDamage)));
     }
 
-    private static UnitDisplaySnapshot BuildEnemySnapshot(CombatFlowState flow, UnitReference reference)
+    private static UnitDisplaySnapshot BuildEnemySnapshot(CombatFlowState combatState, UnitReference reference)
     {
-        var state = flow.GetUnitState(reference);
+        var state = combatState.GetUnitState(reference);
         var slot = ((char)('A' + reference.BoardPosition)).ToString();
 
         return new UnitDisplaySnapshot(

@@ -1,16 +1,17 @@
 using System.Text.Json;
-using System.Text.RegularExpressions;
 using Octopath_Traveler_Model;
 using Octopath_Traveler_View;
 
 namespace Octopath_Traveler;
 
-// This class can't leave in the model, since TeamsInfo is defined in the view
 public sealed class TeamsBuilder
 {
-    private static readonly Regex TravelerLineRegex = new(
-        "^(?<name>[^\\(\\[\\]]+?)\\s*(\\((?<active>[^\\)]*)\\))?\\s*(\\[(?<passive>[^\\]]*)\\])?\\s*$",
-        RegexOptions.Compiled);
+    private const string PlayerTeamHeader = "Player Team";
+    private const string EnemyTeamHeader = "Enemy Team";
+    private const int MinTravelers = 1;
+    private const int MaxTravelers = 4;
+    private const int MinBeasts = 1;
+    private const int MaxBeasts = 5;
 
     private readonly TeamsInfo _teamsInfo;
 
@@ -22,38 +23,68 @@ public sealed class TeamsBuilder
     public GameState Build()
     {
         var catalogs = LoadCatalogs();
+        var parsedTeam = LoadAndValidateTeam(catalogs);
+        var playerTeam = BuildPlayerTeam(parsedTeam, catalogs);
+        var enemyTeam = BuildEnemyTeam(parsedTeam, catalogs);
+        return new GameState(playerTeam, enemyTeam);
+    }
+
+    private ParsedTeam LoadAndValidateTeam(Catalogs catalogs)
+    {
         var teamFileLines = File.ReadAllLines(_teamsInfo.TeamFilePath);
         var parsedTeam = ParseTeamFile(teamFileLines);
-
         ValidateTeam(parsedTeam, catalogs);
+        return parsedTeam;
+    }
 
+    private static PlayerTeam BuildPlayerTeam(ParsedTeam parsedTeam, Catalogs catalogs)
+    {
         var travelers = parsedTeam.Travelers
             .Select(travelerLine => BuildTraveler(travelerLine, catalogs))
             .ToList();
+        return new PlayerTeam(travelers);
+    }
 
+    private static EnemyTeam BuildEnemyTeam(ParsedTeam parsedTeam, Catalogs catalogs)
+    {
         var beasts = parsedTeam.Beasts
             .Select(beastName => BuildBeast(beastName, catalogs))
             .ToList();
-
-        var playerTeam = new PlayerTeam(travelers);
-        var enemyTeam = new EnemyTeam(beasts);
-        return new GameState(playerTeam, enemyTeam);
+        return new EnemyTeam(beasts);
     }
 
     private Catalogs LoadCatalogs()
     {
-        var dataFolder = Path.GetDirectoryName(Path.GetDirectoryName(_teamsInfo.TeamFilePath))
-                         ?? throw new InvalidOperationException("Invalid teams folder path.");
+        var dataFolder = GetDataFolderPath();
+        var characters = ReadCatalog<List<CharacterDto>>(dataFolder, "characters.json");
+        var enemies = ReadCatalog<List<EnemyDto>>(dataFolder, "enemies.json");
+        var activeSkills = ReadCatalog<List<SkillDto>>(dataFolder, "skills.json");
+        var passiveSkills = ReadCatalog<List<SkillDto>>(dataFolder, "passive_skills.json");
 
-        var characters = ReadJson<List<CharacterDto>>(Path.Combine(dataFolder, "characters.json"));
-        var enemies = ReadJson<List<EnemyDto>>(Path.Combine(dataFolder, "enemies.json"));
-        var skills = ReadJson<List<SkillDto>>(Path.Combine(dataFolder, "skills.json"));
-        var passiveSkills = ReadJson<List<SkillDto>>(Path.Combine(dataFolder, "passive_skills.json"));
+        return BuildCatalogs(characters, enemies, activeSkills, passiveSkills);
+    }
 
+    private string GetDataFolderPath()
+    {
+        return Path.GetDirectoryName(Path.GetDirectoryName(_teamsInfo.TeamFilePath))
+               ?? throw new InvalidOperationException("Invalid teams folder path.");
+    }
+
+    private static T ReadCatalog<T>(string dataFolder, string fileName)
+    {
+        return ReadJson<T>(Path.Combine(dataFolder, fileName));
+    }
+
+    private static Catalogs BuildCatalogs(
+        List<CharacterDto> characters,
+        List<EnemyDto> enemies,
+        List<SkillDto> activeSkills,
+        List<SkillDto> passiveSkills)
+    {
         return new Catalogs(
             characters.ToDictionary(character => character.Name, StringComparer.OrdinalIgnoreCase),
             enemies.ToDictionary(enemy => enemy.Name, StringComparer.OrdinalIgnoreCase),
-            skills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase),
+            activeSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase),
             passiveSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase));
     }
 
@@ -70,50 +101,186 @@ public sealed class TeamsBuilder
 
     private static ParsedTeam ParseTeamFile(string[] lines)
     {
+        EnsureMinimumTeamFileLength(lines);
+        var normalizedLines = NormalizeTeamLines(lines);
+        EnsurePlayerTeamHeader(normalizedLines);
+
+        var enemyTeamIndex = FindEnemyTeamIndex(normalizedLines);
+        var travelerLines = ParseTravelerLines(normalizedLines, enemyTeamIndex);
+        var beastNames = ParseBeastNames(normalizedLines, enemyTeamIndex);
+        return new ParsedTeam(travelerLines, beastNames);
+    }
+
+    private static void EnsureMinimumTeamFileLength(string[] lines)
+    {
         if (lines.Length < 4)
         {
             throw new InvalidOperationException("Invalid team file format.");
         }
+    }
 
-        var normalizedLines = lines.Select(line => line.Trim()).Where(line => line.Length > 0).ToList();
-        if (normalizedLines.Count < 4 || !string.Equals(normalizedLines[0], "Player Team", StringComparison.Ordinal))
+    private static List<string> NormalizeTeamLines(IEnumerable<string> lines)
+    {
+        return lines.Select(line => line.Trim()).Where(line => line.Length > 0).ToList();
+    }
+
+    private static void EnsurePlayerTeamHeader(IReadOnlyList<string> normalizedLines)
+    {
+        if (normalizedLines.Count < 4 || !string.Equals(normalizedLines[0], PlayerTeamHeader, StringComparison.Ordinal))
         {
             throw new InvalidOperationException("Invalid team file format.");
         }
+    }
 
-        var enemyTeamIndex = normalizedLines.FindIndex(line => string.Equals(line, "Enemy Team", StringComparison.Ordinal));
+    private static int FindEnemyTeamIndex(IReadOnlyList<string> normalizedLines)
+    {
+        var enemyTeamIndex = -1;
+        for (var index = 0; index < normalizedLines.Count; index++)
+        {
+            if (string.Equals(normalizedLines[index], EnemyTeamHeader, StringComparison.Ordinal))
+            {
+                enemyTeamIndex = index;
+                break;
+            }
+        }
+
         if (enemyTeamIndex <= 1 || enemyTeamIndex == normalizedLines.Count - 1)
         {
             throw new InvalidOperationException("Invalid team file format.");
         }
 
-        var travelerLines = normalizedLines.Skip(1).Take(enemyTeamIndex - 1).Select(ParseTravelerLine).ToList();
-        var beastNames = normalizedLines.Skip(enemyTeamIndex + 1).ToList();
+        return enemyTeamIndex;
+    }
 
-        return new ParsedTeam(travelerLines, beastNames);
+    private static List<ParsedTravelerLine> ParseTravelerLines(IReadOnlyList<string> normalizedLines, int enemyTeamIndex)
+    {
+        return normalizedLines.Skip(1).Take(enemyTeamIndex - 1).Select(ParseTravelerLine).ToList();
+    }
+
+    private static List<string> ParseBeastNames(IReadOnlyList<string> normalizedLines, int enemyTeamIndex)
+    {
+        return normalizedLines.Skip(enemyTeamIndex + 1).ToList();
     }
 
     private static ParsedTravelerLine ParseTravelerLine(string line)
     {
-        var match = TravelerLineRegex.Match(line);
-        if (!match.Success)
+        var normalizedLine = line.Trim();
+        var travelerSections = ExtractTravelerSections(normalizedLine);
+        return BuildParsedTravelerLine(travelerSections);
+    }
+
+    private static TravelerSections ExtractTravelerSections(string normalizedLine)
+    {
+        var travelerName = ExtractTravelerName(normalizedLine);
+        var contentAfterName = normalizedLine.Substring(travelerName.Length).Trim();
+
+        var (afterActiveSkills, activeSkillsContent) = ConsumeOptionalSection(contentAfterName, '(', ')');
+        var (afterPassiveSkills, passiveSkillsContent) = ConsumeOptionalSection(afterActiveSkills, '[', ']');
+        EnsureNoUnexpectedSymbols(afterPassiveSkills);
+
+        return new TravelerSections(travelerName.Trim(), activeSkillsContent, passiveSkillsContent);
+    }
+
+    private static ParsedTravelerLine BuildParsedTravelerLine(TravelerSections travelerSections)
+    {
+        EnsureTravelerName(travelerSections.Name);
+        var activeSkills = SplitSkills(travelerSections.ActiveSkillsContent);
+        var passiveSkills = SplitSkills(travelerSections.PassiveSkillsContent);
+        return new ParsedTravelerLine(travelerSections.Name, activeSkills, passiveSkills);
+    }
+
+    private static void EnsureTravelerName(string travelerName)
+    {
+        if (string.IsNullOrWhiteSpace(travelerName))
+        {
+            throw new InvalidOperationException("Traveler name is required.");
+        }
+    }
+
+    private static string ExtractTravelerName(string line)
+    {
+        var activeSkillsStart = line.IndexOf('(');
+        var passiveSkillsStart = line.IndexOf('[');
+        var firstSectionStart = GetFirstPositiveIndex(activeSkillsStart, passiveSkillsStart);
+
+        return firstSectionStart < 0
+            ? line
+            : line[..firstSectionStart];
+    }
+
+    private static (string Remaining, string? Content) ConsumeOptionalSection(string text, char sectionStart, char sectionEnd)
+    {
+        var startIndex = text.IndexOf(sectionStart);
+        var endIndex = text.IndexOf(sectionEnd);
+
+        if (SectionIsMissing(startIndex, endIndex))
+        {
+            return (text.Trim(), null);
+        }
+
+        EnsureValidSectionBounds(startIndex, endIndex);
+        EnsureSingleSectionPair(text, sectionStart, sectionEnd, startIndex, endIndex);
+
+        var content = text[(startIndex + 1)..endIndex];
+        var remaining = (text[..startIndex] + text[(endIndex + 1)..]).Trim();
+        return (remaining, content);
+    }
+
+    private static bool SectionIsMissing(int startIndex, int endIndex)
+    {
+        return startIndex < 0 && endIndex < 0;
+    }
+
+    private static void EnsureValidSectionBounds(int startIndex, int endIndex)
+    {
+        if (startIndex < 0 || endIndex < 0 || endIndex <= startIndex)
+        {
+            throw new InvalidOperationException("Invalid traveler line format.");
+        }
+    }
+
+    private static void EnsureSingleSectionPair(string text, char sectionStart, char sectionEnd, int startIndex, int endIndex)
+    {
+        if (HasExtraDelimiter(text, sectionStart, startIndex) || HasExtraDelimiter(text, sectionEnd, endIndex))
+        {
+            throw new InvalidOperationException("Invalid traveler line format.");
+        }
+    }
+
+    private static bool HasExtraDelimiter(string text, char delimiter, int firstDelimiterIndex)
+    {
+        return text.IndexOf(delimiter, firstDelimiterIndex + 1) >= 0;
+    }
+
+    private static void EnsureNoUnexpectedSymbols(string remaining)
+    {
+        if (remaining.Contains('(') || remaining.Contains(')') || remaining.Contains('[') || remaining.Contains(']'))
         {
             throw new InvalidOperationException("Invalid traveler line format.");
         }
 
-        var name = match.Groups["name"].Value.Trim();
-        if (string.IsNullOrWhiteSpace(name))
+        if (!string.IsNullOrWhiteSpace(remaining))
         {
-            throw new InvalidOperationException("Traveler name is required.");
+            throw new InvalidOperationException("Invalid traveler line format.");
         }
-
-        var activeSkills = SplitSkills(match.Groups["active"].Value);
-        var passiveSkills = SplitSkills(match.Groups["passive"].Value);
-
-        return new ParsedTravelerLine(name, activeSkills, passiveSkills);
     }
 
-    private static IReadOnlyList<string> SplitSkills(string raw)
+    private static int GetFirstPositiveIndex(int first, int second)
+    {
+        if (first < 0)
+        {
+            return second;
+        }
+
+        if (second < 0)
+        {
+            return first;
+        }
+
+        return Math.Min(first, second);
+    }
+
+    private static IReadOnlyList<string> SplitSkills(string? raw)
     {
         if (string.IsNullOrWhiteSpace(raw))
         {
@@ -129,52 +296,84 @@ public sealed class TeamsBuilder
 
     private static void ValidateTeam(ParsedTeam parsedTeam, Catalogs catalogs)
     {
-        if (parsedTeam.Travelers.Count is < 1 or > 4)
+        ValidateTeamSize(parsedTeam);
+        ValidateTeamDuplicates(parsedTeam);
+        ValidateTravelers(parsedTeam.Travelers, catalogs);
+        ValidateBeasts(parsedTeam.Beasts, catalogs);
+    }
+
+    private static void ValidateTeamSize(ParsedTeam parsedTeam)
+    {
+        if (parsedTeam.Travelers.Count is < MinTravelers or > MaxTravelers)
         {
             throw new InvalidOperationException("Invalid traveler count.");
         }
 
-        if (parsedTeam.Beasts.Count is < 1 or > 5)
+        if (parsedTeam.Beasts.Count is < MinBeasts or > MaxBeasts)
         {
             throw new InvalidOperationException("Invalid beast count.");
         }
+    }
 
+    private static void ValidateTeamDuplicates(ParsedTeam parsedTeam)
+    {
         EnsureNoDuplicates(parsedTeam.Travelers.Select(t => t.Name));
         EnsureNoDuplicates(parsedTeam.Beasts);
+    }
 
-        foreach (var traveler in parsedTeam.Travelers)
+    private static void ValidateTravelers(IEnumerable<ParsedTravelerLine> travelers, Catalogs catalogs)
+    {
+        foreach (var traveler in travelers)
         {
-            if (!catalogs.Characters.ContainsKey(traveler.Name))
-            {
-                throw new InvalidOperationException("Unknown traveler.");
-            }
+            ValidateTravelerExists(traveler, catalogs);
+            ValidateTravelerSkillCounts(traveler);
+            ValidateTravelerSkillDuplicates(traveler);
+            ValidateTravelerSkillsExist(traveler, catalogs);
+        }
+    }
 
-            if (traveler.ActiveSkills.Count > Traveler.MaxActiveSkills || traveler.PassiveSkills.Count > Traveler.MaxPassiveSkills)
-            {
-                throw new InvalidOperationException("Too many skills.");
-            }
+    private static void ValidateTravelerExists(ParsedTravelerLine traveler, Catalogs catalogs)
+    {
+        if (!catalogs.Characters.ContainsKey(traveler.Name))
+        {
+            throw new InvalidOperationException("Unknown traveler.");
+        }
+    }
 
-            EnsureNoDuplicates(traveler.ActiveSkills);
-            EnsureNoDuplicates(traveler.PassiveSkills);
+    private static void ValidateTravelerSkillCounts(ParsedTravelerLine traveler)
+    {
+        if (traveler.ActiveSkills.Count > Traveler.MaxActiveSkills || traveler.PassiveSkills.Count > Traveler.MaxPassiveSkills)
+        {
+            throw new InvalidOperationException("Too many skills.");
+        }
+    }
 
-            foreach (var skill in traveler.ActiveSkills)
-            {
-                if (!catalogs.ActiveSkills.Contains(skill))
-                {
-                    throw new InvalidOperationException("Unknown active skill.");
-                }
-            }
+    private static void ValidateTravelerSkillDuplicates(ParsedTravelerLine traveler)
+    {
+        EnsureNoDuplicates(traveler.ActiveSkills);
+        EnsureNoDuplicates(traveler.PassiveSkills);
+    }
 
-            foreach (var passiveSkill in traveler.PassiveSkills)
+    private static void ValidateTravelerSkillsExist(ParsedTravelerLine traveler, Catalogs catalogs)
+    {
+        ValidateKnownSkills(traveler.ActiveSkills, catalogs.ActiveSkills, "Unknown active skill.");
+        ValidateKnownSkills(traveler.PassiveSkills, catalogs.PassiveSkills, "Unknown passive skill.");
+    }
+
+    private static void ValidateKnownSkills(IEnumerable<string> skills, HashSet<string> catalogSkills, string errorMessage)
+    {
+        foreach (var skill in skills)
+        {
+            if (!catalogSkills.Contains(skill))
             {
-                if (!catalogs.PassiveSkills.Contains(passiveSkill))
-                {
-                    throw new InvalidOperationException("Unknown passive skill.");
-                }
+                throw new InvalidOperationException(errorMessage);
             }
         }
+    }
 
-        foreach (var beast in parsedTeam.Beasts)
+    private static void ValidateBeasts(IEnumerable<string> beasts, Catalogs catalogs)
+    {
+        foreach (var beast in beasts)
         {
             if (!catalogs.Enemies.ContainsKey(beast))
             {
@@ -196,17 +395,8 @@ public sealed class TeamsBuilder
     private static Traveler BuildTraveler(ParsedTravelerLine travelerLine, Catalogs catalogs)
     {
         var character = catalogs.Characters[travelerLine.Name];
-
-        var stats = new CombatStats(
-            character.Stats.HP,
-            character.Stats.HP,
-            character.Stats.PhysAtk,
-            character.Stats.PhysDef,
-            character.Stats.ElemAtk,
-            character.Stats.ElemDef,
-            character.Stats.Speed);
-
-        var sp = new SkillPoints(character.Stats.SP, character.Stats.SP);
+        var stats = BuildCharacterCombatStats(character);
+        var sp = BuildCharacterSkillPoints(character);
 
         return new Traveler(
             character.Name,
@@ -220,8 +410,31 @@ public sealed class TeamsBuilder
     private static Beast BuildBeast(string beastName, Catalogs catalogs)
     {
         var enemy = catalogs.Enemies[beastName];
+        var stats = BuildEnemyCombatStats(enemy);
 
-        var stats = new CombatStats(
+        return new Beast(enemy.Name, stats, enemy.Skill, enemy.Shields, enemy.Weaknesses);
+    }
+
+    private static CombatStats BuildCharacterCombatStats(CharacterDto character)
+    {
+        return new CombatStats(
+            character.Stats.HP,
+            character.Stats.HP,
+            character.Stats.PhysAtk,
+            character.Stats.PhysDef,
+            character.Stats.ElemAtk,
+            character.Stats.ElemDef,
+            character.Stats.Speed);
+    }
+
+    private static SkillPoints BuildCharacterSkillPoints(CharacterDto character)
+    {
+        return new SkillPoints(character.Stats.SP, character.Stats.SP);
+    }
+
+    private static CombatStats BuildEnemyCombatStats(EnemyDto enemy)
+    {
+        return new CombatStats(
             enemy.Stats.HP,
             enemy.Stats.HP,
             enemy.Stats.PhysAtk,
@@ -229,8 +442,6 @@ public sealed class TeamsBuilder
             enemy.Stats.ElemAtk,
             enemy.Stats.ElemDef,
             enemy.Stats.Speed);
-
-        return new Beast(enemy.Name, stats, enemy.Skill, enemy.Shields, enemy.Weaknesses);
     }
 
     private sealed record ParsedTeam(IReadOnlyList<ParsedTravelerLine> Travelers, IReadOnlyList<string> Beasts);
@@ -239,6 +450,11 @@ public sealed class TeamsBuilder
         string Name,
         IReadOnlyList<string> ActiveSkills,
         IReadOnlyList<string> PassiveSkills);
+
+    private sealed record TravelerSections(
+        string Name,
+        string? ActiveSkillsContent,
+        string? PassiveSkillsContent);
 
     private sealed record Catalogs(
         Dictionary<string, CharacterDto> Characters,
