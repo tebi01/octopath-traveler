@@ -18,9 +18,4 @@ public sealed class GameState
         Board = new BattleBoard(PlayerTeam, EnemyTeam);
         CombatFlow = new CombatFlow.CombatFlowState(PlayerTeam, EnemyTeam, Board);
     }
-
-    public void AttachCombatFlow(CombatFlow.CombatFlowState combatFlow)
-    {
-        CombatFlow = combatFlow ?? throw new ArgumentNullException(nameof(combatFlow));
-    }
 }

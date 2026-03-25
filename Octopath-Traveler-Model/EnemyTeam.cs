@@ -18,20 +18,9 @@ public sealed class EnemyTeam
                 nameof(beasts));
         }
 
-        EnsureNoDuplicatedUnits(team.Select(b => b.Name), nameof(beasts));
+        ValidationRules.EnsureUniqueUnitNames(team.Select(b => b.Name), nameof(beasts));
 
         Beasts = team;
-    }
-
-    private static void EnsureNoDuplicatedUnits(IEnumerable<string> names, string paramName)
-    {
-        var normalizedNames = names.ToList();
-        var unique = new HashSet<string>(normalizedNames, StringComparer.OrdinalIgnoreCase);
-
-        if (unique.Count != normalizedNames.Count)
-        {
-            throw new ArgumentException("Team cannot contain duplicated units.", paramName);
-        }
     }
 }
 

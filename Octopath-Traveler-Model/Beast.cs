@@ -33,8 +33,8 @@ public sealed class Beast : Unit
             throw new ArgumentOutOfRangeException(nameof(currentShields), "Current shields must be between 0 and Max shields.");
         }
 
-        var normalizedWeaknesses = NormalizeToReadOnlyList(weaknesses, nameof(weaknesses));
-        EnsureUnique(normalizedWeaknesses, nameof(weaknesses));
+        var normalizedWeaknesses = ValidationRules.NormalizeNonEmptyStrings(weaknesses, nameof(weaknesses));
+        ValidationRules.EnsureUniqueStrings(normalizedWeaknesses, nameof(weaknesses));
 
         Skill = skill.Trim();
         MaxShields = maxShields;
@@ -50,36 +50,6 @@ public sealed class Beast : Unit
         IEnumerable<string>? weaknesses)
         : this(name, stats, skill, shields, shields, weaknesses)
     {
-    }
-
-    private static IReadOnlyList<string> NormalizeToReadOnlyList(IEnumerable<string>? values, string paramName)
-    {
-        if (values is null)
-        {
-            return Array.Empty<string>();
-        }
-
-        var list = new List<string>();
-        foreach (var value in values)
-        {
-            if (string.IsNullOrWhiteSpace(value))
-            {
-                throw new ArgumentException("Values cannot contain null or empty entries.", paramName);
-            }
-
-            list.Add(value.Trim());
-        }
-
-        return list;
-    }
-
-    private static void EnsureUnique(IReadOnlyList<string> values, string paramName)
-    {
-        var unique = new HashSet<string>(values, StringComparer.OrdinalIgnoreCase);
-        if (unique.Count != values.Count)
-        {
-            throw new ArgumentException("Values cannot contain duplicates.", paramName);
-        }
     }
 }
 

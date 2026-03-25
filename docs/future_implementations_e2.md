@@ -28,6 +28,9 @@ que no estaba siendo usado en runtime.
 - `EndRound()`
 - propiedad `CurrentDeclaredAction`
 
+### Metodo removido de `GameState.cs`
+- `AttachCombatFlow(...)`
+
 ### Que quedo activo en CombatFlow
 - `CombatFlowState.cs`
 - `CombatUnitState.cs`
@@ -44,6 +47,23 @@ que no estaba siendo usado en runtime.
 2. Habia tipos y contratos sin consumidores reales.
 3. Mantener codigo no usado elevaba complejidad y costo de mantenimiento.
 4. La limpieza ayudo a cumplir objetivos de Clean Code en E1.
+
+### Caso puntual: por que se removio `AttachCombatFlow(...)`
+`AttachCombatFlow(...)` permitia inyectar un `CombatFlowState` externo en `GameState`,
+pero en el flujo actual no existia ningun consumidor real de esa inyeccion.
+
+En la practica, dejaba dos caminos de inicializacion para el mismo estado:
+- inicializacion interna en el constructor `GameState(PlayerTeam, EnemyTeam)`,
+- inyeccion externa posterior via `AttachCombatFlow(...)`.
+
+Tener ambos caminos sin uso concreto aumentaba ambiguedad sobre la "fuente de verdad".
+Por eso se elimino para E1.
+
+## Metodologia aplicada para decidir la eliminacion
+1. Buscar referencias del metodo en toda la solucion.
+2. Confirmar que no habia llamadas fuera de su archivo.
+3. Validar que el flujo funcional seguia pasando todos los tests.
+4. Documentar explicitamente la decision para futuras entregas.
 
 ## Principio para E2 en adelante
 Reintroducir un motor desacoplado solo cuando exista una necesidad funcional real,
@@ -95,6 +115,17 @@ Regla: no mover todo de una vez.
 Los tests actuales dependen de output exacto.
 Toda impresion debe seguir saliendo por View y mantener formato.
 El engine no debe imprimir.
+
+### Paso 7: Reintroducir inyeccion en `GameState` solo si hay necesidad real
+Si en E2+ se requiere desacople formal del motor, reintroducir un punto de inyeccion
+en `GameState` con una politica clara de inicializacion.
+
+Opciones recomendadas:
+- Opcion A: constructor/factory dedicado que reciba `CombatFlowState`.
+- Opcion B: metodo de inyeccion equivalente a `AttachCombatFlow(...)`, pero
+  documentado con precondiciones y un unico caso de uso.
+
+Regla: no mantener dos caminos de inicializacion si no hay una necesidad concreta.
 
 ## Criterios de aceptacion para la reintroduccion
 - Ningun cambio de output en E1.

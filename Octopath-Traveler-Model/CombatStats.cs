@@ -19,6 +19,20 @@ public sealed class CombatStats
         int elementalDefense,
         int speed)
     {
+        ValidateHp(maxHp, currentHp);
+        ValidateCombatValues(physicalAttack, physicalDefense, elementalAttack, elementalDefense, speed);
+
+        MaxHp = maxHp;
+        CurrentHp = currentHp;
+        PhysicalAttack = physicalAttack;
+        PhysicalDefense = physicalDefense;
+        ElementalAttack = elementalAttack;
+        ElementalDefense = elementalDefense;
+        Speed = speed;
+    }
+
+    private static void ValidateHp(int maxHp, int currentHp)
+    {
         if (maxHp <= 0)
         {
             throw new ArgumentOutOfRangeException(nameof(maxHp), "Max HP must be greater than zero.");
@@ -28,20 +42,20 @@ public sealed class CombatStats
         {
             throw new ArgumentOutOfRangeException(nameof(currentHp), "Current HP must be between 0 and Max HP.");
         }
+    }
 
+    private static void ValidateCombatValues(
+        int physicalAttack,
+        int physicalDefense,
+        int elementalAttack,
+        int elementalDefense,
+        int speed)
+    {
         ValidateNonNegative(physicalAttack, nameof(physicalAttack));
         ValidateNonNegative(physicalDefense, nameof(physicalDefense));
         ValidateNonNegative(elementalAttack, nameof(elementalAttack));
         ValidateNonNegative(elementalDefense, nameof(elementalDefense));
         ValidateNonNegative(speed, nameof(speed));
-
-        MaxHp = maxHp;
-        CurrentHp = currentHp;
-        PhysicalAttack = physicalAttack;
-        PhysicalDefense = physicalDefense;
-        ElementalAttack = elementalAttack;
-        ElementalDefense = elementalDefense;
-        Speed = speed;
     }
 
     private static void ValidateNonNegative(int value, string paramName)

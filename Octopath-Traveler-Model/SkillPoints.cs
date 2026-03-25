@@ -7,6 +7,14 @@ public sealed class SkillPoints
 
     public SkillPoints(int maxSp, int currentSp)
     {
+        ValidateSpRange(maxSp, currentSp);
+
+        MaxSp = maxSp;
+        CurrentSp = currentSp;
+    }
+
+    private static void ValidateSpRange(int maxSp, int currentSp)
+    {
         if (maxSp < 0)
         {
             throw new ArgumentOutOfRangeException(nameof(maxSp), "Max SP cannot be negative.");
@@ -16,9 +24,6 @@ public sealed class SkillPoints
         {
             throw new ArgumentOutOfRangeException(nameof(currentSp), "Current SP must be between 0 and Max SP.");
         }
-
-        MaxSp = maxSp;
-        CurrentSp = currentSp;
     }
 }
 

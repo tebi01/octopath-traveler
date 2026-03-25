@@ -20,34 +20,40 @@ public sealed class BattleBoard
             throw new ArgumentNullException(nameof(enemyTeam));
         }
 
-        PlayerSlots = BuildSlots(playerTeam.Travelers, PlayerSlotsCount, nameof(playerTeam));
-        EnemySlots = BuildSlots(enemyTeam.Beasts, EnemySlotsCount, nameof(enemyTeam));
+        PlayerSlots = BuildPlayerSlots(playerTeam);
+        EnemySlots = BuildEnemySlots(enemyTeam);
     }
 
-    private static IReadOnlyList<TUnit?> BuildSlots<TUnit>(
-        IReadOnlyList<TUnit>? units,
-        int slotsCount,
-        string paramName)
-        where TUnit : Unit
+    private static IReadOnlyList<Traveler?> BuildPlayerSlots(PlayerTeam playerTeam)
     {
-        if (units is null)
+        if (playerTeam.Travelers.Count > PlayerSlotsCount)
         {
-            throw new ArgumentNullException(paramName);
+            throw new ArgumentException($"Team cannot exceed {PlayerSlotsCount} slots.", nameof(playerTeam));
         }
 
-        if (units.Count > slotsCount)
+        var playerSlots = new Traveler?[PlayerSlotsCount];
+        for (var index = 0; index < playerTeam.Travelers.Count; index++)
         {
-            throw new ArgumentException($"Team cannot exceed {slotsCount} slots.", paramName);
+            playerSlots[index] = playerTeam.Travelers[index];
         }
 
-        var slots = new TUnit?[slotsCount];
+        return playerSlots;
+    }
 
-        for (var index = 0; index < units.Count; index++)
+    private static IReadOnlyList<Beast?> BuildEnemySlots(EnemyTeam enemyTeam)
+    {
+        if (enemyTeam.Beasts.Count > EnemySlotsCount)
         {
-            slots[index] = units[index];
+            throw new ArgumentException($"Team cannot exceed {EnemySlotsCount} slots.", nameof(enemyTeam));
         }
 
-        return slots;
+        var enemySlots = new Beast?[EnemySlotsCount];
+        for (var index = 0; index < enemyTeam.Beasts.Count; index++)
+        {
+            enemySlots[index] = enemyTeam.Beasts[index];
+        }
+
+        return enemySlots;
     }
 }
 
