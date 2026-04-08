@@ -19,6 +19,61 @@ public class Tests
     public void TestE1_RandomBasicCombat(string teamsFolder, string testFile)
         => RunTest(teamsFolder, testFile);
     
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-BeastsSkills")]
+    public void TestE2_BeastsSkills(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-DefendAndBreakingPoint")]
+    public void TestE2_DefendAndBreakingPoint(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-OffensiveSkills")]
+    public void TestE2_OffensiveSkills(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-HealingAndQueueSkills")]
+    public void TestE2_HealingAndQueueSkills(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-BaseStatsPassives")]
+    public void TestE2_BaseStatsPassives(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-Mix")]
+    public void TestE2_Mix(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E2-Random")]
+    public void TestE2_Random(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-BasicAttackBoosting")]
+    public void TestE3_BasicAttackBoosting(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-BasicAttackBoostingRandom")]
+    public void TestE3_BasicAttackBoostingRandom(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-BasicPassives")]
+    public void TestE3_BasicPassives(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    [Theory]
+    [MemberData(nameof(GetTestsAssociatedWithThisFolder), parameters: "E3-BasicPassivesRandom")]
+    public void TestE3_BasicPassivesRandom(string teamsFolder, string testFile)
+        => RunTest(teamsFolder, testFile);
+    
+    
     public static IEnumerable<object[]> GetTestsAssociatedWithThisFolder(string teamsfolder)
     {
         teamsfolder = Path.Combine("data", teamsfolder);

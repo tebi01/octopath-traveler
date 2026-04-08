@@ -1,8 +1,0 @@
-Player Team
-Hikari
-Castti
-Enemy Team
-Leviathan
-Wolf
-Devil Deer
-Wolf

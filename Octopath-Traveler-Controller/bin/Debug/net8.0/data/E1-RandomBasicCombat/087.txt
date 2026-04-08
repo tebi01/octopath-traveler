@@ -1,8 +1,0 @@
-Player Team
-Cyrus (Armor Corrosive, Healing Touch, Sidestep)
-Enemy Team
-Dark Guardian
-High Wolf
-Frost Bear
-Snow Fox
-Ice Guardian
