@@ -114,6 +114,29 @@ public sealed class CombatFlowState
         return targetState.CurrentHp;
     }
 
+    public bool TryConsumeBeastShield(UnitReference beastReference)
+    {
+        if (beastReference.Kind != CombatantKind.Beast)
+        {
+            throw new InvalidOperationException("Shields can only be consumed for beasts.");
+        }
+
+        var beastState = GetUnitState(beastReference);
+        if (beastState.CurrentShields <= 0)
+        {
+            return false;
+        }
+
+        beastState.CurrentShields--;
+        if (beastState.CurrentShields > 0)
+        {
+            return false;
+        }
+
+        EnterBreakingPoint(beastReference, beastState);
+        return true;
+    }
+
     public IReadOnlyList<UnitReference> GetAliveTravelers()
     {
         return _unitStates.Values
@@ -195,6 +218,7 @@ public sealed class CombatFlowState
         foreach (var state in _unitStates.Values)
         {
             state.UsedBoostingThisRound = false;
+            state.IsDefending = false;
 
             if (!state.IsAlive)
             {
@@ -222,6 +246,18 @@ public sealed class CombatFlowState
     private static string BuildSlotLabel(int boardPosition)
     {
         return ((char)('A' + boardPosition)).ToString();
+    }
+
+    private void EnterBreakingPoint(UnitReference beastReference, CombatUnitState beastState)
+    {
+        beastState.BreakingRoundsRemaining = 2;
+        beastState.HasBreakingRecoveryPriorityThisRound = false;
+        beastState.HasBreakingRecoveryPriorityNextRound = false;
+        beastState.CanActThisRound = false;
+        beastState.CanActNextRound = false;
+
+        CurrentRound?.CurrentQueue.RemoveAllForUnit(beastReference);
+        CurrentRound?.NextQueue.RemoveAllForUnit(beastReference);
     }
 }
 

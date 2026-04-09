@@ -15,16 +15,23 @@ public sealed class CombatUnitState
     public int CurrentSp { get; set; }
     public int CurrentBp { get; set; }
     public bool UsedBoostingThisRound { get; set; }
+    public bool IsDefending { get; set; }
 
     // Beasts (Breaking Point hooks for a later implementation)
     public int MaxShields { get; }
     public int CurrentShields { get; set; }
-    public bool IsInBreakingPoint { get; set; }
+    public bool IsInBreakingPoint => UnitReference.Kind == CombatantKind.Beast && CurrentShields == 0;
     public int BreakingRoundsRemaining { get; set; }
 
     // Turn-order hooks for a later implementation
     public bool HasDefenderPriorityNextRound { get; set; }
+    public bool HasBreakingRecoveryPriorityThisRound { get; set; }
+    public bool HasBreakingRecoveryPriorityNextRound { get; set; }
+    public bool HasIncreasedPriorityThisRound { get; set; }
+    public bool HasDecreasedPriorityThisRound { get; set; }
     public int PriorityModifierNextRound { get; set; }
+    public int IncreasedPriorityRoundsRemaining { get; set; }
+    public int DecreasedPriorityRoundsRemaining { get; set; }
 
     public CombatUnitState(UnitReference unitReference)
     {

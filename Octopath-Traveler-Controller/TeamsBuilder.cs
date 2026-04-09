@@ -12,6 +12,11 @@ public sealed class TeamsBuilder
     private const int MaxTravelers = 4;
     private const int MinBeasts = 1;
     private const int MaxBeasts = 5;
+    private const string InnerStrengthPassive = "Inner Strength";
+    private const string ElementalAugmentationPassive = "Elemental Augmentation";
+    private const string SummonStrengthPassive = "Summon Strength";
+    private const string HaleAndHeartyPassive = "Hale and Hearty";
+    private const string FleefootPassive = "Fleefoot";
 
     private readonly TeamsInfo _teamsInfo;
 
@@ -60,8 +65,9 @@ public sealed class TeamsBuilder
         var enemies = ReadCatalog<List<EnemyDto>>(dataFolder, "enemies.json");
         var activeSkills = ReadCatalog<List<SkillDto>>(dataFolder, "skills.json");
         var passiveSkills = ReadCatalog<List<SkillDto>>(dataFolder, "passive_skills.json");
+        var beastSkills = ReadCatalog<List<SkillDto>>(dataFolder, "beast_skills.json");
 
-        return BuildCatalogs(characters, enemies, activeSkills, passiveSkills);
+        return BuildCatalogs(characters, enemies, activeSkills, passiveSkills, beastSkills);
     }
 
     private string GetDataFolderPath()
@@ -79,13 +85,15 @@ public sealed class TeamsBuilder
         List<CharacterDto> characters,
         List<EnemyDto> enemies,
         List<SkillDto> activeSkills,
-        List<SkillDto> passiveSkills)
+        List<SkillDto> passiveSkills,
+        List<SkillDto> beastSkills)
     {
         return new Catalogs(
             characters.ToDictionary(character => character.Name, StringComparer.OrdinalIgnoreCase),
             enemies.ToDictionary(enemy => enemy.Name, StringComparer.OrdinalIgnoreCase),
             activeSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase),
-            passiveSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase));
+            passiveSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase),
+            beastSkills.Select(skill => skill.Name).ToHashSet(StringComparer.OrdinalIgnoreCase));
     }
 
     private static T ReadJson<T>(string path)
@@ -379,6 +387,16 @@ public sealed class TeamsBuilder
             {
                 throw new InvalidOperationException("Unknown beast.");
             }
+
+            ValidateEnemySkillExists(catalogs.Enemies[beast].Skill, catalogs);
+        }
+    }
+
+    private static void ValidateEnemySkillExists(string enemySkill, Catalogs catalogs)
+    {
+        if (!catalogs.BeastSkills.Contains(enemySkill))
+        {
+            throw new InvalidOperationException("Unknown beast skill.");
         }
     }
 
@@ -397,14 +415,47 @@ public sealed class TeamsBuilder
         var character = catalogs.Characters[travelerLine.Name];
         var stats = BuildCharacterCombatStats(character);
         var sp = BuildCharacterSkillPoints(character);
+        var (enhancedStats, enhancedSp) = ApplyBaseStatPassives(stats, sp, travelerLine.PassiveSkills);
 
         return new Traveler(
             character.Name,
-            stats,
-            sp,
+            enhancedStats,
+            enhancedSp,
             character.Weapons,
             travelerLine.ActiveSkills,
             travelerLine.PassiveSkills);
+    }
+
+    private static (CombatStats Stats, SkillPoints SkillPoints) ApplyBaseStatPassives(
+        CombatStats baseStats,
+        SkillPoints baseSkillPoints,
+        IReadOnlyList<string> passiveSkills)
+    {
+        var hpBonus = HasPassive(passiveSkills, HaleAndHeartyPassive) ? 500 : 0;
+        var spBonus = HasPassive(passiveSkills, InnerStrengthPassive) ? 50 : 0;
+        var physicalAttackBonus = HasPassive(passiveSkills, SummonStrengthPassive) ? 50 : 0;
+        var elementalAttackBonus = HasPassive(passiveSkills, ElementalAugmentationPassive) ? 50 : 0;
+        var speedBonus = HasPassive(passiveSkills, FleefootPassive) ? 50 : 0;
+
+        var enhancedStats = new CombatStats(
+            baseStats.MaxHp + hpBonus,
+            baseStats.CurrentHp + hpBonus,
+            baseStats.PhysicalAttack + physicalAttackBonus,
+            baseStats.PhysicalDefense,
+            baseStats.ElementalAttack + elementalAttackBonus,
+            baseStats.ElementalDefense,
+            baseStats.Speed + speedBonus);
+
+        var enhancedSkillPoints = new SkillPoints(
+            baseSkillPoints.MaxSp + spBonus,
+            baseSkillPoints.CurrentSp + spBonus);
+
+        return (enhancedStats, enhancedSkillPoints);
+    }
+
+    private static bool HasPassive(IEnumerable<string> passiveSkills, string passiveName)
+    {
+        return passiveSkills.Any(skill => string.Equals(skill, passiveName, StringComparison.OrdinalIgnoreCase));
     }
 
     private static Beast BuildBeast(string beastName, Catalogs catalogs)
@@ -460,7 +511,8 @@ public sealed class TeamsBuilder
         Dictionary<string, CharacterDto> Characters,
         Dictionary<string, EnemyDto> Enemies,
         HashSet<string> ActiveSkills,
-        HashSet<string> PassiveSkills);
+        HashSet<string> PassiveSkills,
+        HashSet<string> BeastSkills);
 
     private sealed class CharacterDto
     {

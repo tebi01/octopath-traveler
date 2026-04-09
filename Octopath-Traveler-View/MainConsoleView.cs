@@ -25,7 +25,7 @@ public sealed class MainConsoleView
     public TeamsInfo SelectTeamInfo()
     {
         _view.WriteLine("Elige un archivo para cargar los equipos");
-        var files = Directory.GetFiles(_teamsFolder).Order().ToArray();
+        var files = Directory.GetFiles(_teamsFolder, "*.txt", SearchOption.TopDirectoryOnly).Order().ToArray();
         ShowTeamFiles(files);
 
         var selectedIndex = ReadOption(0, files.Length - 1);
@@ -75,6 +75,14 @@ public sealed class MainConsoleView
         return AskOptionWithCancel($"Seleccione un objetivo para {travelerName}", targetOptions);
     }
 
+    public int AskAllyTarget(string travelerName, IReadOnlyList<UnitDisplaySnapshot> allies)
+    {
+        var targetOptions = allies
+            .Select(ally => $"{ally.Name} - HP:{ally.CurrentHp}/{ally.MaxHp} SP:{ally.CurrentSp}/{ally.MaxSp} BP:{ally.CurrentBp}")
+            .ToList();
+        return AskOptionWithCancel($"Seleccione un objetivo para {travelerName}", targetOptions);
+    }
+
     public int AskTravelerSkill(string travelerName, IReadOnlyList<string> activeSkills)
     {
         return AskOptionWithCancel($"Seleccione una habilidad para {travelerName}", activeSkills);
@@ -91,16 +99,156 @@ public sealed class MainConsoleView
     {
         PrintSeparator();
         _view.WriteLine($"{attackData.AttackerName} ataca");
-        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño de tipo {attackData.WeaponType}");
+        var weaknessSuffix = attackData.HasWeakness ? " con debilidad" : string.Empty;
+        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño de tipo {attackData.WeaponType}{weaknessSuffix}");
+        if (attackData.TargetEnteredBreakingPoint)
+        {
+            _view.WriteLine($"{attackData.TargetName} entra en Breaking Point");
+        }
+
         _view.WriteLine($"{attackData.TargetName} termina con HP:{attackData.TargetCurrentHp}");
     }
 
     public void ShowBeastAttackResult(BeastAttackViewData attackData)
     {
         PrintSeparator();
-        _view.WriteLine($"{attackData.BeastName} usa Attack");
-        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño físico");
+        _view.WriteLine($"{attackData.BeastName} usa {attackData.SkillName}");
+        if (attackData.TargetIsDefending)
+        {
+            _view.WriteLine($"{attackData.TargetName} se defiende");
+        }
+
+        var damageTypeSuffix = string.IsNullOrEmpty(attackData.DamageType) ? string.Empty : $" {attackData.DamageType}";
+        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño{damageTypeSuffix}");
         _view.WriteLine($"{attackData.TargetName} termina con HP:{attackData.TargetCurrentHp}");
+    }
+
+    public void ShowBeastAreaAttackResult(BeastAreaAttackViewData attackData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{attackData.BeastName} usa {attackData.SkillName}");
+        var damageTypeSuffix = string.IsNullOrEmpty(attackData.DamageType) ? string.Empty : $" {attackData.DamageType}";
+
+        foreach (var target in attackData.Targets)
+        {
+            if (target.TargetIsDefending)
+            {
+                _view.WriteLine($"{target.TargetName} se defiende");
+            }
+
+            _view.WriteLine($"{target.TargetName} recibe {target.Damage} de daño{damageTypeSuffix}");
+        }
+
+        foreach (var target in attackData.Targets)
+        {
+            _view.WriteLine($"{target.TargetName} termina con HP:{target.TargetCurrentHp}");
+        }
+    }
+
+    public void ShowTravelerSkillAttackResult(TravelerSkillAttackViewData attackData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{attackData.TravelerName} usa {attackData.SkillName}");
+        var weaknessSuffix = attackData.HasWeakness ? " con debilidad" : string.Empty;
+        _view.WriteLine($"{attackData.TargetName} recibe {attackData.Damage} de daño de tipo {attackData.DamageType}{weaknessSuffix}");
+        if (attackData.TargetEnteredBreakingPoint)
+        {
+            _view.WriteLine($"{attackData.TargetName} entra en Breaking Point");
+        }
+
+        _view.WriteLine($"{attackData.TargetName} termina con HP:{attackData.TargetCurrentHp}");
+    }
+
+    public void ShowLegholdTrapResult(LegholdTrapViewData trapData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{trapData.TravelerName} usa Leghold Trap");
+        _view.WriteLine($"{trapData.TargetName} tendrá menor prioridad de turno durante 2 rondas");
+    }
+
+    public void ShowTravelerSkillAreaAttackResult(TravelerSkillAreaAttackViewData attackData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{attackData.TravelerName} usa {attackData.SkillName}");
+
+        foreach (var target in attackData.Targets)
+        {
+            var weaknessSuffix = target.HasWeakness ? " con debilidad" : string.Empty;
+            _view.WriteLine($"{target.TargetName} recibe {target.Damage} de daño de tipo {attackData.DamageType}{weaknessSuffix}");
+            if (target.TargetEnteredBreakingPoint)
+            {
+                _view.WriteLine($"{target.TargetName} entra en Breaking Point");
+            }
+        }
+
+        foreach (var target in attackData.Targets)
+        {
+            _view.WriteLine($"{target.TargetName} termina con HP:{target.TargetCurrentHp}");
+        }
+    }
+
+    public void ShowTravelerSkillMultiHitAreaAttackResult(TravelerSkillMultiHitAreaAttackViewData attackData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{attackData.TravelerName} usa {attackData.SkillName}");
+
+        foreach (var hit in attackData.Hits)
+        {
+            var weaknessSuffix = hit.HasWeakness ? " con debilidad" : string.Empty;
+            _view.WriteLine($"{hit.TargetName} recibe {hit.Damage} de daño de tipo {hit.DamageType}{weaknessSuffix}");
+            if (hit.TargetEnteredBreakingPoint)
+            {
+                _view.WriteLine($"{hit.TargetName} entra en Breaking Point");
+            }
+        }
+
+        foreach (var target in attackData.FinalHpByTarget)
+        {
+            _view.WriteLine($"{target.TargetName} termina con HP:{target.TargetCurrentHp}");
+        }
+    }
+
+    public void ShowTravelerHealingSkillResult(TravelerHealingSkillViewData healingData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{healingData.TravelerName} usa {healingData.SkillName}");
+
+        foreach (var target in healingData.Targets)
+        {
+            _view.WriteLine($"{target.TargetName} recupera {target.RecoveredHp} de vida");
+        }
+
+        foreach (var target in healingData.Targets)
+        {
+            _view.WriteLine($"{target.TargetName} termina con HP:{target.TargetCurrentHp}");
+        }
+    }
+
+    public void ShowTravelerReviveSkillResult(TravelerReviveSkillViewData reviveData)
+    {
+        PrintSeparator();
+        _view.WriteLine($"{reviveData.TravelerName} usa {reviveData.SkillName}");
+
+        foreach (var target in reviveData.Targets)
+        {
+            if (target.IsRevived)
+            {
+                _view.WriteLine($"{target.TargetName} revive");
+            }
+        }
+
+        foreach (var target in reviveData.Targets)
+        {
+            if (target.RecoveredHp > 0)
+            {
+                _view.WriteLine($"{target.TargetName} recupera {target.RecoveredHp} de vida");
+            }
+        }
+
+        foreach (var target in reviveData.Targets)
+        {
+            _view.WriteLine($"{target.TargetName} termina con HP:{target.TargetCurrentHp}");
+        }
     }
 
     public void ShowFleeMessage()

@@ -11,9 +11,10 @@ public static class TurnQueueFactory
 
         var entries = flowState.UnitStates
             .Where(state => state.IsAlive && state.CanActThisRound)
-            .Select(state => new TurnEntry(state.UnitReference, state.UnitReference.Unit.Speed))
-            .OrderByDescending(entry => entry.Speed)
-            .ThenBy(entry => entry.UnitReference.Kind)
+            .Select(state => BuildTurnEntry(state, isCurrentRound: true))
+            .OrderBy(entry => entry.PriorityTier)
+            .ThenBy(entry => GetPrimaryOrderKey(entry))
+            .ThenBy(entry => GetSecondaryOrderKey(entry))
             .ThenBy(entry => entry.UnitReference.BoardPosition)
             .ToList();
 
@@ -29,13 +30,81 @@ public static class TurnQueueFactory
 
         var entries = flowState.UnitStates
             .Where(state => state.IsAlive && state.CanActNextRound)
-            .Select(state => new TurnEntry(state.UnitReference, state.UnitReference.Unit.Speed))
-            .OrderByDescending(entry => entry.Speed)
-            .ThenBy(entry => entry.UnitReference.Kind)
+            .Select(state => BuildTurnEntry(state, isCurrentRound: false))
+            .OrderBy(entry => entry.PriorityTier)
+            .ThenBy(entry => GetPrimaryOrderKey(entry))
+            .ThenBy(entry => GetSecondaryOrderKey(entry))
             .ThenBy(entry => entry.UnitReference.BoardPosition)
             .ToList();
 
         return new TurnQueue(entries);
+    }
+
+    private static TurnEntry BuildTurnEntry(CombatUnitState state, bool isCurrentRound)
+    {
+        var speed = state.UnitReference.Unit.Speed;
+        var priorityTier = ResolvePriorityTier(state, isCurrentRound);
+        return new TurnEntry(state.UnitReference, speed, priorityTier: priorityTier);
+    }
+
+    private static int ResolvePriorityTier(CombatUnitState state, bool isCurrentRound)
+    {
+        if (isCurrentRound && state.HasBreakingRecoveryPriorityThisRound)
+        {
+            return 1;
+        }
+
+        if (!isCurrentRound && state.HasBreakingRecoveryPriorityNextRound)
+        {
+            return 1;
+        }
+
+        if (state.UnitReference.Kind == CombatantKind.Traveler && state.HasDefenderPriorityNextRound)
+        {
+            return 2;
+        }
+
+        if (isCurrentRound && state.HasIncreasedPriorityThisRound)
+        {
+            return 3;
+        }
+
+        if (!isCurrentRound && state.PriorityModifierNextRound > 0)
+        {
+            return 3;
+        }
+
+        if (isCurrentRound && state.HasDecreasedPriorityThisRound)
+        {
+            return 5;
+        }
+
+        if (!isCurrentRound && state.PriorityModifierNextRound < 0)
+        {
+            return 5;
+        }
+
+        return 4;
+    }
+
+    private static int GetPrimaryOrderKey(TurnEntry entry)
+    {
+        if (entry.PriorityTier is 3 or 5)
+        {
+            return entry.UnitReference.Kind == CombatantKind.Traveler ? 0 : 1;
+        }
+
+        return -entry.Speed;
+    }
+
+    private static int GetSecondaryOrderKey(TurnEntry entry)
+    {
+        if (entry.PriorityTier is 3 or 5)
+        {
+            return -entry.Speed;
+        }
+
+        return entry.UnitReference.Kind == CombatantKind.Traveler ? 0 : 1;
     }
 }
 

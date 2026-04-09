@@ -1,5 +1,16 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AIReadOnlyList_00601_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003F_002E_002E_003F_002E_002E_003FLibrary_003FApplication_0020Support_003FJetBrains_003FRider2025_002E2_003Fresharper_002Dhost_003FDecompilerCache_003Fdecompiler_003Ff54f14b9f9884122827d677dfee2644ed83a00_003Fdf_003F3ff4f515_003FIReadOnlyList_00601_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=e2b631ac_002D0696_002D458a_002D86ff_002D0c7a37093655/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+	<s:String x:Key="/Default/dotCover/Editor/HighlightingSourceSnapshotLocation/@EntryValue">/Users/eberosg/Library/Caches/JetBrains/Rider2025.2/resharper-host/temp/Rider/vAny/CoverageData/_Octopath-Traveler.-1111248451/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=462dc85d_002D3be5_002D418b_002D8d0d_002D956d6b4c2112/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
   &lt;Solution /&gt;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=6e798f32_002D6534_002D4dcc_002Db768_002D51f2e5776478/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from Solution" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;Solution /&gt;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	
+	
+	
+	
+	</wpf:ResourceDictionary>
