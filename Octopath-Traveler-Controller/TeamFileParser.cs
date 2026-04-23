@@ -36,13 +36,14 @@ internal static class TeamFileParser
         }
     }
 
-    private static TeamFileSections ExtractSections(IReadOnlyList<string> normalizedLines)
+    private static (IReadOnlyList<string> TravelerLines, IReadOnlyList<string> BeastLines)
+        ExtractSections(IReadOnlyList<string> normalizedLines)
     {
         EnsurePlayerTeamHeader(normalizedLines);
         var enemyTeamIndex = FindEnemyTeamIndex(normalizedLines);
         var travelerLines = normalizedLines.Skip(1).Take(enemyTeamIndex - 1).ToList();
         var beastLines = normalizedLines.Skip(enemyTeamIndex + 1).ToList();
-        return new TeamFileSections(travelerLines, beastLines);
+        return (travelerLines, beastLines);
     }
 
     private static int FindEnemyTeamIndex(IReadOnlyList<string> normalizedLines)
@@ -77,6 +78,5 @@ internal static class TeamFileParser
         return beastLines.ToList();
     }
 
-    private sealed record TeamFileSections(IReadOnlyList<string> TravelerLines, IReadOnlyList<string> BeastLines);
 }
 

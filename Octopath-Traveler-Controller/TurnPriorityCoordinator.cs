@@ -72,7 +72,7 @@ internal sealed class TurnPriorityCoordinator
 
         while (!currentQueue.IsEmpty)
         {
-            _ = currentQueue.PopFirst();
+            _ = currentQueue.TryPopFirst(out _);
         }
 
         foreach (var entry in reorderedEntries)

@@ -54,8 +54,7 @@ internal sealed class TravelerSupportSkillResolver
 
     public bool TryResolveFirstAid(TravelerTurnContext travelerTurnContext)
     {
-        var selectedTarget = _allyTargetingService.TrySelectTarget(travelerTurnContext, AllyTargetFilter.Alive);
-        if (selectedTarget is null)
+        if (!_allyTargetingService.TrySelectTarget(travelerTurnContext, AllyTargetFilter.Alive, out var selectedTarget))
         {
             return false;
         }
@@ -111,8 +110,7 @@ internal sealed class TravelerSupportSkillResolver
 
     public bool TryResolveVivify(TravelerTurnContext travelerTurnContext)
     {
-        var selectedTarget = _allyTargetingService.TrySelectTarget(travelerTurnContext, AllyTargetFilter.Dead);
-        if (selectedTarget is null)
+        if (!_allyTargetingService.TrySelectTarget(travelerTurnContext, AllyTargetFilter.Dead, out var selectedTarget))
         {
             return false;
         }

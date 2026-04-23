@@ -14,12 +14,34 @@ public sealed class Traveler : Unit
         string name,
         CombatStats stats,
         SkillPoints skillPoints,
-        IEnumerable<string>? weapons,
-        IEnumerable<string>? activeSkills = null,
-        IEnumerable<string>? passiveSkills = null)
+        IEnumerable<string> weapons)
+        : this(name, stats, skillPoints, weapons, Array.Empty<string>(), Array.Empty<string>())
+    {
+    }
+
+    public Traveler(
+        string name,
+        CombatStats stats,
+        SkillPoints skillPoints,
+        IEnumerable<string> weapons,
+        IEnumerable<string> activeSkills)
+        : this(name, stats, skillPoints, weapons, activeSkills, Array.Empty<string>())
+    {
+    }
+
+    public Traveler(
+        string name,
+        CombatStats stats,
+        SkillPoints skillPoints,
+        IEnumerable<string> weapons,
+        IEnumerable<string> activeSkills,
+        IEnumerable<string> passiveSkills)
         : base(name, stats)
     {
         SkillPoints = skillPoints ?? throw new ArgumentNullException(nameof(skillPoints));
+        ArgumentNullException.ThrowIfNull(weapons);
+        ArgumentNullException.ThrowIfNull(activeSkills);
+        ArgumentNullException.ThrowIfNull(passiveSkills);
 
         var normalizedWeapons = ValidationRules.NormalizeNonEmptyStrings(weapons, nameof(weapons));
         ValidationRules.EnsureUniqueStrings(normalizedWeapons, nameof(weapons));

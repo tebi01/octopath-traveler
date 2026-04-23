@@ -11,13 +11,19 @@ internal sealed class MainConsoleCombatStatusPresenter
         _view = view ?? throw new ArgumentNullException(nameof(view));
     }
 
-    public void ShowCombatStatus(CombatViewSnapshot snapshot, bool includeLeadingSeparator)
+    public void ShowCombatStatus(CombatViewSnapshot snapshot)
     {
-        if (includeLeadingSeparator)
-        {
-            PrintSeparator();
-        }
+        ShowCombatStatusCore(snapshot);
+    }
 
+    public void ShowCombatStatusWithLeadingSeparator(CombatViewSnapshot snapshot)
+    {
+        PrintSeparator();
+        ShowCombatStatusCore(snapshot);
+    }
+
+    private void ShowCombatStatusCore(CombatViewSnapshot snapshot)
+    {
         ShowPlayerTeam(snapshot.PlayerTeam);
         ShowEnemyTeam(snapshot.EnemyTeam);
         ShowRoundQueues(snapshot);

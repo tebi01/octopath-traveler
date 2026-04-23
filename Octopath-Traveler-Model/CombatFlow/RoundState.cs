@@ -24,12 +24,14 @@ public sealed class RoundState
 
     public TurnEntry? PeekCurrentTurn()
     {
-        return CurrentQueue.PeekFirst();
+        return CurrentQueue.TryPeekFirst(out var currentTurn)
+            ? currentTurn
+            : null;
     }
 
     public TurnEntry? ConsumeCurrentTurn()
     {
-        var turn = CurrentQueue.PopFirst();
+        _ = CurrentQueue.TryPopFirst(out var turn);
         if (turn is not null)
         {
             _resolvedTurns.Add(turn);

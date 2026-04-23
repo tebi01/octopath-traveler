@@ -44,9 +44,9 @@ internal sealed class TravelerTurnResolver
         return selectedAction switch
         {
             1 => TryHandleTravelerBasicAttack(travelerTurnContext),
-            2 => _travelerSkillDispatchResolver.ShowTravelerSkills(travelerTurnContext),
-            3 => _travelerTurnOutcomeResolver.DefendTraveler(travelerTurnContext),
-            4 => _travelerTurnOutcomeResolver.TravelerFlees(travelerTurnContext),
+            2 => _travelerSkillDispatchResolver.TryResolveTravelerSkills(travelerTurnContext),
+            3 => _travelerTurnOutcomeResolver.TryResolveDefend(travelerTurnContext),
+            4 => _travelerTurnOutcomeResolver.TryResolveFlee(travelerTurnContext),
             _ => false
         };
     }

@@ -12,20 +12,22 @@ internal sealed class TravelerEnemyTargetingService
         _view = view;
     }
 
-    public UnitReference? TrySelectTarget(TravelerTurnContext travelerTurnContext)
+    public bool TrySelectTarget(TravelerTurnContext travelerTurnContext, out UnitReference selectedTarget)
     {
         var aliveBeasts = travelerTurnContext.CombatState.GetAliveBeasts();
         var enemySnapshots = aliveBeasts
             .Select(reference => BuildSnapshot(travelerTurnContext.CombatState, reference))
             .ToList();
 
-        var selectedTarget = _view.AskTravelerTarget(travelerTurnContext.Traveler.Name, enemySnapshots);
-        if (selectedTarget == enemySnapshots.Count + 1)
+        var selectedTargetIndex = _view.AskTravelerTarget(travelerTurnContext.Traveler.Name, enemySnapshots);
+        if (selectedTargetIndex == enemySnapshots.Count + 1)
         {
-            return null;
+            selectedTarget = travelerTurnContext.TravelerTurn.UnitReference;
+            return false;
         }
 
-        return aliveBeasts[selectedTarget - 1];
+        selectedTarget = aliveBeasts[selectedTargetIndex - 1];
+        return true;
     }
 
     private static UnitDisplaySnapshot BuildSnapshot(CombatFlowState combatState, UnitReference reference)

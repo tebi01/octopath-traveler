@@ -8,26 +8,39 @@ public sealed class TurnQueue
     public bool IsEmpty => _entries.Count == 0;
     public int Count => _entries.Count;
 
-    public TurnQueue(IEnumerable<TurnEntry>? entries = null)
+    public TurnQueue()
+        : this(Array.Empty<TurnEntry>())
     {
-        _entries = entries?.ToList() ?? new List<TurnEntry>();
     }
 
-    public TurnEntry? PeekFirst()
+    public TurnQueue(IEnumerable<TurnEntry> entries)
     {
-        return IsEmpty ? null : _entries[0];
+        _entries = entries?.ToList() ?? throw new ArgumentNullException(nameof(entries));
     }
 
-    public TurnEntry? PopFirst()
+    public bool TryPeekFirst(out TurnEntry? firstEntry)
     {
         if (IsEmpty)
         {
-            return null;
+            firstEntry = default;
+            return false;
         }
 
-        var first = _entries[0];
+        firstEntry = _entries[0];
+        return true;
+    }
+
+    public bool TryPopFirst(out TurnEntry? firstEntry)
+    {
+        if (IsEmpty)
+        {
+            firstEntry = default;
+            return false;
+        }
+
+        firstEntry = _entries[0];
         _entries.RemoveAt(0);
-        return first;
+        return true;
     }
 
     public void Add(TurnEntry entry)

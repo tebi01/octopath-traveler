@@ -83,7 +83,7 @@ internal sealed class BeastTurnResolver
             results));
     }
 
-    private BeastAttackResolution ResolveBeastAttackAgainstTarget(
+    private (int Damage, bool TargetWasDefending, int TargetCurrentHp) ResolveBeastAttackAgainstTarget(
         CombatFlowState combatState,
         Beast beast,
         BeastSkillSpec beastSkill,
@@ -112,7 +112,7 @@ internal sealed class BeastTurnResolver
             }
         }
 
-        return new BeastAttackResolution(totalDamage, targetWasDefending, targetState.CurrentHp);
+        return (totalDamage, targetWasDefending, targetState.CurrentHp);
     }
 
     private int CalculateBeastHitDamage(
@@ -132,12 +132,7 @@ internal sealed class BeastTurnResolver
             ? _calculateElementalDamageRaw(beast.Stats.ElementalAttack, targetTraveler.Unit.Stats.ElementalDefense, beastSkill.Modifier)
             : _calculatePhysicalDamageRaw(beast.Stats.PhysicalAttack, targetTraveler.Unit.Stats.PhysicalDefense, beastSkill.Modifier);
 
-        return ApplyDefenderMitigation(rawDamage, targetWasDefending);
-    }
-
-    private static int ApplyDefenderMitigation(double damage, bool isDefending)
-    {
-        var mitigatedDamage = isDefending ? damage * 0.5 : damage;
+        var mitigatedDamage = targetWasDefending ? rawDamage * 0.5 : rawDamage;
         return Math.Max(0, Convert.ToInt32(Math.Floor(mitigatedDamage)));
     }
 
@@ -151,12 +146,11 @@ internal sealed class BeastTurnResolver
         return attackKind == BeastAttackKind.Elemental ? "elemental" : "físico";
     }
 
-    private static UnitReference SelectBeastTarget(CombatFlowState combatState, BeastTargetRule? targetRule)
+    private static UnitReference SelectBeastTarget(CombatFlowState combatState, BeastTargetRule targetRule)
     {
         var travelers = combatState.GetAliveTravelers();
-        var selectedRule = targetRule ?? BeastTargetRule.HighestCurrentHp;
 
-        return selectedRule switch
+        return targetRule switch
         {
             BeastTargetRule.HighestElementalAttack => travelers
                 .OrderByDescending(reference => reference.Unit.Stats.ElementalAttack)
@@ -189,6 +183,5 @@ internal sealed class BeastTurnResolver
         };
     }
 
-    private sealed record BeastAttackResolution(int Damage, bool TargetWasDefending, int TargetCurrentHp);
 }
 

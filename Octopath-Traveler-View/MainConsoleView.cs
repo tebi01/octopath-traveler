@@ -34,9 +34,14 @@ public sealed class MainConsoleView
         _actionResultPresenter.ShowRoundStart(roundNumber);
     }
 
-    public void ShowCombatStatus(CombatViewSnapshot snapshot, bool includeLeadingSeparator = false)
+    public void ShowCombatStatus(CombatViewSnapshot snapshot)
     {
-        _combatStatusPresenter.ShowCombatStatus(snapshot, includeLeadingSeparator);
+        _combatStatusPresenter.ShowCombatStatus(snapshot);
+    }
+
+    public void ShowCombatStatusWithLeadingSeparator(CombatViewSnapshot snapshot)
+    {
+        _combatStatusPresenter.ShowCombatStatusWithLeadingSeparator(snapshot);
     }
 
     public int AskTravelerMainAction(string travelerName)

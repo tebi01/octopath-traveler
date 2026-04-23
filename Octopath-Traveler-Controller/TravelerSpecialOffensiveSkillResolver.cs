@@ -19,22 +19,22 @@ internal sealed class TravelerSpecialOffensiveSkillResolver
     };
 
     private readonly MainConsoleView _view;
-    private readonly Func<TravelerTurnContext, UnitReference?> _trySelectTravelerTarget;
+    private readonly TravelerTargetSelector _trySelectTravelerTarget;
     private readonly Func<TravelerTurnContext, int, bool> _tryConsumeTravelerSpWithBoostPrompt;
     private readonly Func<TravelerTurnContext, bool> _completeTravelerTurn;
     private readonly Func<UnitReference, string, bool> _hasWeaknessAgainstAttackType;
-    private readonly Func<bool, bool, double> _getTravelerDamageMultiplier;
+    private readonly Func<TravelerDamageMultiplierContext, double> _getTravelerDamageMultiplier;
     private readonly Func<double, double, int> _applyMultiplier;
     private readonly Func<int, int, double, double> _calculateElementalDamageRaw;
     private readonly Action<TravelerTurnContext, UnitReference, string, OffensiveSkillSpec> _executeSingleTargetOffensiveSkill;
 
     public TravelerSpecialOffensiveSkillResolver(
         MainConsoleView view,
-        Func<TravelerTurnContext, UnitReference?> trySelectTravelerTarget,
+        TravelerTargetSelector trySelectTravelerTarget,
         Func<TravelerTurnContext, int, bool> tryConsumeTravelerSpWithBoostPrompt,
         Func<TravelerTurnContext, bool> completeTravelerTurn,
         Func<UnitReference, string, bool> hasWeaknessAgainstAttackType,
-        Func<bool, bool, double> getTravelerDamageMultiplier,
+        Func<TravelerDamageMultiplierContext, double> getTravelerDamageMultiplier,
         Func<double, double, int> applyMultiplier,
         Func<int, int, double, double> calculateElementalDamageRaw,
         Action<TravelerTurnContext, UnitReference, string, OffensiveSkillSpec> executeSingleTargetOffensiveSkill)
@@ -62,8 +62,7 @@ internal sealed class TravelerSpecialOffensiveSkillResolver
             return false;
         }
 
-        var selectedTarget = _trySelectTravelerTarget(travelerTurnContext);
-        if (selectedTarget is null)
+        if (!_trySelectTravelerTarget(travelerTurnContext, out var selectedTarget))
         {
             return false;
         }
@@ -106,7 +105,14 @@ internal sealed class TravelerSpecialOffensiveSkillResolver
                     target.Unit.Stats.ElementalDefense,
                     0.9);
 
-                var dealtDamage = _applyMultiplier(baseDamage, _getTravelerDamageMultiplier(hasWeakness, wasInBreakingPoint));
+                var damageContext = hasWeakness
+                    ? (wasInBreakingPoint
+                        ? TravelerDamageMultiplierContext.WeaknessAndBreakingPoint
+                        : TravelerDamageMultiplierContext.WeaknessOnly)
+                    : (wasInBreakingPoint
+                        ? TravelerDamageMultiplierContext.BreakingPointOnly
+                        : TravelerDamageMultiplierContext.None);
+                var dealtDamage = _applyMultiplier(baseDamage, _getTravelerDamageMultiplier(damageContext));
                 var enteredBreakingPoint = false;
                 if (hasWeakness && dealtDamage > 0 && !wasInBreakingPoint)
                 {

@@ -8,18 +8,3 @@ public enum CombatPhase
     RoundEnd,
     Finished
 }
-
-public enum BattleResult
-{
-    Ongoing,
-    PlayerVictory,
-    PlayerDefeat
-}
-
-public enum CombatantKind
-{
-    Traveler,
-    Beast
-}
-
-

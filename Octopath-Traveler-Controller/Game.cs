@@ -210,7 +210,7 @@ public sealed class Game
     {
         if (combatState.CurrentRound is not null && !combatState.CurrentRound.CurrentQueue.IsEmpty)
         {
-            _view.ShowCombatStatus(combatState.BuildViewSnapshot(), includeLeadingSeparator: true);
+            _view.ShowCombatStatusWithLeadingSeparator(combatState.BuildViewSnapshot());
         }
     }
 
@@ -239,8 +239,8 @@ public sealed class Game
         return true;
     }
 
-    private UnitReference? TrySelectTravelerTarget(TravelerTurnContext travelerTurnContext)
-        => _enemyTargetingService.TrySelectTarget(travelerTurnContext);
+    private bool TrySelectTravelerTarget(TravelerTurnContext travelerTurnContext, out UnitReference selectedTarget)
+        => _enemyTargetingService.TrySelectTarget(travelerTurnContext, out selectedTarget);
 
     private void AskBoostPointsIfAvailable(TravelerTurnContext travelerTurnContext)
     {

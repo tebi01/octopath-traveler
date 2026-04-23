@@ -9,7 +9,8 @@ internal static class TeamTravelerLineParser
         return BuildParsedTravelerLine(travelerSections);
     }
 
-    private static TravelerSections ExtractTravelerSections(string normalizedLine)
+    private static (string Name, string? ActiveSkillsContent, string? PassiveSkillsContent)
+        ExtractTravelerSections(string normalizedLine)
     {
         var travelerName = ExtractTravelerName(normalizedLine);
         var contentAfterName = normalizedLine.Substring(travelerName.Length).Trim();
@@ -18,10 +19,11 @@ internal static class TeamTravelerLineParser
         var (afterPassiveSkills, passiveSkillsContent) = ConsumeOptionalSection(afterActiveSkills, '[', ']');
         EnsureNoUnexpectedSymbols(afterPassiveSkills);
 
-        return new TravelerSections(travelerName.Trim(), activeSkillsContent, passiveSkillsContent);
+        return (travelerName.Trim(), activeSkillsContent, passiveSkillsContent);
     }
 
-    private static ParsedTravelerLine BuildParsedTravelerLine(TravelerSections travelerSections)
+    private static ParsedTravelerLine BuildParsedTravelerLine(
+        (string Name, string? ActiveSkillsContent, string? PassiveSkillsContent) travelerSections)
     {
         EnsureTravelerName(travelerSections.Name);
         var activeSkills = TeamSkillListParser.Parse(travelerSections.ActiveSkillsContent);
@@ -59,7 +61,7 @@ internal static class TeamTravelerLineParser
         }
 
         EnsureValidSectionBounds(startIndex, endIndex);
-        EnsureSingleSectionPair(text, sectionStart, sectionEnd, startIndex, endIndex);
+        EnsureSingleSectionPair(text, sectionStart, sectionEnd);
 
         var content = text[(startIndex + 1)..endIndex];
         var remaining = (text[..startIndex] + text[(endIndex + 1)..]).Trim();
@@ -79,8 +81,10 @@ internal static class TeamTravelerLineParser
         }
     }
 
-    private static void EnsureSingleSectionPair(string text, char sectionStart, char sectionEnd, int startIndex, int endIndex)
+    private static void EnsureSingleSectionPair(string text, char sectionStart, char sectionEnd)
     {
+        var startIndex = text.IndexOf(sectionStart);
+        var endIndex = text.IndexOf(sectionEnd);
         if (HasExtraDelimiter(text, sectionStart, startIndex) || HasExtraDelimiter(text, sectionEnd, endIndex))
         {
             throw new InvalidOperationException("Invalid traveler line format.");
@@ -120,10 +124,6 @@ internal static class TeamTravelerLineParser
         return Math.Min(first, second);
     }
 
-    private sealed record TravelerSections(
-        string Name,
-        string? ActiveSkillsContent,
-        string? PassiveSkillsContent);
 }
 
 

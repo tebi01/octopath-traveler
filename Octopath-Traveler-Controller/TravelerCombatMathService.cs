@@ -15,19 +15,15 @@ internal sealed class TravelerCombatMathService
         return beast.Weaknesses.Any(weakness => string.Equals(weakness, attackType, StringComparison.OrdinalIgnoreCase));
     }
 
-    public double GetTravelerDamageMultiplier(bool hasWeakness, bool isTargetInBreakingPoint)
+    public double GetTravelerDamageMultiplier(TravelerDamageMultiplierContext context)
     {
-        if (hasWeakness && isTargetInBreakingPoint)
+        return context switch
         {
-            return 2.0;
-        }
-
-        if (hasWeakness || isTargetInBreakingPoint)
-        {
-            return 1.5;
-        }
-
-        return 1.0;
+            TravelerDamageMultiplierContext.WeaknessAndBreakingPoint => 2.0,
+            TravelerDamageMultiplierContext.WeaknessOnly => 1.5,
+            TravelerDamageMultiplierContext.BreakingPointOnly => 1.5,
+            _ => 1.0
+        };
     }
 
     public int ApplyMultiplier(double baseValue, double multiplier)

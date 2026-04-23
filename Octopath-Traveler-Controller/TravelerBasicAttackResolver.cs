@@ -9,13 +9,13 @@ internal sealed class TravelerBasicAttackResolver
 
     private readonly MainConsoleView _view;
     private readonly TravelerCombatMathService _combatMath;
-    private readonly Func<TravelerTurnContext, UnitReference?> _trySelectTravelerTarget;
+    private readonly TravelerTargetSelector _trySelectTravelerTarget;
     private readonly Action<TravelerTurnContext> _askBoostPointsIfAvailable;
 
     public TravelerBasicAttackResolver(
         MainConsoleView view,
         TravelerCombatMathService combatMath,
-        Func<TravelerTurnContext, UnitReference?> trySelectTravelerTarget,
+        TravelerTargetSelector trySelectTravelerTarget,
         Action<TravelerTurnContext> askBoostPointsIfAvailable)
     {
         _view = view ?? throw new ArgumentNullException(nameof(view));
@@ -26,14 +26,12 @@ internal sealed class TravelerBasicAttackResolver
 
     public bool TryResolveBasicAttack(TravelerTurnContext travelerTurnContext)
     {
-        var selectedWeapon = TrySelectWeapon(travelerTurnContext);
-        if (selectedWeapon is null)
+        if (!TrySelectWeapon(travelerTurnContext, out var selectedWeapon))
         {
             return false;
         }
 
-        var selectedTarget = _trySelectTravelerTarget(travelerTurnContext);
-        if (selectedTarget is null)
+        if (!_trySelectTravelerTarget(travelerTurnContext, out var selectedTarget))
         {
             return false;
         }
@@ -44,15 +42,17 @@ internal sealed class TravelerBasicAttackResolver
         return true;
     }
 
-    private string? TrySelectWeapon(TravelerTurnContext travelerTurnContext)
+    private bool TrySelectWeapon(TravelerTurnContext travelerTurnContext, out string selectedWeapon)
     {
-        var selectedWeapon = _view.AskWeaponSelection(travelerTurnContext.Traveler.Weapons);
-        if (selectedWeapon == travelerTurnContext.Traveler.Weapons.Count + 1)
+        var selectedWeaponIndex = _view.AskWeaponSelection(travelerTurnContext.Traveler.Weapons);
+        if (selectedWeaponIndex == travelerTurnContext.Traveler.Weapons.Count + 1)
         {
-            return null;
+            selectedWeapon = string.Empty;
+            return false;
         }
 
-        return travelerTurnContext.Traveler.Weapons[selectedWeapon - 1];
+        selectedWeapon = travelerTurnContext.Traveler.Weapons[selectedWeaponIndex - 1];
+        return true;
     }
 
     private void ExecuteTravelerBasicAttack(TravelerBasicAttackContext basicAttackContext)
@@ -63,7 +63,14 @@ internal sealed class TravelerBasicAttackResolver
         var wasInBreakingPoint = targetState.IsInBreakingPoint;
 
         var baseDamage = _combatMath.CalculateTravelerBasicAttackRawDamage(basicAttackContext, BasicAttackModifier);
-        var damageMultiplier = _combatMath.GetTravelerDamageMultiplier(hasWeakness, wasInBreakingPoint);
+        var damageContext = hasWeakness
+            ? (wasInBreakingPoint
+                ? TravelerDamageMultiplierContext.WeaknessAndBreakingPoint
+                : TravelerDamageMultiplierContext.WeaknessOnly)
+            : (wasInBreakingPoint
+                ? TravelerDamageMultiplierContext.BreakingPointOnly
+                : TravelerDamageMultiplierContext.None);
+        var damageMultiplier = _combatMath.GetTravelerDamageMultiplier(damageContext);
         var dealtDamage = _combatMath.ApplyMultiplier(baseDamage, damageMultiplier);
 
         var enteredBreakingPoint = false;

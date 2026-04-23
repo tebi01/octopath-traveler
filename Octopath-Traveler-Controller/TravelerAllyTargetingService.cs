@@ -3,12 +3,6 @@ using Octopath_Traveler_View;
 
 namespace Octopath_Traveler;
 
-internal enum AllyTargetFilter
-{
-    Alive,
-    Dead
-}
-
 internal sealed class TravelerAllyTargetingService
 {
     private readonly MainConsoleView _view;
@@ -18,26 +12,32 @@ internal sealed class TravelerAllyTargetingService
         _view = view;
     }
 
-    public UnitReference? TrySelectTarget(TravelerTurnContext travelerTurnContext, AllyTargetFilter targetFilter)
+    public bool TrySelectTarget(
+        TravelerTurnContext travelerTurnContext,
+        AllyTargetFilter targetFilter,
+        out UnitReference selectedTarget)
     {
         var candidates = GetCandidates(travelerTurnContext.CombatState, targetFilter);
         if (candidates.Count == 0)
         {
             _ = _view.AskAllyTarget(travelerTurnContext.Traveler.Name, Array.Empty<UnitDisplaySnapshot>());
-            return null;
+            selectedTarget = travelerTurnContext.TravelerTurn.UnitReference;
+            return false;
         }
 
         var snapshots = candidates
             .Select(reference => BuildSnapshot(travelerTurnContext.CombatState, reference))
             .ToList();
 
-        var selectedTarget = _view.AskAllyTarget(travelerTurnContext.Traveler.Name, snapshots);
-        if (selectedTarget == snapshots.Count + 1)
+        var selectedTargetIndex = _view.AskAllyTarget(travelerTurnContext.Traveler.Name, snapshots);
+        if (selectedTargetIndex == snapshots.Count + 1)
         {
-            return null;
+            selectedTarget = travelerTurnContext.TravelerTurn.UnitReference;
+            return false;
         }
 
-        return candidates[selectedTarget - 1];
+        selectedTarget = candidates[selectedTargetIndex - 1];
+        return true;
     }
 
     public IReadOnlyList<UnitReference> GetOrderedTargets(

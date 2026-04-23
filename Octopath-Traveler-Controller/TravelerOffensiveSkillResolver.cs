@@ -6,11 +6,11 @@ namespace Octopath_Traveler;
 internal sealed class TravelerOffensiveSkillResolver
 {
     private readonly MainConsoleView _view;
-    private readonly Func<TravelerTurnContext, UnitReference?> _trySelectTravelerTarget;
+    private readonly TravelerTargetSelector _trySelectTravelerTarget;
     private readonly Func<TravelerTurnContext, int, bool> _tryConsumeTravelerSpWithBoostPrompt;
     private readonly Func<TravelerTurnContext, bool> _completeTravelerTurn;
     private readonly Func<UnitReference, string, bool> _hasWeaknessAgainstAttackType;
-    private readonly Func<bool, bool, double> _getTravelerDamageMultiplier;
+    private readonly Func<TravelerDamageMultiplierContext, double> _getTravelerDamageMultiplier;
     private readonly Func<double, double, int> _applyMultiplier;
     private readonly Func<int, int, double, double> _calculatePhysicalDamageRaw;
     private readonly Func<int, int, double, double> _calculateElementalDamageRaw;
@@ -19,11 +19,11 @@ internal sealed class TravelerOffensiveSkillResolver
 
     public TravelerOffensiveSkillResolver(
         MainConsoleView view,
-        Func<TravelerTurnContext, UnitReference?> trySelectTravelerTarget,
+        TravelerTargetSelector trySelectTravelerTarget,
         Func<TravelerTurnContext, int, bool> tryConsumeTravelerSpWithBoostPrompt,
         Func<TravelerTurnContext, bool> completeTravelerTurn,
         Func<UnitReference, string, bool> hasWeaknessAgainstAttackType,
-        Func<bool, bool, double> getTravelerDamageMultiplier,
+        Func<TravelerDamageMultiplierContext, double> getTravelerDamageMultiplier,
         Func<double, double, int> applyMultiplier,
         Func<int, int, double, double> calculatePhysicalDamageRaw,
         Func<int, int, double, double> calculateElementalDamageRaw,
@@ -63,8 +63,7 @@ internal sealed class TravelerOffensiveSkillResolver
             return false;
         }
 
-        var selectedTarget = _trySelectTravelerTarget(travelerTurnContext);
-        if (selectedTarget is null)
+        if (!_trySelectTravelerTarget(travelerTurnContext, out var selectedTarget))
         {
             return false;
         }
@@ -152,7 +151,7 @@ internal sealed class TravelerOffensiveSkillResolver
             resolution.TargetCurrentHp));
     }
 
-    private OffensiveHitResolution ResolveOffensiveHit(
+    private (int DealtDamage, bool HasWeakness, bool EnteredBreakingPoint, int TargetCurrentHp) ResolveOffensiveHit(
         TravelerTurnContext travelerTurnContext,
         UnitReference target,
         OffensiveSkillSpec skill,
@@ -163,7 +162,14 @@ internal sealed class TravelerOffensiveSkillResolver
         var hasWeakness = _hasWeaknessAgainstAttackType(target, skill.DamageType);
         var wasInBreakingPoint = targetState.IsInBreakingPoint;
 
-        var dealtDamage = _applyMultiplier(baseDamage, _getTravelerDamageMultiplier(hasWeakness, wasInBreakingPoint));
+        var damageContext = hasWeakness
+            ? (wasInBreakingPoint
+                ? TravelerDamageMultiplierContext.WeaknessAndBreakingPoint
+                : TravelerDamageMultiplierContext.WeaknessOnly)
+            : (wasInBreakingPoint
+                ? TravelerDamageMultiplierContext.BreakingPointOnly
+                : TravelerDamageMultiplierContext.None);
+        var dealtDamage = _applyMultiplier(baseDamage, _getTravelerDamageMultiplier(damageContext));
         if (skill.IsMercyStrike)
         {
             dealtDamage = Math.Min(dealtDamage, Math.Max(0, targetState.CurrentHp - 1));
@@ -175,7 +181,7 @@ internal sealed class TravelerOffensiveSkillResolver
                                    && combatState.TryConsumeBeastShield(target);
 
         var targetCurrentHp = combatState.ApplyDamage(target, dealtDamage);
-        return new OffensiveHitResolution(dealtDamage, hasWeakness, enteredBreakingPoint, targetCurrentHp);
+        return (dealtDamage, hasWeakness, enteredBreakingPoint, targetCurrentHp);
     }
 
     private double ResolveBaseDamageForAreaSkill(
@@ -202,10 +208,5 @@ internal sealed class TravelerOffensiveSkillResolver
             : _calculatePhysicalDamageRaw(travelerTurnContext.Traveler.Stats.PhysicalAttack, target.Unit.Stats.PhysicalDefense, skill.Modifier);
     }
 
-    private sealed record OffensiveHitResolution(
-        int DealtDamage,
-        bool HasWeakness,
-        bool EnteredBreakingPoint,
-        int TargetCurrentHp);
 }
 

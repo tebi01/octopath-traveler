@@ -2,36 +2,6 @@ using System.Text.Json;
 
 namespace Octopath_Traveler;
 
-public enum BeastAttackKind
-{
-    Physical,
-    Elemental,
-    HalveCurrentHp
-}
-
-public enum BeastTargetRule
-{
-    HighestCurrentHp,
-    HighestElementalAttack,
-    LowestPhysicalDefense,
-    HighestSpeed,
-    LowestElementalDefense,
-    HighestPhysicalAttack,
-    HighestPhysicalDefense
-}
-
-public sealed record BeastSkillSpec(
-    string Name,
-    double Modifier,
-    string Target,
-    int Hits,
-    BeastAttackKind AttackKind,
-    BeastTargetRule? TargetRule,
-    bool IgnoresDefend)
-{
-    public bool IsArea => string.Equals(Target, "Enemies", StringComparison.OrdinalIgnoreCase);
-}
-
 public sealed class BeastSkillCatalog
 {
     private readonly Dictionary<string, BeastSkillSpec> _skillsByName;
@@ -133,11 +103,11 @@ public sealed class BeastSkillCatalog
         return BeastAttackKind.Physical;
     }
 
-    private static BeastTargetRule? ResolveTargetRule(string description, string target)
+    private static BeastTargetRule ResolveTargetRule(string description, string target)
     {
         if (!string.Equals(target, "Single", StringComparison.OrdinalIgnoreCase))
         {
-            return null;
+            return BeastTargetRule.None;
         }
 
         if (description.Contains("mayor hp", StringComparison.Ordinal))
@@ -178,13 +148,5 @@ public sealed class BeastSkillCatalog
         return BeastTargetRule.HighestCurrentHp;
     }
 
-    private sealed class BeastSkillDto
-    {
-        public string Name { get; init; } = string.Empty;
-        public double Modifier { get; init; }
-        public string Description { get; init; } = string.Empty;
-        public string Target { get; init; } = string.Empty;
-        public int Hits { get; init; }
-    }
 }
 

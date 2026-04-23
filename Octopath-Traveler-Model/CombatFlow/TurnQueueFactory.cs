@@ -11,7 +11,7 @@ public static class TurnQueueFactory
 
         var entries = flowState.UnitStates
             .Where(state => state.IsAlive && state.CanActThisRound)
-            .Select(state => BuildTurnEntry(state, isCurrentRound: true))
+            .Select(BuildCurrentRoundTurnEntry)
             .OrderBy(entry => entry.PriorityTier)
             .ThenBy(entry => GetPrimaryOrderKey(entry))
             .ThenBy(entry => GetSecondaryOrderKey(entry))
@@ -30,7 +30,7 @@ public static class TurnQueueFactory
 
         var entries = flowState.UnitStates
             .Where(state => state.IsAlive && state.CanActNextRound)
-            .Select(state => BuildTurnEntry(state, isCurrentRound: false))
+            .Select(BuildNextRoundTurnEntry)
             .OrderBy(entry => entry.PriorityTier)
             .ThenBy(entry => GetPrimaryOrderKey(entry))
             .ThenBy(entry => GetSecondaryOrderKey(entry))
@@ -40,21 +40,43 @@ public static class TurnQueueFactory
         return new TurnQueue(entries);
     }
 
-    private static TurnEntry BuildTurnEntry(CombatUnitState state, bool isCurrentRound)
+    private static TurnEntry BuildCurrentRoundTurnEntry(CombatUnitState state)
     {
         var speed = state.UnitReference.Unit.Speed;
-        var priorityTier = ResolvePriorityTier(state, isCurrentRound);
+        var priorityTier = ResolveCurrentRoundPriorityTier(state);
         return new TurnEntry(state.UnitReference, speed, priorityTier: priorityTier);
     }
 
-    private static int ResolvePriorityTier(CombatUnitState state, bool isCurrentRound)
+    private static TurnEntry BuildNextRoundTurnEntry(CombatUnitState state)
     {
-        if (isCurrentRound && state.HasBreakingRecoveryPriorityThisRound)
+        var speed = state.UnitReference.Unit.Speed;
+        var priorityTier = ResolveNextRoundPriorityTier(state);
+        return new TurnEntry(state.UnitReference, speed, priorityTier: priorityTier);
+    }
+
+    private static int ResolveCurrentRoundPriorityTier(CombatUnitState state)
+    {
+        if (state.HasBreakingRecoveryPriorityThisRound)
         {
             return 1;
         }
 
-        if (!isCurrentRound && state.HasBreakingRecoveryPriorityNextRound)
+        if (state.HasIncreasedPriorityThisRound)
+        {
+            return 3;
+        }
+
+        if (state.HasDecreasedPriorityThisRound)
+        {
+            return 5;
+        }
+
+        return 4;
+    }
+
+    private static int ResolveNextRoundPriorityTier(CombatUnitState state)
+    {
+        if (state.HasBreakingRecoveryPriorityNextRound)
         {
             return 1;
         }
@@ -64,22 +86,12 @@ public static class TurnQueueFactory
             return 2;
         }
 
-        if (isCurrentRound && state.HasIncreasedPriorityThisRound)
+        if (state.PriorityModifierNextRound > 0)
         {
             return 3;
         }
 
-        if (!isCurrentRound && state.PriorityModifierNextRound > 0)
-        {
-            return 3;
-        }
-
-        if (isCurrentRound && state.HasDecreasedPriorityThisRound)
-        {
-            return 5;
-        }
-
-        if (!isCurrentRound && state.PriorityModifierNextRound < 0)
+        if (state.PriorityModifierNextRound < 0)
         {
             return 5;
         }

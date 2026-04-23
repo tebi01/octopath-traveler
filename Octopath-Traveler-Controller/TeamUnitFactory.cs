@@ -58,24 +58,25 @@ internal static class TeamUnitFactory
         var bonuses = CalculateBasePassiveBonuses(passiveSkills);
 
         var enhancedStats = new CombatStats(
-            baseStats.MaxHp + bonuses.HpBonus,
-            baseStats.CurrentHp + bonuses.HpBonus,
-            baseStats.PhysicalAttack + bonuses.PhysicalAttackBonus,
+            baseStats.MaxHp + bonuses.hpBonus,
+            baseStats.CurrentHp + bonuses.hpBonus,
+            baseStats.PhysicalAttack + bonuses.physicalAttackBonus,
             baseStats.PhysicalDefense,
-            baseStats.ElementalAttack + bonuses.ElementalAttackBonus,
+            baseStats.ElementalAttack + bonuses.elementalAttackBonus,
             baseStats.ElementalDefense,
-            baseStats.Speed + bonuses.SpeedBonus);
+            baseStats.Speed + bonuses.speedBonus);
 
         var enhancedSkillPoints = new SkillPoints(
-            baseSkillPoints.MaxSp + bonuses.SpBonus,
-            baseSkillPoints.CurrentSp + bonuses.SpBonus);
+            baseSkillPoints.MaxSp + bonuses.spBonus,
+            baseSkillPoints.CurrentSp + bonuses.spBonus);
 
         return (enhancedStats, enhancedSkillPoints);
     }
 
-    private static BasePassiveBonuses CalculateBasePassiveBonuses(IReadOnlyList<string> passiveSkills)
+    private static (int hpBonus, int spBonus, int physicalAttackBonus, int elementalAttackBonus, int speedBonus)
+        CalculateBasePassiveBonuses(IReadOnlyList<string> passiveSkills)
     {
-        return new BasePassiveBonuses(
+        return (
             HasPassive(passiveSkills, HaleAndHeartyPassive) ? 500 : 0,
             HasPassive(passiveSkills, InnerStrengthPassive) ? 50 : 0,
             HasPassive(passiveSkills, SummonStrengthPassive) ? 50 : 0,
@@ -125,11 +126,5 @@ internal static class TeamUnitFactory
             enemy.Stats.Speed);
     }
 
-    private sealed record BasePassiveBonuses(
-        int HpBonus,
-        int SpBonus,
-        int PhysicalAttackBonus,
-        int ElementalAttackBonus,
-        int SpeedBonus);
 }
 

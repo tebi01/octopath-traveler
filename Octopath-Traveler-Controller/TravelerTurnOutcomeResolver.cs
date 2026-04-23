@@ -15,7 +15,7 @@ internal sealed class TravelerTurnOutcomeResolver
         _completeTravelerTurn = completeTravelerTurn;
     }
 
-    public bool DefendTraveler(TravelerTurnContext travelerTurnContext)
+    public bool TryResolveDefend(TravelerTurnContext travelerTurnContext)
     {
         var travelerState = travelerTurnContext.CombatState.GetUnitState(travelerTurnContext.TravelerTurn.UnitReference);
         travelerState.IsDefending = true;
@@ -23,7 +23,7 @@ internal sealed class TravelerTurnOutcomeResolver
         return _completeTravelerTurn(travelerTurnContext);
     }
 
-    public bool TravelerFlees(TravelerTurnContext travelerTurnContext)
+    public bool TryResolveFlee(TravelerTurnContext travelerTurnContext)
     {
         _view.ShowFleeMessage();
         travelerTurnContext.CombatState.FinishBattle(BattleResult.PlayerDefeat);

@@ -22,7 +22,7 @@ internal sealed class TravelerSkillDispatchResolver
         _supportSkillResolver = supportSkillResolver;
     }
 
-    public bool ShowTravelerSkills(TravelerTurnContext travelerTurnContext)
+    public bool TryResolveTravelerSkills(TravelerTurnContext travelerTurnContext)
     {
         var availableSkills = GetAvailableSkillsForTraveler(travelerTurnContext);
         var selectedSkill = _view.AskTravelerSkill(travelerTurnContext.Traveler.Name, availableSkills);
